@@ -24,6 +24,8 @@ However, the FAQ also makes clear that when a copyright holder decides to use an
 
 So which licenses are used by publishers for content in the PMC COVID-19 initiative? License information of articles in publisher collections in the PMC COVID-19 Initiative was retrieved programmatically though the [Entrez Programming Utilities](https://www.ncbi.nlm.nih.gov/books/NBK25499/), using the R package [rentrez](https://cran.r-project.org/web/packages/rentrez/index.html),  on April 11, 2020. Programmatic classification of licenses was supplemented by manual inspection of the license statements. Scripts and data are shared in this GitHub repo. Results are summarized in Table 1 below.  
 
+The data also allow for analysis of licenses for individual publisher imprints and/or societies that publish with one of the large publishers, or for analysis at he level of journal titles.   
+
 Only publications included in [collections](https://www.ncbi.nlm.nih.gov/pmc/journals/collections/?titles=current&search=journals) that were clearly identified as Public Health Emergency collections were included, so contributions from other publishers might have been missed. One exception iss the [collection of the American Institute of Physics (AIP)](https://www.ncbi.nlm.nih.gov/pmc/?term=AIP%20Publishing%20Selective%20Deposit[filter]), that is not labeled a Public Health Emergency collection, but was not [previously part of PMC special collections](https://web.archive.org/web/20190701171946/https://www.ncbi.nlm.nih.gov/pmc/journals/collections/?titles=current&search=journals), and consists of papers related to epidemics and disease spreading. This collection was included in the analysis. 
 
 
