@@ -44,16 +44,16 @@ Only publications included in [collections](https://www.ncbi.nlm.nih.gov/pmc/jou
 **Table 1.  Numbers of articles in publisher collections in PMC COVID-19 Initiave with different types licenses (NB numbers for CC-license includes CC-BY)**
  
 
-The analysis shows that only a minority of papers shared in the COVID-19 Initiative have a CC-license (and only a subset of those a CC-BY license). For papers that are not shared with a CC-license, some publishers (notably <em>Cambridge University Press</em>, <em>Oxford University Press</em> and <em>Taylor & Francis</em>) have opted to use a license as described above, guaranteeing perpetual access through PMC (even after other reuse permissions are withdrawn). Other publishers (notably the <em>American Chemical Society</em>, <em>Elsevier</em> and <em>Springer</em>) use a custom license that specifies that access to these papers is temporary. Two examples of such licenses are quoted below: 
+The analysis shows that only a minority of papers shared in the COVID-19 Initiative have a CC-license (and only a subset of those a CC-BY license). For papers that are not shared with a CC-license, some publishers (notably <em>Cambridge University Press</em>, <em>Oxford University Press</em> and <em>Taylor & Francis</em>) have opted to use a license as described above, guaranteeing perpetual access through PMC (even after other reuse permissions are withdrawn). Other publishers (notably the <em>American Chemical Society</em>, <em>Elsevier</em>, <em>IOP</em> and <em>Springer</em>) use a custom license that specifies that access to these papers is temporary. Two examples of such licenses are quoted below: 
 
 >"Since January 2020 Elsevier has created a COVID-19 resource centre with free information in English and Mandarin on the novel coronavirus COVID-19. The COVID-19 resource centre is hosted on Elsevier Connect, the company's public news and information website. Elsevier hereby grants permission to make all its COVID-19-related research that is available on the COVID-19 resource centre - including this research content - immediately available in PubMed Central and other publicly funded repositories, such as the WHO COVID database with rights for unrestricted research re-use and analyses in any form or by any means with acknowledgement of the original source. These permissions are granted for free by Elsevier for as long as the COVID-19 resource centre remains active." [<em>Elsevier</em>]  
 
 >"This article is made available via the PMC Open Access Subset for
-unrestricted RESEARCH re-use and analyses in any form or by any
+unrestricted research re-use and analyses in any form or by any
 means with acknowledgement of the original source. These
 permissions are granted for the duration of the World Health
 Organization (WHO) declaration of COVID-19 as a global
-pandemic." [<em>ACS, Springer Nature</em>] 
+pandemic." [<em>Springer Nature</em>] 
 
 ## Implications
 That many COVID-19 related research papers are currently made publicly available, both for reading and for analysis and (re)use, is in itself a positive development. Their full-text inclusion in PubMed Central allows for a centralized access point, subsequent inclusion in other databases such as [Europe PMC](https://europepmc.org/) and the [CORD-19 dataset](https://pages.semanticscholar.org/coronavirus-research), and further downstream usage. At the same time, the fact that many of these publictions carry licenses that in some ways restrict further sharing and reuse (e.g. CC-BY-NC-ND instead of CC-BY), only allow unlimited reuse and analysis for a limited time, or even allow reading access for a limited time only, points to the limitations of this model. 
