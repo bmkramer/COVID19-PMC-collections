@@ -41,7 +41,7 @@ Only publications included in [collections](https://www.ncbi.nlm.nih.gov/pmc/jou
 |            Springer Nature             |             13706             |    2300    | 2194  |            -            |                     -                     |               11386               |           3            |   17    |
 |           Taylor and Francis           |              114              |     31     |  19   |            -            |                    83                     |                 -                 |           -            |    -    |
 
-**Table 1.  Numbers of articles in publisher collections in PMC COVID-19 Initiave with different types licenses (NB numbers for CC-license includes CC-BY)**
+**Table 1.  Numbers of articles in publisher collections in PMC COVID-19 Initiave with different types of licenses (NB numbers for CC-license includes CC-BY)**
  
 
 The analysis shows that only a minority of papers shared in the COVID-19 Initiative have a CC-license (and only a subset of those a CC-BY license). For papers that are not shared with a CC-license, some publishers (notably <em>Cambridge University Press</em>, <em>Oxford University Press</em> and <em>Taylor & Francis</em>) have opted to use a license as described above, guaranteeing perpetual access through PMC (even after other reuse permissions are withdrawn). Other publishers (notably the <em>American Chemical Society</em>, <em>Elsevier</em>, <em>IOP</em> and <em>Springer</em>) use a custom license that specifies that access to these papers is temporary. Two examples of such licenses are quoted below: 
