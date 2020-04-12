@@ -1,17 +1,7 @@
----
-title: "COVID19 PMC collections"
-output: html_document
-keep_md: true
----
+# COVID-19 PMC collections
 Licences and permanence of COVID19 Public Health Emergency collections in PubMed Central (PMC)
 
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = FALSE, message = FALSE, warning = FALSE)
-```
-
-```{r libraries}
-library(tidyverse)
-```
+last update: April 13, 2020
 
 
 ## Public Health Emergency COVID-19 Initiative
@@ -36,22 +26,24 @@ So which licenses are used by publishers for content in the PMC COVID-19 initiat
 
 Only publications included in [collections](https://www.ncbi.nlm.nih.gov/pmc/journals/collections/?titles=current&search=journals) that were clearly identified as Public Health Emergency collections were included, so contributions from other publishers might have been missed. One exception iss the [collection of the American Institute of Physics (AIP)](https://www.ncbi.nlm.nih.gov/pmc/?term=AIP%20Publishing%20Selective%20Deposit[filter]), that is not labeled a Public Health Emergency collection, but was not [previously](https://web.archive.org/web/20190701171946/https://www.ncbi.nlm.nih.gov/pmc/journals/collections/?titles=current&search=journals) part of PMC special collections, and consists of papers related to epidemics and disease spreading. This collection was therefore included in the analysis. 
 
-```{r table}
-
-license_count_table <- read_csv("output/license_count_table.csv")
-
-knitr::kable(license_count_table, 
-             row.names=FALSE, 
-             format = "markdown",
-             align=rep('c', 8))
 
 
-```
-
-
+| PMC Public Health Emergency collection | number of papers (2020-04-11) | CC license | CC-BY | open government license | custom license (perpetual access via PMC) | custom license (temporary access) | custom license (other) | unknown |
+|:---------------------------------------|------------------------------:|-----------:|------:|------------------------:|------------------------------------------:|----------------------------------:|-----------------------:|--------:|
+|       American Chemical Society        |              34               |     -      |   -   |            -            |                     -                     |                34                 |           -            |    -    |
+|                  AIP                   |              22               |     18     |  18   |            -            |                     -                     |                 -                 |           -            |    4    |
+|                  BMJ                   |               2               |     2      |   -   |            -            |                     -                     |                 -                 |           -            |    -    |
+|       Cambridge University Press       |              42               |     7      |   7   |            -            |                    34                     |                 -                 |           -            |    1    |
+|                Elsevier                |             16167             |     -      |   -   |            -            |                     -                     |               16071               |           -            |   96    |
+|                  IOP                   |              35               |     -      |   -   |            -            |                     -                     |                35                 |           -            |    -    |
+|        Oxford University Press         |             1906              |    384     |  79   |           18            |                   1206                    |                 -                 |          237           |   61    |
+|                  Sage                  |               7               |     7      |   7   |            -            |                     -                     |                 -                 |           -            |    -    |
+|            Springer Nature             |             13706             |    2300    | 2194  |            -            |                     -                     |               11386               |           3            |   17    |
+|           Taylor and Francis           |              114              |     31     |  19   |            -            |                    83                     |                 -                 |           -            |    -    |
 
 **Table 1.  Numbers of articles in publisher collections in PMC COVID-19 Initiave with different types licenses (NB numbers for CC-license includes CC-BY)**
  
+
 The analysis shows that only a minority of papers shared in the COVID-19 Initiative have a CC-license (and only a subset of those a CC-BY license). For papers that are not shared with a CC-license, some publishers (notably <em>Cambridge University Press</em>, <em>Oxford University Press</em> and <em>Taylor & Francis</em>) have opted to use a license as described above, guaranteeing perpetual access through PMC (even after other reuse permissions are withdrawn). Other publishers (notably the <em>American Chemical Society</em>, <em>Elsevier</em> and <em>Springer</em>) use a custom license that specifies that access to these papers is temporary. Two examples of such licenses are quoted below: 
 
 >"Since January 2020 Elsevier has created a COVID-19 resource centre with free information in English and Mandarin on the novel coronavirus COVID-19. The COVID-19 resource centre is hosted on Elsevier Connect, the company's public news and information website. Elsevier hereby grants permission to make all its COVID-19-related research that is available on the COVID-19 resource centre - including this research content - immediately available in PubMed Central and other publicly funded repositories, such as the WHO COVID database with rights for unrestricted research re-use and analyses in any form or by any means with acknowledgement of the original source. These permissions are granted for free by Elsevier for as long as the COVID-19 resource centre remains active." [<em>Elsevier</em>]  
