@@ -131,27 +131,52 @@ getData_progress <- function(seq_start){
 #list of searchable fields in pmc
 #entrez_db_searchable("pmc")
 
-#set system date
+#set system date or set date manually
 date <- Sys.Date()
+#date <- "yyyy-mm-dd"
+date <- "2020-06-10"
+
+#create folders
+path <- paste0("data/",
+               date)
+dir.create(path)
+
+path <- paste0("output/",
+               date)
+dir.create(path)
 
 #set or read list of web history identifiers
-#web_history <- list()
-web_history <- readRDS("data/web_history.RDS")
+web_history <- list()
+
+filename = paste0("data/web_history_",
+                  date,
+                  ".RDS")
+web_history <- readRDS(filename)
 
 #COVID-19 initiative collections
-collections <- list(ACS = "American Chemical Society Public Health Emergency Collection[filter]",
+collections <- list(AAAS = "AAAS Public Health Emergency Collection[filter]",
+                    ACS = "American Chemical Society Public Health Emergency Collection[filter]",
+                    ASME = "ASME Public Health Emergency Collection[filter]",
                     BMJ = "BMJ Public Health Emergency Collection[filter]",
                     CUP = "Cambridge University Press Public Health Emergency Collection[filter]",
                     ELS = "Elsevier Public Health Emergency Collection[filter]",
+                    IEEE = "IEEE Public Health Emergency Collection[filter]",
                     IOP = "IOP Publishing Public Health Emergency Collection[filter]",
+                    KARGER = "Karger Publishers Public Health Emergency Collection[filter]",
                     SN = "Nature Public Health Emergency Collection[filter]",
                     OUP = "OUP Public Health Emergency Collection[filter]",
+                    RS = "Radiological Society Public Health Emergency Collection[filter]",
                     SAGE = "Sage Public Health Emergency Collection[filter]",
                     TF = "Taylor and Francis Public Health Emergency Collection[filter]",
+                    THIEME = "Thieme Public Health Emergency Collection[filter]", 
+                    WILEY = "Wiley Public Health Emergency Collection[filter]", 
+                    WK= "Wolters Kluwer Public Health Emergency Collection[filter]",
                     AIP = "AIP Publishing Selective Deposit[filter]")
 
-
-query_name <- names(collections)[4]
+#2020-06-10
+#done 1 3 4 5 6 7 8 10 11 13 14 15 16 17
+#not done 2 (ACS error), 9 (Karger, error), 12 (RS, error),
+query_name <- names(collections)[12]
 query <- collections[[query_name]]
 
 #search Entrez, get count and web_history for stored IDs
@@ -179,6 +204,7 @@ data <- map_dfr(seq_start, getData_progress)
 #data <- bind_rows(data1, data2)
 #rm(seq_start1, seq_start2, data1, data2)
 
+
 data_licenses <- data %>%
   count(collection, 
         publisher, 
@@ -186,10 +212,10 @@ data_licenses <- data %>%
         license_text)
 
 #write data to file
-filename = paste0("data/PMC_",query_name,"_",date,".csv")
+filename = paste0("data/",date,"/PMC_",query_name,"_",date,".csv")
 write_csv(data, filename)
 
-filename = paste0("output/PMC_",query_name,"_licenses_",date,".csv")
+filename = paste0("output/",date,"PMC_",query_name,"_licenses_",date,".csv")
 write_csv(data_licenses, filename)
 
 #store web_history
@@ -201,19 +227,24 @@ web_history_element <- list(collection = query_name,
 web_history[[list_name]] = c(web_history[[list_name]], 
                              web_history_element)
 
-saveRDS(web_history, "data/web_history.RDS")
+filename = paste0("data/web_history_",
+                  date,
+                  ".RDS")
+saveRDS(web_history, filename)
 
 #remove files
 rm(query_name, query, res, count, entrez_history,
-   seq_start, pb, data, filename,
+   seq_start, pb, data, data_licenses, filename,
    list_name, web_history_element)
 
+#---------------------------------------------------------------
 
-
-
-
-
-
-
-
-
+setIDs_fix <- function(query, count){
+  res <- entrez_search(db = "pmc",
+                       term = query,
+                       retmax = count)
+  
+  res <- res$ids
+  
+  return(res)
+}

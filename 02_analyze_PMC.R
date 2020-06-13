@@ -83,9 +83,16 @@ summarizeLicense <- function(file){
 
 #-------------------------------------------------------
 
+
+date <- Sys.Date()
+#or set manually
+date <- "yyyy-mm-dd"
+date <- "2020-06-10"
+  
+
 #read all files
-dir_path <- "data/"
-data <- list.files("data", pattern = "*.csv") %>%
+dir_path <- paste0("data/",date,"/")
+data <- list.files(dir_path, pattern = "*.csv") %>%
   map(~read_csv(paste0(dir_path, .)))
 
 #count licenses per collection
@@ -102,11 +109,16 @@ license_unique <- license %>%
 license_info <- classifyLicenses(license_unique)
 
 #write to csv
-filename = "output/license_info.csv"
+filename = paste0("output/",
+                  date,
+                  "/license_info.csv")
 write_csv(license_info, filename)
   
 #manually inspect and complete license classification
-filename = "output/license_info_complete.csv"
+#read in completed file
+filename = paste0("output/",
+                  date,
+                  "/license_info_complete.csv")
 license_info_complete <- read_csv(filename)
 
 #add column for CC-BY
@@ -123,7 +135,11 @@ license_type <- license %>%
 license_count <- summarizeLicense(license_type)
 
 #write_to_csv
-filename <- "output/license_count.csv"
+filename = paste0("output/",
+                  date,
+                  "/license_count.csv")
 write_csv(license_count, filename)
 
-
+#remove individual license files 
+#as these can be recreated from data
+unlink("output/*.csv", recursive = FALSE)

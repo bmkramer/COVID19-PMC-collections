@@ -17,10 +17,11 @@ renameCollections <- function(x, key = level_key){
 }
 
 #define function to rename columns
+#to do: dynamically insert date in column name
 renameColumns <- function(x){
   res <- x %>%
     rename(`PMC Public Health Emergency collection` = collection,
-           `number of papers (2020-04-11)` = total,
+           `number of papers (2020-06-10)` = total,
            `CC license` = cc_license,
            `CC-BY` = cc_by,
            `open government license` = open_gov,
@@ -35,32 +36,52 @@ renameColumns <- function(x){
 
 #-------------------------------------------------------
 
+date <- Sys.Date()
+#or set manually
+#date <- "yyyy-mm-dd"
+date <- "2020-06-10"
+
 #key for renaming collections
-level_key <- c(ACS = "American Chemical Society",
+level_key <- c(AAAS = "AAAS",
+               ACS = "ACS",
+               ASME = "ASME",
                BMJ = "BMJ",
                CUP = "Cambridge University Press",
                ELS = "Elsevier",
+               IEEE = "IEEE",
                IOP = "IOP",
+               KARGER = "Karger",
                SN = "Springer Nature",
                OUP = "Oxford University Press",
+               RS = "Radiological Society",
                SAGE = "Sage",
-               TF = "Taylor and Francis",
+               TF = "Taylor & Francis",
+               THIEME = "Thieme",
+               WILEY = "Wiley",
+               WK = "Wolters Kluwer",
                AIP = "AIP")
 
 
 #read all files
-filename <- "output/license_count.csv"
-license_count <- read_csv(license_count, filename)
+filename <- paste0("output/",
+                   date,
+                   "/license_count.csv")
+license_count <- read_csv(filename)
 
 #adapt column names and names of collection
 #replace NA with "-" for readability
 license_count_table <- license_count %>%
   renameCollections() %>%
   renameColumns() %>%
-  replace(is.na(.), "-")
+  mutate_all(replace_na, replace = "-")
+  #with dplyr 1.00
+  #mutate(across(everything(), replace_na, replace = "-"))
+  
   
 
 #write_to_csv
-filename <- "output/license_count_table.csv"
+filename <- paste0("output/",
+                   date,
+                   "/license_count_table.csv")
 write_csv(license_count_table, filename)
 
