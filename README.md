@@ -1,7 +1,7 @@
 # COVID-19 PMC collections
 Licences and permanence of COVID19 Public Health Emergency collections in PubMed Central (PMC)
 
-last update: June 13, 2020
+last update: December 13, 2020
 
 
 ## Public Health Emergency COVID-19 Initiative
@@ -22,32 +22,33 @@ However, the FAQ also makes clear that when a copyright holder decides to use an
 
 ## Analyzing licenses of publisher collections in the PMC COVID-19 Initative
 
-So which licenses are used by publishers for content in the PMC COVID-19 initiative? License information of articles in publisher collections in the PMC COVID-19 Initiative was retrieved programmatically though the [Entrez Programming Utilities](https://www.ncbi.nlm.nih.gov/books/NBK25499/), using the R package [rentrez](https://cran.r-project.org/web/packages/rentrez/index.html) on **June 10, 2020**. Programmatic classification of licenses was supplemented by manual inspection of the license statements. Scripts and data are shared in this GitHub repo. Results are summarized in Table 1 below.  
+So which licenses are used by publishers for content in the PMC COVID-19 initiative? License information of articles in publisher collections in the PMC COVID-19 Initiative was retrieved programmatically though the [Entrez Programming Utilities](https://www.ncbi.nlm.nih.gov/books/NBK25499/), using the R package [rentrez](https://cran.r-project.org/web/packages/rentrez/index.html) on **December 12, 2020**. Programmatic classification of licenses was supplemented by manual inspection of the license statements. Scripts and data are shared in this GitHub repo. Results are summarized in Table 1 below.  
 
 The data would also allow for analysis of licenses for individual publisher imprints and/or societies that publish with one of the large publishers, or for analysis at the level of journal titles.   
 
-Only publications included in PMC [special collections](https://www.ncbi.nlm.nih.gov/pmc/journals/collections/?titles=current&search=journals) that are clearly identified as Public Health Emergency collections were included, so contributions from other publishers might have been missed. One exception iss the [collection of the American Institute of Physics (AIP)](https://www.ncbi.nlm.nih.gov/pmc/?term=AIP%20Publishing%20Selective%20Deposit[filter]), that is not labeled a Public Health Emergency collection, but was not [previously part of PMC special collections](https://web.archive.org/web/20190701171946/https://www.ncbi.nlm.nih.gov/pmc/journals/collections/?titles=current&search=journals), and consists of papers related to epidemics and disease spreading. This collection was included in the analysis. 
+Only publications included in PMC [special collections](https://www.ncbi.nlm.nih.gov/pmc/journals/collections/?titles=current&search=journals) that are identified as Public Health Emergency collections were included, so contributions from other publishers might have been missed. 
 
-|PMC Public Health Emergency collection|number of papers (2020-06-10)|CC license|CC-BY|open government license|custom license (perpetual access via PMC)|custom license (temporary access)|custom license (other)|unknown|
+|PMC Public Health Emergency collection|number of papers (2020-12-12)|CC license|CC-BY|open government license|custom license (perpetual access via PMC)|custom license (temporary access)|custom license (other)|unknown|
 |--------------------------------------|:---------------------------:|:--------:|:---:|:---------------------:|:---------------------------------------:|:-------------------------------:|:--------------------:|:-----:|
-|AAAS                                  |             27              |    26    | 26  |           -           |                    -                    |                -                |          -           |   1   |
-|ACS                                   |             91              |    -     |  -  |           -           |                    -                    |               91                |          -           |   -   |
-|AIP                                   |             23              |    18    | 18  |           -           |                    -                    |                -                |          1           |   4   |
-|ASME                                  |             22              |    -     |  -  |           -           |                   22                    |                -                |          -           |   -   |
-|BMJ                                   |             117             |   107    | 11  |           -           |                    -                    |               10                |          -           |   -   |
-|Cambridge University Press            |             341             |   294    | 293 |           -           |                   44                    |                -                |          -           |   3   |
-|Elsevier                              |            29642            |    7     |  1  |           -           |                    5                    |              29285              |          1           |  344  |
-|IEEE                                  |             31              |    31    | 31  |           -           |                    -                    |                -                |          -           |   -   |
-|IOP                                   |             36              |    -     |  -  |           -           |                    -                    |               36                |          -           |   -   |
-|Karger                                |             71              |    6     |  -  |           -           |                   65                    |                -                |          -           |   -   |
-|Oxford University Press               |            2669             |   522    | 109 |          28           |                  1226                   |               118               |         707          |  68   |
-|Radiological Society                  |             78              |    1     |  1  |           -           |                   77                    |                -                |          -           |   -   |
-|Sage                                  |             119             |   119    | 76  |           -           |                    -                    |                -                |          -           |   -   |
-|Springer Nature                       |            19698            |   3618   |3470 |           -           |                    -                    |              16060              |          3           |  17   |
-|Taylor & Francis                      |             224             |    32    | 19  |           -           |                   191                   |                -                |          1           |   -   |
-|Thieme                                |             48              |    1     |  -  |           -           |                   47                    |                -                |          -           |   -   |
-|Wiley                                 |            6430             |   471    | 256 |           -           |                    -                    |              5908               |          40          |  11   |
-|Wolters Kluwer                        |             541             |    71    | 17  |           1           |                   469                   |                -                |          -           |   -   |
+| AAAS | 75 | 72 | 72 | - | - | - | 2 | 1 |
+| American College of Physicians | 175 | - | - | - | 175 | - | - | - |
+| ACS | 359 | - | - | - | - | 359 | - | - |
+| AOSIS | 41 | 41 | 41 | - | - | - | - | - |
+| ASME | 22 | - | - | - | 22 | - | - | - |
+| BMJ | 655 | 437 | 61 | - | - | 218 | - | - |
+| Cambridge University Press | 1157 | 1032 | 1028 | - | 120 | - | - | 5 |
+| Elsevier | 49624 | 7 | 1 | - | 5 | 48821 | 1 | 790 |
+| IEEE | 44 | 37 | 37 | - | - | - | - | 7 |
+| IOP | 42 | - | - | - | - | 42 | - | - |
+| Karger | 268 | 39 | 2 | - | 227 | - | - | 2 |
+| Oxford University Press | 5599 | 1152 | 323 | 113 | 1583 | 118 | 2564 | 69 |
+| Radiological Society | 154 | 1 | 1 | - | 153 | - | - | - |
+| Sage | 483 | 481 | 355 | - | 1 | - | - | 1 |
+| Springer Nature | 36134 | 8617 | 8330 | 1 | - | 27494 | 5 | 17 |
+| Taylor & Francis | 465 | 40 | 23 | - | 402 | - | 1 | 22 |
+| Thieme | 289 | 55 | 2 | - | 234 | - | - | - |
+| Wiley | 11498 | 1111 | 634 | - | - | 10254 | 122 | 11 |
+| Wolters Kluwer | 1249 | 168 | 29 | 5 | 1075 | - | 1 | - |
 
 
 **Table 1.  Numbers of articles in publisher collections in PMC COVID-19 Initiave with different types of licenses (NB numbers for CC-license include CC-BY)**

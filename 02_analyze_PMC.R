@@ -87,7 +87,7 @@ summarizeLicense <- function(file){
 date <- Sys.Date()
 #or set manually
 date <- "yyyy-mm-dd"
-date <- "2020-06-10"
+date <- "2020-12-12"
   
 
 #read all files

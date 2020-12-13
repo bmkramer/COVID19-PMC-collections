@@ -17,6 +17,16 @@ library(tidyverse)
 library(XML)
 library(rentrez)
 
+
+#set email in Renviron
+file.edit("~/.Renviron")
+#add NCBI API key (request via MyNCBI account):
+#ENTREZ_KEY = xxxxxxx
+#save the file and restart your R session
+#check presence in .Renviron
+Sys.getenv("ENTREZ_KEY")
+
+
 #define function to get count & store IDs as NLM web history object
 setIDs <- function(query){
   res <- entrez_search(db = "pmc",
@@ -134,7 +144,7 @@ getData_progress <- function(seq_start){
 #set system date or set date manually
 date <- Sys.Date()
 #date <- "yyyy-mm-dd"
-date <- "2020-06-10"
+date <- "2020-12-12"
 
 #create folders
 path <- paste0("data/",
@@ -156,6 +166,8 @@ web_history <- readRDS(filename)
 #COVID-19 initiative collections
 collections <- list(AAAS = "AAAS Public Health Emergency Collection[filter]",
                     ACS = "American Chemical Society Public Health Emergency Collection[filter]",
+                    ACP = "American College of Physicians Public Health Emergency Collection[filter]",
+                    AOSIS = "AOSIS Public Health Emergency Collection[filter]",
                     ASME = "ASME Public Health Emergency Collection[filter]",
                     BMJ = "BMJ Public Health Emergency Collection[filter]",
                     CUP = "Cambridge University Press Public Health Emergency Collection[filter]",
@@ -170,13 +182,15 @@ collections <- list(AAAS = "AAAS Public Health Emergency Collection[filter]",
                     TF = "Taylor and Francis Public Health Emergency Collection[filter]",
                     THIEME = "Thieme Public Health Emergency Collection[filter]", 
                     WILEY = "Wiley Public Health Emergency Collection[filter]", 
-                    WK= "Wolters Kluwer Public Health Emergency Collection[filter]",
-                    AIP = "AIP Publishing Selective Deposit[filter]")
+                    WK= "Wolters Kluwer Public Health Emergency Collection[filter]")
 
-#2020-06-10
-#done 1 3 4 5 6 7 8 10 11 13 14 15 16 17
-#not done 2 (ACS error), 9 (Karger, error), 12 (RS, error),
-query_name <- names(collections)[12]
+
+#2020-12-11
+#done 2 3 4 5 6 7 9 10 11 12 13 14 15 16 17 18 19
+#not done 1 (error <100), 
+#not yet 8 (ELS)
+
+query_name <- names(collections)[1]
 query <- collections[[query_name]]
 
 #search Entrez, get count and web_history for stored IDs
@@ -192,18 +206,14 @@ pb <- progress_estimated(length(seq_start))
 data <- map_dfr(seq_start, getData_progress)
 
 #for >10000 records, do per 10000
-#seq_start1 <- seq_start[1:100]
-#pb <- progress_estimated(length(seq_start1))
-#data1 <- map_dfr(seq_start1, getData_progress)
-#rm(pb)
+#seq_start_x <- seq_start[101:length(seq_start)]
+seq_start_x <- seq_start[401:length(seq_start)]
+pb <- progress_estimated(length(seq_start_x))
+data5 <- map_dfr(seq_start_x, getData_progress)
+rm(pb,seq_start_x)
 
-#seq_start2 <- seq_start[101:length(seq_start)]
-#pb <- progress_estimated(length(seq_start2))
-#data2 <- map_dfr(seq_start2, getData_progress)
-
-#data <- bind_rows(data1, data2)
-#rm(seq_start1, seq_start2, data1, data2)
-
+data <- bind_rows(data1, data2, data3, data4, data5)
+rm(data1, data2, data3, data4, data5)
 
 data_licenses <- data %>%
   count(collection, 
