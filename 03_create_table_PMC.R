@@ -39,7 +39,7 @@ renameColumns <- function(x){
 date <- Sys.Date()
 #or set manually
 #date <- "yyyy-mm-dd"
-date <- "2020-12-12"
+date <- "2021-05-30"
 
 #key for renaming collections
 level_key <- c(AAAS = "AAAS",
@@ -52,13 +52,16 @@ level_key <- c(AAAS = "AAAS",
                ELS = "Elsevier",
                IEEE = "IEEE",
                IOP = "IOP",
+               JMIR = "JMIR",
                KARGER = "Karger",
+               NEJM = "NEJM",
                SN = "Springer Nature",
                OUP = "Oxford University Press",
                RS = "Radiological Society",
                SAGE = "Sage",
                TF = "Taylor & Francis",
                THIEME = "Thieme",
+               UTORONTO = "University of Toronto Press",
                WILEY = "Wiley",
                WK = "Wolters Kluwer")
 
