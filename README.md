@@ -1,7 +1,7 @@
 # COVID-19 PMC collections
 Licences and permanence of COVID19 Public Health Emergency collections in PubMed Central (PMC)
 
-last update: December 13, 2020
+last update: June 1, 2021
 
 
 ## Public Health Emergency COVID-19 Initiative
@@ -28,27 +28,32 @@ The data would also allow for analysis of licenses for individual publisher impr
 
 Only publications included in PMC [special collections](https://www.ncbi.nlm.nih.gov/pmc/journals/collections/?titles=current&search=journals) that are identified as Public Health Emergency collections were included, so contributions from other publishers might have been missed. 
 
-|PMC Public Health Emergency collection|number of papers (2020-12-12)|CC license|CC-BY|open government license|custom license (perpetual access via PMC)|custom license (temporary access)|custom license (other)|unknown|
+|PMC Public Health Emergency collection|number of papers (2020-05-30)|CC license|CC-BY|open government license|custom license (perpetual access via PMC)|custom license (temporary access)|custom license (other)|unknown|
 |--------------------------------------|:---------------------------:|:--------:|:---:|:---------------------:|:---------------------------------------:|:-------------------------------:|:--------------------:|:-----:|
-| AAAS | 75 | 72 | 72 | - | - | - | 2 | 1 |
-| American College of Physicians | 175 | - | - | - | 175 | - | - | - |
-| ACS | 359 | - | - | - | - | 359 | - | - |
-| AOSIS | 41 | 41 | 41 | - | - | - | - | - |
+| AAAS | 162 | 155 | 155 | - | - | - | 6 | 1 |
+| American College of Physicians | 245 | - | - | - | 245 | - | - | - |
+| ACS | 577 | 48 | 29 | - | - | 501 | 24 | 4 |
+| AOSIS | 47 | 47 | 47 | - | - | - | - | - |
 | ASME | 22 | - | - | - | 22 | - | - | - |
-| BMJ | 655 | 437 | 61 | - | - | 218 | - | - |
-| Cambridge University Press | 1157 | 1032 | 1028 | - | 120 | - | - | 5 |
-| Elsevier | 49624 | 7 | 1 | - | 5 | 48821 | 1 | 790 |
-| IEEE | 44 | 37 | 37 | - | - | - | - | 7 |
+| BMJ | 1410 | 976 | 162 | - | - | 421 | - | 13 |
+| Cambridge University Press | 1773 | 1518 | 1508 | - | 245 | 3 | - | 7 |
+| Elsevier | 63900 | 3229 | 678 | - | 44 | 59402 | 22 | 1203 |
+| IEEE | 79 | 67 | 67 | - | - | - | - | 12 |
 | IOP | 42 | - | - | - | - | 42 | - | - |
-| Karger | 268 | 39 | 2 | - | 227 | - | - | 2 |
-| Oxford University Press | 5599 | 1152 | 323 | 113 | 1583 | 118 | 2564 | 69 |
-| Radiological Society | 154 | 1 | 1 | - | 153 | - | - | - |
-| Sage | 483 | 481 | 355 | - | 1 | - | - | 1 |
-| Springer Nature | 36134 | 8617 | 8330 | 1 | - | 27494 | 5 | 17 |
-| Taylor & Francis | 465 | 40 | 23 | - | 402 | - | 1 | 22 |
-| Thieme | 289 | 55 | 2 | - | 234 | - | - | - |
-| Wiley | 11498 | 1111 | 634 | - | - | 10254 | 122 | 11 |
-| Wolters Kluwer | 1249 | 168 | 29 | 5 | 1075 | - | 1 | - |
+| JMIR | 6 | 6 | 6 | - | - | - | - | - |
+| Karger | 457 | 63 | 4 | - | 347 | - | - | 47 |
+| NEJM | 365 | - | - | - | 311 | - | - | 54 |
+| Oxford University Press | 9202 | 2449 | 691 | 134 | 3681 | 115 | 2676 | 147 |
+| Radiological Society | 205 | 1 | 1 | - | 198 | - | - | 6 |
+| Sage | 710 | 702 | 524 | - | 1 | - | - | 7 |
+| Springer Nature |  55597 | 14971 | 14501 | 1 | - | 38516 | 12 | 2097 |
+| Taylor & Francis | 725 | 66 | 33 | - | 609 | - | 1 | 49 |
+| Thieme | 357 | 57 | 2 | - | 298 | - | - | 2 |
+| University of Toronto Press | 11 | - | - | - | 11 | - | - | - |
+| Wiley | 13936 | 1705 | 926 | - | 171 | 11528 | 124 | 408 |
+| Wolters Kluwer | 1688 | 294 | 62 | 5 | 1373 | - | 1 | 15 |
+
+
 
 
 **Table 1.  Numbers of articles in publisher collections in PMC COVID-19 Initiave with different types of licenses (NB numbers for CC-license include CC-BY)**

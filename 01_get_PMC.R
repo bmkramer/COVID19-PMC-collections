@@ -7,6 +7,7 @@
 
 #info on using rentrez package:
 #https://ropensci.org/tutorials/rentrez_tutorial/
+#https://docs.ropensci.org/rentrez/articles/rentrez_tutorial.html
 #https://www.ncbi.nlm.nih.gov/books/NBK25499/
 
 
@@ -19,7 +20,7 @@ library(rentrez)
 
 
 #set email in Renviron
-file.edit("~/.Renviron")
+#file.edit("~/.Renviron")
 #add NCBI API key (request via MyNCBI account):
 #ENTREZ_KEY = xxxxxxx
 #save the file and restart your R session
@@ -144,7 +145,7 @@ getData_progress <- function(seq_start){
 #set system date or set date manually
 date <- Sys.Date()
 #date <- "yyyy-mm-dd"
-date <- "2020-12-12"
+date <- "2021-05-30"
 
 #create folders
 path <- paste0("data/",
@@ -174,23 +175,26 @@ collections <- list(AAAS = "AAAS Public Health Emergency Collection[filter]",
                     ELS = "Elsevier Public Health Emergency Collection[filter]",
                     IEEE = "IEEE Public Health Emergency Collection[filter]",
                     IOP = "IOP Publishing Public Health Emergency Collection[filter]",
+                    JMIR = "JMIR Publications Public Health Emergency Collection[filter]",
                     KARGER = "Karger Publishers Public Health Emergency Collection[filter]",
                     SN = "Nature Public Health Emergency Collection[filter]",
+                    NEJM = "NEJM Group Public Health Emergency Collection[filter]",
                     OUP = "OUP Public Health Emergency Collection[filter]",
                     RS = "Radiological Society Public Health Emergency Collection[filter]",
                     SAGE = "Sage Public Health Emergency Collection[filter]",
                     TF = "Taylor and Francis Public Health Emergency Collection[filter]",
-                    THIEME = "Thieme Public Health Emergency Collection[filter]", 
+                    THIEME = "Thieme Public Health Emergency Collection[filter]",
+                    UTORONTO = "University of Toronto Press Public Health Emergency Collection[filter]",
                     WILEY = "Wiley Public Health Emergency Collection[filter]", 
                     WK= "Wolters Kluwer Public Health Emergency Collection[filter]")
 
 
-#2020-12-11
-#done 2 3 4 5 6 7 9 10 11 12 13 14 15 16 17 18 19
-#not done 1 (error <100), 
-#not yet 8 (ELS)
+#2021-05-30
+#done 1 2 3 4 5 6 7, 8, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22
+#not done 9, 
+#not yet 
 
-query_name <- names(collections)[1]
+query_name <- names(collections)[9]
 query <- collections[[query_name]]
 
 #search Entrez, get count and web_history for stored IDs
@@ -205,15 +209,23 @@ pb <- progress_estimated(length(seq_start))
 #warnings when there are >1 license fields - ignore for now
 data <- map_dfr(seq_start, getData_progress)
 
+#------------------
 #for >10000 records, do per 10000
-#seq_start_x <- seq_start[101:length(seq_start)]
-seq_start_x <- seq_start[401:length(seq_start)]
+seq_start_x <- seq_start[601:length(seq_start)]
+seq_start_x <- seq_start[640:640]
 pb <- progress_estimated(length(seq_start_x))
-data5 <- map_dfr(seq_start_x, getData_progress)
+data_x <- map_dfr(seq_start_x, getData_progress)
 rm(pb,seq_start_x)
 
-data <- bind_rows(data1, data2, data3, data4, data5)
-rm(data1, data2, data3, data4, data5)
+
+#data <- data_x
+data <- bind_rows(data, data_x)
+#write to file for temporary storage/backup
+write_csv(data, "data/data.csv")
+
+rm(data_x)
+
+#--------------------------
 
 data_licenses <- data %>%
   count(collection, 
@@ -225,7 +237,7 @@ data_licenses <- data %>%
 filename = paste0("data/",date,"/PMC_",query_name,"_",date,".csv")
 write_csv(data, filename)
 
-filename = paste0("output/",date,"PMC_",query_name,"_licenses_",date,".csv")
+filename = paste0("output/",date,"/PMC_",query_name,"_licenses_",date,".csv")
 write_csv(data_licenses, filename)
 
 #store web_history
@@ -242,19 +254,16 @@ filename = paste0("data/web_history_",
                   ".RDS")
 saveRDS(web_history, filename)
 
+
+
 #remove files
 rm(query_name, query, res, count, entrez_history,
    seq_start, pb, data, data_licenses, filename,
    list_name, web_history_element)
 
+#remove temporary data file when used 
+unlink("data/data.csv", recursive = FALSE)
+
 #---------------------------------------------------------------
 
-setIDs_fix <- function(query, count){
-  res <- entrez_search(db = "pmc",
-                       term = query,
-                       retmax = count)
-  
-  res <- res$ids
-  
-  return(res)
-}
+                               

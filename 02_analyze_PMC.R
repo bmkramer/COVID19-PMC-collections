@@ -87,7 +87,7 @@ summarizeLicense <- function(file){
 date <- Sys.Date()
 #or set manually
 date <- "yyyy-mm-dd"
-date <- "2020-12-12"
+date <- "2021-05-30"
   
 
 #read all files
@@ -142,4 +142,4 @@ write_csv(license_count, filename)
 
 #remove individual license files 
 #as these can be recreated from data
-unlink("output/*.csv", recursive = FALSE)
+unlink(paste0("output/",date,"/PMC*"), recursive = FALSE)
