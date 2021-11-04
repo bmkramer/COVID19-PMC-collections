@@ -1,8 +1,7 @@
 # COVID-19 PMC collections
 Licences and permanence of COVID19 Public Health Emergency collections in PubMed Central (PMC)
 
-last update: June 1, 2021
-
+last update: November 4, 2021
 
 ## Public Health Emergency COVID-19 Initiative
 In response to a [call from National Science and Technology Advisors from a dozen countries](https://wellcome.ac.uk/sites/default/files/covid19-open-access-letter.pdf), a [number of publishers](https://wellcome.ac.uk/press-release/publishers-make-coronavirus-covid-19-content-freely-available-and-reusable) have committed to making their coronavirus-related articles freely available through PubMed Central and other public repositories, and facilitate text mining and secondary analysis through machine-readable formats and licenses. 
@@ -22,38 +21,36 @@ However, the FAQ also makes clear that when a copyright holder decides to use an
 
 ## Analyzing licenses of publisher collections in the PMC COVID-19 Initative
 
-So which licenses are used by publishers for content in the PMC COVID-19 initiative? License information of articles in publisher collections in the PMC COVID-19 Initiative was retrieved programmatically though the [Entrez Programming Utilities](https://www.ncbi.nlm.nih.gov/books/NBK25499/), using the R package [rentrez](https://cran.r-project.org/web/packages/rentrez/index.html) on **May 30, 2020**. Programmatic classification of licenses was supplemented by manual inspection of the license statements. Scripts and data are shared in this GitHub repo. Results are summarized in Table 1 below.  
+So which licenses are used by publishers for content in the PMC COVID-19 initiative? License information of articles in publisher collections in the PMC COVID-19 Initiative was retrieved programmatically though the [Entrez Programming Utilities](https://www.ncbi.nlm.nih.gov/books/NBK25499/), using the R package [rentrez](https://cran.r-project.org/web/packages/rentrez/index.html) on **Nov 1-2, 2021**. Programmatic classification of licenses was supplemented by manual inspection of the license statements. Scripts and data are shared in this GitHub repo. Results are summarized in Table 1 below.  
 
 The data would also allow for analysis of licenses for individual publisher imprints and/or societies that publish with one of the large publishers, or for analysis at the level of journal titles.   
 
 Only publications included in PMC [special collections](https://www.ncbi.nlm.nih.gov/pmc/journals/collections/?titles=current&search=journals) that are identified as Public Health Emergency collections were included, so contributions from other publishers might have been missed. 
 
-|PMC Public Health Emergency collection|number of papers (2020-05-30)|CC license|CC-BY|open government license|custom license (perpetual access via PMC)|custom license (temporary access)|custom license (other)|unknown|
+|PMC Public Health Emergency collection|number of papers (2021-11-01)|CC license|CC-BY|open government license|custom license (perpetual access via PMC)|custom license (temporary access)|custom license (other)|unknown|
 |--------------------------------------|:---------------------------:|:--------:|:---:|:---------------------:|:---------------------------------------:|:-------------------------------:|:--------------------:|:-----:|
-| AAAS | 162 | 155 | 155 | - | - | - | 6 | 1 |
-| American College of Physicians | 245 | - | - | - | 245 | - | - | - |
-| ACS | 577 | 48 | 29 | - | - | 501 | 24 | 4 |
-| AOSIS | 47 | 47 | 47 | - | - | - | - | - |
+| AAAS | 182 | 173 | 173 | - | - | - | 8 | 1 |
+| American College of Physicians | 300 | - | - | - | 300 | - | - | - |
+| ACS | 789 | 84 | 38 | - | - | 675 | 26 | 4 |
+| AOSIS | 200 | 200 | 200 | - | - | - | - | - |
 | ASME | 22 | - | - | - | 22 | - | - | - |
-| BMJ | 1410 | 976 | 162 | - | - | 421 | - | 13 |
-| Cambridge University Press | 1773 | 1518 | 1508 | - | 245 | 3 | - | 7 |
-| Elsevier | 63900 | 3229 | 678 | - | 44 | 59402 | 22 | 1203 |
+| BMJ | 2073 | 1535 | 269 | - | - | 523 | - | 15 |
+| Cambridge University Press | 2254 | 1726 | 1715 | - | 518 | 3 | - | 7 |
+| Elsevier | 77218 | 4962 | 1087 | - | 57 | 70842 | 22 | 1335 |
 | IEEE | 79 | 67 | 67 | - | - | - | - | 12 |
 | IOP | 42 | - | - | - | - | 42 | - | - |
-| JMIR | 6 | 6 | 6 | - | - | - | - | - |
-| Karger | 457 | 63 | 4 | - | 347 | - | - | 47 |
-| NEJM | 365 | - | - | - | 311 | - | - | 54 |
-| Oxford University Press | 9202 | 2449 | 691 | 134 | 3681 | 115 | 2676 | 147 |
-| Radiological Society | 205 | 1 | 1 | - | 198 | - | - | 6 |
-| Sage | 710 | 702 | 524 | - | 1 | - | - | 7 |
-| Springer Nature |  55597 | 14971 | 14501 | 1 | - | 38516 | 12 | 2097 |
-| Taylor & Francis | 725 | 66 | 33 | - | 609 | - | 1 | 49 |
+| JMIR | 44 | 44 | 44 | - | - | - | - | - |
+| Karger | 592 | 95 | 5 | - | 428 | - | - | 69 |
+| NEJM | 271 | - | - | - | 182 | - | - | 89 |
+| Oxford University Press | 11369 | 2931 | 880 | 210 | 4005 | 115 | 3961 | 147 |
+| Radiological Society | 228 | 1 | 1 | - | 221 | - | - | 6 |
+| Sage | 899 | 889 | 691 | - | 1 | - | - | 9 |
+| Springer Nature | 67989 | 21409 | 20672 | 1 | - | 43804 | 18 | 2757 |
+| Taylor & Francis | 858 | 80 | 34 | - | 706 | - | 2 | 70 |
 | Thieme | 357 | 57 | 2 | - | 298 | - | - | 2 |
-| University of Toronto Press | 11 | - | - | - | 11 | - | - | - |
-| Wiley | 13936 | 1705 | 926 | - | 171 | 11528 | 124 | 408 |
-| Wolters Kluwer | 1688 | 294 | 62 | 5 | 1373 | - | 1 | 15 |
-
-
+| University of Toronto Press | 24 | - | - | - | 24 | - | - | - |
+| Wiley | 18645 | 2851 | 1492 | - | 171 | 14985 | 148 | 490 |
+| Wolters Kluwer | 2284 | 400 | 90 | 7 | 1856 | - | 1 | 20 |
 
 
 **Table 1.  Numbers of articles in publisher collections in PMC COVID-19 Initiave with different types of licenses (NB numbers for CC-license include CC-BY)**

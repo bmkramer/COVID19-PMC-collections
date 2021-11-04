@@ -21,7 +21,7 @@ renameCollections <- function(x, key = level_key){
 renameColumns <- function(x){
   res <- x %>%
     rename(`PMC Public Health Emergency collection` = collection,
-           `number of papers (2020-06-10)` = total,
+           `number of papers (2021-11-01)` = total,
            `CC license` = cc_license,
            `CC-BY` = cc_by,
            `open government license` = open_gov,
@@ -39,7 +39,7 @@ renameColumns <- function(x){
 date <- Sys.Date()
 #or set manually
 #date <- "yyyy-mm-dd"
-date <- "2021-05-30"
+date <- "2021-11-01"
 
 #key for renaming collections
 level_key <- c(AAAS = "AAAS",
@@ -66,7 +66,7 @@ level_key <- c(AAAS = "AAAS",
                WK = "Wolters Kluwer")
 
 
-#read all files
+#read file
 filename <- paste0("output/",
                    date,
                    "/license_count.csv")
@@ -77,9 +77,7 @@ license_count <- read_csv(filename)
 license_count_table <- license_count %>%
   renameCollections() %>%
   renameColumns() %>%
-  mutate_all(replace_na, replace = "-")
-  #with dplyr 1.00
-  #mutate(across(everything(), replace_na, replace = "-"))
+  mutate(across(everything(), replace_na, replace = "-"))
   
   
 

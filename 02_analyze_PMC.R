@@ -87,7 +87,7 @@ summarizeLicense <- function(file){
 date <- Sys.Date()
 #or set manually
 date <- "yyyy-mm-dd"
-date <- "2021-05-30"
+date <- "2021-11-01"
   
 
 #read all files
@@ -115,6 +115,7 @@ filename = paste0("output/",
 write_csv(license_info, filename)
   
 #manually inspect and complete license classification
+#store as license_info_complete.csv
 #read in completed file
 filename = paste0("output/",
                   date,
