@@ -141,6 +141,3 @@ filename = paste0("output/",
                   "/license_count.csv")
 write_csv(license_count, filename)
 
-#remove individual license files 
-#as these can be recreated from data
-unlink(paste0("output/",date,"/PMC*"), recursive = FALSE)

@@ -43,7 +43,7 @@ setIDs <- function(query){
 }
 
 #define (mini)function to extract year from pubdate in entrez summary data
-getYear <- function(pubdate){
+getYear <- function(pubdate) {
   year <- pubdate %>%
     str_sub(1,4) %>%
     as.integer() 
@@ -165,7 +165,7 @@ getData_progress <- function(seq_start){
 #set system date or set date manually
 date <- Sys.Date()
 #date <- "yyyy-mm-dd"
-date <- "2021-11-01"
+date <- "2021-11-11"
 
 
 #create folders
@@ -210,8 +210,8 @@ collections <- list(AAAS = "AAAS Public Health Emergency Collection[filter]",
                     WK= "Wolters Kluwer Public Health Emergency Collection[filter]")
 
 
-#2021-11-01
-#done 1 2 3 4 5 6 7 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22
+#2021-11-11
+#done 
 #not done 
 #not yet  
 
@@ -247,8 +247,8 @@ data <- map_dfr(seq_start, getData_progress)
 #for >10000 records, do per 10000
 seq_start <- seq(0, count_seq, 100)
 
-seq_start_x <- seq_start[1:100]
-#seq_start_x <- seq_start[601:length(seq_start)]
+#seq_start_x <- seq_start[601:650] 
+seq_start_x <- seq_start[651:length(seq_start)]
 pb <- progress_estimated(length(seq_start_x))
 
 data_x <- map_dfr(seq_start_x, getData_progress)
@@ -265,21 +265,9 @@ data <- bind_rows(data, data_x)
 write_csv(data, "data/data.csv")
 rm(data_x)
 
-data <- distinct(data)
-
-#--------------------------
-data_licenses <- data %>%
-  count(collection, 
-        publisher, 
-        license_url, 
-        license_text)
-
 #write data to file
 filename = paste0("data/",date,"/PMC_",query_name,"_",date,".csv")
 write_csv(data, filename)
-
-filename = paste0("output/",date,"/PMC_",query_name,"_licenses_",date,".csv")
-write_csv(data_licenses, filename)
 
 #store web_history
 list_name <- paste0(query_name,"_",date)

@@ -1,7 +1,7 @@
 # COVID-19 PMC collections
 Licences and permanence of COVID19 Public Health Emergency collections in PubMed Central (PMC)
 
-last update: November 4, 2021
+last update: November 12, 2021
 
 ## Public Health Emergency COVID-19 Initiative
 In response to a [call from National Science and Technology Advisors from a dozen countries](https://wellcome.ac.uk/sites/default/files/covid19-open-access-letter.pdf), a [number of publishers](https://wellcome.ac.uk/press-release/publishers-make-coronavirus-covid-19-content-freely-available-and-reusable) have committed to making their coronavirus-related articles freely available through PubMed Central and other public repositories, and facilitate text mining and secondary analysis through machine-readable formats and licenses. 
@@ -21,13 +21,13 @@ However, the FAQ also makes clear that when a copyright holder decides to use an
 
 ## Analyzing licenses of publisher collections in the PMC COVID-19 Initative
 
-So which licenses are used by publishers for content in the PMC COVID-19 initiative? License information of articles in publisher collections in the PMC COVID-19 Initiative was retrieved programmatically though the [Entrez Programming Utilities](https://www.ncbi.nlm.nih.gov/books/NBK25499/), using the R package [rentrez](https://cran.r-project.org/web/packages/rentrez/index.html) on **Nov 1-2, 2021**. Programmatic classification of licenses was supplemented by manual inspection of the license statements. Scripts and data are shared in this GitHub repo. Results are summarized in Table 1 below.  
+So which licenses are used by publishers for content in the PMC COVID-19 initiative? License information of articles in publisher collections in the PMC COVID-19 Initiative was retrieved programmatically though the [Entrez Programming Utilities](https://www.ncbi.nlm.nih.gov/books/NBK25499/), using the R package [rentrez](https://cran.r-project.org/web/packages/rentrez/index.html) on **Nov 1-2, 2021** (with the exception of data for SpringerNature, which were recollected on Nov 11, 2021 to correct an error). Programmatic classification of licenses was supplemented by manual inspection of the license statements. Scripts and data are shared in this GitHub repo. Results are summarized in Table 1 below.  
 
 The data would also allow for analysis of licenses for individual publisher imprints and/or societies that publish with one of the large publishers, or for analysis at the level of journal titles.   
 
 Only publications included in PMC [special collections](https://www.ncbi.nlm.nih.gov/pmc/journals/collections/?titles=current&search=journals) that are identified as Public Health Emergency collections were included, so contributions from other publishers might have been missed. 
 
-|PMC Public Health Emergency collection|number of papers (2021-11-01)|CC license|CC-BY|open government license|custom license (perpetual access via PMC)|custom license (temporary access)|custom license (other)|unknown|
+|PMC Public Health Emergency collection|number of papers (2021-11-01*)|CC license|CC-BY|open government license|custom license (perpetual access via PMC)|custom license (temporary access)|custom license (other)|unknown|
 |--------------------------------------|:---------------------------:|:--------:|:---:|:---------------------:|:---------------------------------------:|:-------------------------------:|:--------------------:|:-----:|
 | AAAS | 182 | 173 | 173 | - | - | - | 8 | 1 |
 | American College of Physicians | 300 | - | - | - | 300 | - | - | - |
@@ -45,7 +45,7 @@ Only publications included in PMC [special collections](https://www.ncbi.nlm.nih
 | Oxford University Press | 11369 | 2931 | 880 | 210 | 4005 | 115 | 3961 | 147 |
 | Radiological Society | 228 | 1 | 1 | - | 221 | - | - | 6 |
 | Sage | 899 | 889 | 691 | - | 1 | - | - | 9 |
-| Springer Nature | 67989 | 21409 | 20672 | 1 | - | 43804 | 18 | 2757 |
+| Springer Nature* | 69044 | 21819 | 21073 | 1 | - | 44406 | 18 | 2800 |
 | Taylor & Francis | 858 | 80 | 34 | - | 706 | - | 2 | 70 |
 | Thieme | 357 | 57 | 2 | - | 298 | - | - | 2 |
 | University of Toronto Press | 24 | - | - | - | 24 | - | - | - |
@@ -53,7 +53,7 @@ Only publications included in PMC [special collections](https://www.ncbi.nlm.nih
 | Wolters Kluwer | 2284 | 400 | 90 | 7 | 1856 | - | 1 | 20 |
 
 
-**Table 1.  Numbers of articles in publisher collections in PMC COVID-19 Initiave with different types of licenses (NB numbers for CC-license include CC-BY)**
+**Table 1.  Numbers of articles in publisher collections in PMC COVID-19 Initiave with different types of licenses (NB numbers for CC-license include CC-BY) \*Springer Nature data collected 2021-11-11.**
  
 
 The analysis shows that only a minority of papers shared in the COVID-19 Initiative have a CC-license (and only a subset of those a CC-BY license). For papers that are not shared with a CC-license, some publishers (e.g. <em>Cambridge University Press</em>, <em>Oxford University Press</em>, <em>Taylor & Francis</em> and <em>Wolters Kluwer</em>) have opted to use a license as described above, guaranteeing perpetual access through PMC (even after other reuse permissions are withdrawn). Other publishers (e.g. <em>BMJ</em>, <em>ACS</em>, <em>Elsevier</em>, <em>IOP</em>, <em>Springer Nature</em> and <em>Wiley</em>) use a custom license that specifies that access to these papers is temporary. Two examples of such licenses are quoted below: 
@@ -72,4 +72,4 @@ That many COVID-19 related research papers are currently made publicly available
 
 It will remain to be seen whether publishers will indeed request removal of articles from PMC in the future, e.g. after the WHO declares the pandemic to be over (e.g. Springer Nature) and/or after the publishers themselves decide to close their COVID-19-related resource initiatives (e.g. Elsevier). 
 
-One final question is whether there is **precedence of content being made available through PMC on a temporary basis**, and what this means for the status of open access articles made available through PMC, e.g. in assessing types and levels of open access over time.
+One final question is whether there is **precedence of content being made available through PMC on a temporary basis**, and what this means for the status of open access articles ma/de available through PMC, e.g. in assessing types and levels of open access over time.
