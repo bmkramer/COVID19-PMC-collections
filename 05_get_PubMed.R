@@ -1,4 +1,4 @@
-#Get licenses for COVID initiative collections in PMC
+#Analysis of COVID initiative collections in PMC - inclusion in PubMed
 
 #info on COVID initiative
 #https://www.ncbi.nlm.nih.gov/pmc/about/covid-19/
@@ -57,16 +57,6 @@ getData <- function(ids){
   return(data)
 }
 
-  
-#define function to add progress bar
-#add progress bar 
-getData_progress <- function(ids){
-  pb$tick()$print()
-  result <- getData(ids)
-  
-  return(result)
-}
-
 
 #-------------------------------------------------------
 #set system date or set date manually
@@ -86,7 +76,7 @@ pmcids <- records %>%
   pull(pmcid_clean)
 
 #Could also run loop below per 10,000 of 50,000 ids
-#TO DO: convert into mapping
+#TO DO: rewrite using map()
 ids <- pmcids[180001:length(pmcids)]
 seq_ids <- seq(1, length(ids), 100)
 
@@ -99,7 +89,7 @@ for (i in seq_ids){
   res_all <- bind_rows(res_all, res_x)
 }
 
-#some duplicated b/c PMCIDs retrieved from multiple collectiosn
+#some duplicated b/c PMCIDs retrieved from multiple collections
 res_all_unique <- res_all %>%
   distinct
 
