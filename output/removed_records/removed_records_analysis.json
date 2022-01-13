@@ -1,0 +1,5780 @@
+{
+  "ELS": {
+    "removed_count": [
+      {
+        "pmcid": 183,
+        "doi": 37
+      }
+    ],
+    "removed_latest": [
+      {
+        "version_latest": "2020-04-11",
+        "n": 10
+      },
+      {
+        "version_latest": "2020-06-10",
+        "n": 143
+      },
+      {
+        "version_latest": "2020-12-12",
+        "n": 10
+      },
+      {
+        "version_latest": "2021-05-30",
+        "n": 20
+      }
+    ],
+    "removed_pubyear": [
+      {
+        "pubyear": 2021,
+        "all": 24232,
+        "removed": 7
+      },
+      {
+        "pubyear": 2020,
+        "all": 33110,
+        "removed": 23
+      },
+      {
+        "pubyear": 2019,
+        "all": 1059,
+        "removed": 2
+      },
+      {
+        "pubyear": 2018,
+        "all": 956,
+        "removed": 0
+      },
+      {
+        "pubyear": 2017,
+        "all": 1035,
+        "removed": 1
+      },
+      {
+        "pubyear": 2016,
+        "all": 1202,
+        "removed": 3
+      },
+      {
+        "pubyear": 2015,
+        "all": 1102,
+        "removed": 2
+      },
+      {
+        "pubyear": 2014,
+        "all": 1054,
+        "removed": 1
+      },
+      {
+        "pubyear": 2013,
+        "all": 918,
+        "removed": 3
+      },
+      {
+        "pubyear": 2012,
+        "all": 797,
+        "removed": 6
+      },
+      {
+        "pubyear": 2011,
+        "all": 833,
+        "removed": 7
+      },
+      {
+        "pubyear": 2010,
+        "all": 908,
+        "removed": 1
+      },
+      {
+        "pubyear": 2009,
+        "all": 1086,
+        "removed": 4
+      },
+      {
+        "pubyear": 2008,
+        "all": 969,
+        "removed": 12
+      },
+      {
+        "pubyear": 2007,
+        "all": 898,
+        "removed": 6
+      },
+      {
+        "pubyear": 2006,
+        "all": 1021,
+        "removed": 12
+      },
+      {
+        "pubyear": 2005,
+        "all": 950,
+        "removed": 9
+      },
+      {
+        "pubyear": 2004,
+        "all": 948,
+        "removed": 13
+      },
+      {
+        "pubyear": 2003,
+        "all": 551,
+        "removed": 3
+      },
+      {
+        "pubyear": 2002,
+        "all": 166,
+        "removed": 1
+      },
+      {
+        "pubyear": 2001,
+        "all": 136,
+        "removed": 2
+      },
+      {
+        "pubyear": 2000,
+        "all": 140,
+        "removed": 1
+      },
+      {
+        "pubyear": 1999,
+        "all": 173,
+        "removed": 0
+      },
+      {
+        "pubyear": 1998,
+        "all": 195,
+        "removed": 5
+      },
+      {
+        "pubyear": 1997,
+        "all": 122,
+        "removed": 0
+      },
+      {
+        "pubyear": 1996,
+        "all": 173,
+        "removed": 3
+      },
+      {
+        "pubyear": 1995,
+        "all": 206,
+        "removed": 8
+      },
+      {
+        "pubyear": 1994,
+        "all": 192,
+        "removed": 7
+      },
+      {
+        "pubyear": 1993,
+        "all": 179,
+        "removed": 3
+      },
+      {
+        "pubyear": 1992,
+        "all": 237,
+        "removed": 0
+      },
+      {
+        "pubyear": 1991,
+        "all": 229,
+        "removed": 4
+      },
+      {
+        "pubyear": 1990,
+        "all": 189,
+        "removed": 5
+      },
+      {
+        "pubyear": 1989,
+        "all": 197,
+        "removed": 6
+      },
+      {
+        "pubyear": 1988,
+        "all": 191,
+        "removed": 6
+      },
+      {
+        "pubyear": 1987,
+        "all": 176,
+        "removed": 3
+      },
+      {
+        "pubyear": 1986,
+        "all": 154,
+        "removed": 2
+      },
+      {
+        "pubyear": 1985,
+        "all": 127,
+        "removed": 2
+      },
+      {
+        "pubyear": 1984,
+        "all": 108,
+        "removed": 3
+      },
+      {
+        "pubyear": 1983,
+        "all": 91,
+        "removed": 3
+      },
+      {
+        "pubyear": 1982,
+        "all": 77,
+        "removed": 3
+      },
+      {
+        "pubyear": 1981,
+        "all": 58,
+        "removed": 1
+      },
+      {
+        "pubyear": 1980,
+        "all": 48,
+        "removed": 0
+      },
+      {
+        "pubyear": 1979,
+        "all": 40,
+        "removed": 0
+      },
+      {
+        "pubyear": 1978,
+        "all": 27,
+        "removed": 0
+      },
+      {
+        "pubyear": 1977,
+        "all": 32,
+        "removed": 0
+      },
+      {
+        "pubyear": 1976,
+        "all": 26,
+        "removed": 0
+      },
+      {
+        "pubyear": 1975,
+        "all": 25,
+        "removed": 0
+      },
+      {
+        "pubyear": 1974,
+        "all": 17,
+        "removed": 0
+      },
+      {
+        "pubyear": 1973,
+        "all": 15,
+        "removed": 0
+      },
+      {
+        "pubyear": 1972,
+        "all": 9,
+        "removed": 0
+      },
+      {
+        "pubyear": 1971,
+        "all": 6,
+        "removed": 0
+      },
+      {
+        "pubyear": 1970,
+        "all": 8,
+        "removed": 0
+      },
+      {
+        "pubyear": 1969,
+        "all": 2,
+        "removed": 0
+      },
+      {
+        "pubyear": 1967,
+        "all": 1,
+        "removed": 0
+      }
+    ],
+    "removed_license": [
+      {
+        "license_summary": "CC-BY",
+        "all": 1087,
+        "removed": 0
+      },
+      {
+        "license_summary": "CC-BY-NC",
+        "all": 27,
+        "removed": 0
+      },
+      {
+        "license_summary": "CC-BY-NC-ND",
+        "all": 3837,
+        "removed": 0
+      },
+      {
+        "license_summary": "CC-BY-NC-SA",
+        "all": 6,
+        "removed": 0
+      },
+      {
+        "license_summary": "CC-unknown",
+        "all": 5,
+        "removed": 0
+      },
+      {
+        "license_summary": "custom_other",
+        "all": 22,
+        "removed": 0
+      },
+      {
+        "license_summary": "custom_permanent",
+        "all": 57,
+        "removed": 0
+      },
+      {
+        "license_summary": "custom_temporary",
+        "all": 71010,
+        "removed": 168
+      },
+      {
+        "license_summary": "unknown",
+        "all": 1350,
+        "removed": 15
+      }
+    ],
+    "removed_type": [
+      {
+        "publication_type": "book-chapter",
+        "all": 203,
+        "removed": 2
+      },
+      {
+        "publication_type": "journal-article",
+        "all": 63337,
+        "removed": 34
+      },
+      {
+        "all": 13861,
+        "removed": 147
+      }
+    ],
+    "removed_oa_status": [
+      {
+        "upw_current": "bronze",
+        "all": 25458,
+        "removed": 8
+      },
+      {
+        "upw_current": "closed",
+        "all": 1241,
+        "removed": 12
+      },
+      {
+        "upw_current": "gold",
+        "all": 10653,
+        "removed": 7
+      },
+      {
+        "upw_current": "green",
+        "all": 22794,
+        "removed": 8
+      },
+      {
+        "upw_current": "hybrid",
+        "all": 3394,
+        "removed": 1
+      },
+      {
+        "all": 13861,
+        "removed": 147
+      }
+    ],
+    "removed_journals": [
+      {
+        "journal": "J Virol Methods",
+        "all": 592,
+        "removed": 55
+      },
+      {
+        "journal": "J Neuroimmunol",
+        "all": 203,
+        "removed": 15
+      },
+      {
+        "journal": "Vet Immunol Immunopathol",
+        "all": 204,
+        "removed": 12
+      },
+      {
+        "journal": "Am J Pathol",
+        "all": 70,
+        "removed": 11
+      },
+      {
+        "journal": "Int J Infect Dis",
+        "all": 1211,
+        "removed": 8
+      },
+      {
+        "journal": "Am J Obstet Gynecol",
+        "all": 274,
+        "removed": 4
+      },
+      {
+        "journal": "Ann Emerg Med",
+        "all": 381,
+        "removed": 4
+      },
+      {
+        "journal": "Annu Rep Med Chem",
+        "all": 25,
+        "removed": 4
+      },
+      {
+        "journal": "Immunol Lett",
+        "all": 65,
+        "removed": 4
+      },
+      {
+        "all": 3823,
+        "removed": 4
+      },
+      {
+        "journal": "Am J Med",
+        "all": 158,
+        "removed": 3
+      },
+      {
+        "journal": "FEMS Microbiol Lett",
+        "all": 12,
+        "removed": 3
+      },
+      {
+        "journal": "Adv Virus Res",
+        "all": 134,
+        "removed": 2
+      },
+      {
+        "journal": "Arch Phys Med Rehabil",
+        "all": 85,
+        "removed": 2
+      },
+      {
+        "journal": "Compr Psychiatry",
+        "all": 20,
+        "removed": 2
+      },
+      {
+        "journal": "J Am Dent Assoc",
+        "all": 75,
+        "removed": 2
+      },
+      {
+        "journal": "Vet Clin North Am Small Anim Pract",
+        "all": 89,
+        "removed": 2
+      },
+      {
+        "journal": "Adv Chronic Kidney Dis",
+        "all": 15,
+        "removed": 1
+      },
+      {
+        "journal": "Adv Genet",
+        "all": 14,
+        "removed": 1
+      },
+      {
+        "journal": "Adv Immunol",
+        "all": 21,
+        "removed": 1
+      },
+      {
+        "journal": "Adv Pediatr",
+        "all": 7,
+        "removed": 1
+      },
+      {
+        "journal": "Adv Protein Chem Struct Biol",
+        "all": 14,
+        "removed": 1
+      },
+      {
+        "journal": "Adv Vet Sci Comp Med",
+        "all": 5,
+        "removed": 1
+      },
+      {
+        "journal": "Am J Infect Control",
+        "all": 509,
+        "removed": 1
+      },
+      {
+        "journal": "Anaesth Crit Care Pain Med",
+        "all": 128,
+        "removed": 1
+      },
+      {
+        "journal": "Anal Biochem",
+        "all": 22,
+        "removed": 1
+      },
+      {
+        "journal": "Ann Thorac Surg",
+        "all": 106,
+        "removed": 1
+      },
+      {
+        "journal": "Antiviral Res",
+        "all": 445,
+        "removed": 1
+      },
+      {
+        "journal": "Arch Bronconeumol",
+        "all": 234,
+        "removed": 1
+      },
+      {
+        "journal": "Best Pract Res Clin Gastroenterol",
+        "all": 4,
+        "removed": 1
+      },
+      {
+        "journal": "Biol Blood Marrow Transplant",
+        "all": 63,
+        "removed": 1
+      },
+      {
+        "journal": "Biol Cell",
+        "all": 3,
+        "removed": 1
+      },
+      {
+        "journal": "BJOG",
+        "all": 4,
+        "removed": 1
+      },
+      {
+        "journal": "Clin Imaging",
+        "all": 130,
+        "removed": 1
+      },
+      {
+        "journal": "Clin Lung Cancer",
+        "all": 7,
+        "removed": 1
+      },
+      {
+        "journal": "Clin Microbiol Infect",
+        "all": 532,
+        "removed": 1
+      },
+      {
+        "journal": "Clin Nutr",
+        "all": 54,
+        "removed": 1
+      },
+      {
+        "journal": "Clin Radiol",
+        "all": 84,
+        "removed": 1
+      },
+      {
+        "journal": "Curr Opin Immunol",
+        "all": 58,
+        "removed": 1
+      },
+      {
+        "journal": "Diabetes Res Clin Pract",
+        "all": 157,
+        "removed": 1
+      },
+      {
+        "journal": "FEMS Microbiol Rev",
+        "all": 3,
+        "removed": 1
+      },
+      {
+        "journal": "Int J Drug Policy",
+        "all": 51,
+        "removed": 1
+      },
+      {
+        "journal": "Int Rev Cell Mol Biol",
+        "all": 12,
+        "removed": 1
+      },
+      {
+        "journal": "J Am Med Dir Assoc",
+        "all": 222,
+        "removed": 1
+      },
+      {
+        "journal": "J Cardiothorac Vasc Anesth",
+        "all": 164,
+        "removed": 1
+      },
+      {
+        "journal": "J Clin Epidemiol",
+        "all": 70,
+        "removed": 1
+      },
+      {
+        "journal": "J Emerg Med",
+        "all": 114,
+        "removed": 1
+      },
+      {
+        "journal": "J Equine Vet Sci",
+        "all": 13,
+        "removed": 1
+      },
+      {
+        "journal": "J Pediatr Surg",
+        "all": 39,
+        "removed": 1
+      },
+      {
+        "journal": "J Shoulder Elbow Surg",
+        "all": 13,
+        "removed": 1
+      },
+      {
+        "journal": "J Surg Educ",
+        "all": 48,
+        "removed": 1
+      },
+      {
+        "journal": "Methods Enzymol",
+        "all": 25,
+        "removed": 1
+      },
+      {
+        "journal": "Ostéopathie Pédiatrique",
+        "all": 1,
+        "removed": 1
+      },
+      {
+        "journal": "Parallel Comput",
+        "all": 2,
+        "removed": 1
+      },
+      {
+        "journal": "Prog Mol Biol Transl Sci",
+        "all": 17,
+        "removed": 1
+      },
+      {
+        "journal": "Res Vet Sci",
+        "all": 131,
+        "removed": 1
+      },
+      {
+        "journal": "Semin Cancer Biol",
+        "all": 3,
+        "removed": 1
+      },
+      {
+        "journal": "Trends Food Sci Technol",
+        "all": 38,
+        "removed": 1
+      },
+      {
+        "journal": "Trends Immunol",
+        "all": 56,
+        "removed": 1
+      },
+      {
+        "journal": "Trends Neurosci",
+        "all": 19,
+        "removed": 1
+      },
+      {
+        "journal": "Trends Plant Sci",
+        "all": 9,
+        "removed": 1
+      },
+      {
+        "journal": "Ultrasound Med Biol",
+        "all": 24,
+        "removed": 1
+      },
+      {
+        "journal": "Urology",
+        "all": 60,
+        "removed": 1
+      }
+    ]
+  },
+  "NEJM": {
+    "removed_count": [
+      {
+        "pmcid": 167,
+        "doi": 167
+      }
+    ],
+    "removed_latest": [
+      {
+        "version_latest": "2021-05-30",
+        "n": 167
+      }
+    ],
+    "removed_pubyear": [
+      {
+        "pubyear": 2021,
+        "all": 156,
+        "removed": 38
+      },
+      {
+        "pubyear": 2020,
+        "all": 282,
+        "removed": 129
+      }
+    ],
+    "removed_license": [
+      {
+        "license_summary": "custom_permanent",
+        "all": 349,
+        "removed": 167
+      },
+      {
+        "license_summary": "unknown",
+        "all": 89,
+        "removed": 0
+      }
+    ],
+    "removed_type": [
+      {
+        "publication_type": "journal-article",
+        "all": 3,
+        "removed": 3
+      },
+      {
+        "all": 435,
+        "removed": 164
+      }
+    ],
+    "removed_oa_status": [
+      {
+        "upw_current": "closed",
+        "all": 3,
+        "removed": 3
+      },
+      {
+        "all": 435,
+        "removed": 164
+      }
+    ],
+    "removed_journals": [
+      {
+        "journal": "NEJM Catal Innov Care Deliv",
+        "all": 187,
+        "removed": 167
+      }
+    ]
+  },
+  "SN": {
+    "removed_count": [
+      {
+        "pmcid": 3459,
+        "doi": 3396
+      }
+    ],
+    "removed_latest": [
+      {
+        "version_latest": "2020-04-11",
+        "n": 1
+      },
+      {
+        "version_latest": "2020-06-10",
+        "n": 10
+      },
+      {
+        "version_latest": "2020-12-12",
+        "n": 12
+      },
+      {
+        "version_latest": "2021-05-30",
+        "n": 3436
+      }
+    ],
+    "removed_pubyear": [
+      {
+        "pubyear": 2021,
+        "all": 32838,
+        "removed": 867
+      },
+      {
+        "pubyear": 2020,
+        "all": 25198,
+        "removed": 2509
+      },
+      {
+        "pubyear": 2019,
+        "all": 1589,
+        "removed": 5
+      },
+      {
+        "pubyear": 2018,
+        "all": 1028,
+        "removed": 2
+      },
+      {
+        "pubyear": 2017,
+        "all": 981,
+        "removed": 2
+      },
+      {
+        "pubyear": 2016,
+        "all": 1040,
+        "removed": 3
+      },
+      {
+        "pubyear": 2015,
+        "all": 788,
+        "removed": 6
+      },
+      {
+        "pubyear": 2014,
+        "all": 825,
+        "removed": 10
+      },
+      {
+        "pubyear": 2013,
+        "all": 850,
+        "removed": 5
+      },
+      {
+        "pubyear": 2012,
+        "all": 701,
+        "removed": 2
+      },
+      {
+        "pubyear": 2011,
+        "all": 701,
+        "removed": 8
+      },
+      {
+        "pubyear": 2010,
+        "all": 759,
+        "removed": 11
+      },
+      {
+        "pubyear": 2009,
+        "all": 794,
+        "removed": 9
+      },
+      {
+        "pubyear": 2008,
+        "all": 663,
+        "removed": 3
+      },
+      {
+        "pubyear": 2007,
+        "all": 594,
+        "removed": 6
+      },
+      {
+        "pubyear": 2006,
+        "all": 648,
+        "removed": 3
+      },
+      {
+        "pubyear": 2005,
+        "all": 538,
+        "removed": 7
+      },
+      {
+        "pubyear": 2004,
+        "all": 335,
+        "removed": 0
+      },
+      {
+        "pubyear": 2003,
+        "all": 297,
+        "removed": 0
+      },
+      {
+        "pubyear": 2002,
+        "all": 99,
+        "removed": 0
+      },
+      {
+        "pubyear": 2001,
+        "all": 106,
+        "removed": 0
+      },
+      {
+        "pubyear": 2000,
+        "all": 81,
+        "removed": 1
+      },
+      {
+        "pubyear": 1999,
+        "all": 75,
+        "removed": 0
+      },
+      {
+        "pubyear": 1998,
+        "all": 61,
+        "removed": 0
+      },
+      {
+        "pubyear": 1997,
+        "all": 57,
+        "removed": 0
+      },
+      {
+        "pubyear": 1996,
+        "all": 58,
+        "removed": 0
+      },
+      {
+        "pubyear": 1995,
+        "all": 72,
+        "removed": 0
+      },
+      {
+        "pubyear": 1994,
+        "all": 54,
+        "removed": 0
+      },
+      {
+        "pubyear": 1993,
+        "all": 49,
+        "removed": 0
+      },
+      {
+        "pubyear": 1992,
+        "all": 51,
+        "removed": 0
+      },
+      {
+        "pubyear": 1991,
+        "all": 59,
+        "removed": 0
+      },
+      {
+        "pubyear": 1990,
+        "all": 42,
+        "removed": 0
+      },
+      {
+        "pubyear": 1989,
+        "all": 44,
+        "removed": 0
+      },
+      {
+        "pubyear": 1988,
+        "all": 43,
+        "removed": 0
+      },
+      {
+        "pubyear": 1987,
+        "all": 38,
+        "removed": 0
+      },
+      {
+        "pubyear": 1986,
+        "all": 41,
+        "removed": 0
+      },
+      {
+        "pubyear": 1985,
+        "all": 22,
+        "removed": 0
+      },
+      {
+        "pubyear": 1984,
+        "all": 37,
+        "removed": 0
+      },
+      {
+        "pubyear": 1983,
+        "all": 28,
+        "removed": 0
+      },
+      {
+        "pubyear": 1982,
+        "all": 21,
+        "removed": 0
+      },
+      {
+        "pubyear": 1981,
+        "all": 32,
+        "removed": 0
+      },
+      {
+        "pubyear": 1980,
+        "all": 23,
+        "removed": 0
+      },
+      {
+        "pubyear": 1979,
+        "all": 29,
+        "removed": 0
+      },
+      {
+        "pubyear": 1978,
+        "all": 16,
+        "removed": 0
+      },
+      {
+        "pubyear": 1977,
+        "all": 14,
+        "removed": 0
+      },
+      {
+        "pubyear": 1976,
+        "all": 12,
+        "removed": 0
+      },
+      {
+        "pubyear": 1975,
+        "all": 13,
+        "removed": 0
+      },
+      {
+        "pubyear": 1974,
+        "all": 8,
+        "removed": 0
+      },
+      {
+        "pubyear": 1973,
+        "all": 10,
+        "removed": 0
+      },
+      {
+        "pubyear": 1972,
+        "all": 3,
+        "removed": 0
+      },
+      {
+        "pubyear": 1971,
+        "all": 3,
+        "removed": 0
+      },
+      {
+        "pubyear": 1970,
+        "all": 8,
+        "removed": 0
+      },
+      {
+        "pubyear": 1969,
+        "all": 5,
+        "removed": 0
+      },
+      {
+        "pubyear": 1968,
+        "all": 5,
+        "removed": 0
+      },
+      {
+        "pubyear": 1967,
+        "all": 3,
+        "removed": 0
+      },
+      {
+        "pubyear": 1964,
+        "all": 2,
+        "removed": 0
+      },
+      {
+        "pubyear": 1956,
+        "all": 1,
+        "removed": 0
+      },
+      {
+        "pubyear": 1955,
+        "all": 1,
+        "removed": 0
+      },
+      {
+        "pubyear": 1952,
+        "all": 1,
+        "removed": 0
+      },
+      {
+        "pubyear": 1951,
+        "all": 5,
+        "removed": 0
+      },
+      {
+        "pubyear": 1950,
+        "all": 1,
+        "removed": 0
+      },
+      {
+        "pubyear": 1931,
+        "all": 1,
+        "removed": 0
+      },
+      {
+        "pubyear": 1925,
+        "all": 1,
+        "removed": 0
+      },
+      {
+        "pubyear": 1922,
+        "all": 1,
+        "removed": 0
+      }
+    ],
+    "removed_license": [
+      {
+        "license_summary": "CC-BY",
+        "all": 21085,
+        "removed": 12
+      },
+      {
+        "license_summary": "CC-BY-NC",
+        "all": 696,
+        "removed": 2
+      },
+      {
+        "license_summary": "CC-BY-NC-ND",
+        "all": 38,
+        "removed": 0
+      },
+      {
+        "license_summary": "CC-BY-NC-SA",
+        "all": 13,
+        "removed": 0
+      },
+      {
+        "license_summary": "CC-BY-SA",
+        "all": 1,
+        "removed": 0
+      },
+      {
+        "license_summary": "custom_other",
+        "all": 18,
+        "removed": 0
+      },
+      {
+        "license_summary": "custom_temporary",
+        "all": 47850,
+        "removed": 3444
+      },
+      {
+        "license_summary": "open_gov",
+        "all": 1,
+        "removed": 0
+      },
+      {
+        "license_summary": "unknown",
+        "all": 2801,
+        "removed": 1
+      }
+    ],
+    "removed_type": [
+      {
+        "publication_type": "book-chapter",
+        "all": 10828,
+        "removed": 3372
+      },
+      {
+        "publication_type": "journal-article",
+        "all": 59459,
+        "removed": 18
+      },
+      {
+        "all": 2216,
+        "removed": 69
+      }
+    ],
+    "removed_oa_status": [
+      {
+        "upw_current": "bronze",
+        "all": 35040,
+        "removed": 31
+      },
+      {
+        "upw_current": "closed",
+        "all": 7541,
+        "removed": 3170
+      },
+      {
+        "upw_current": "gold",
+        "all": 15003,
+        "removed": 12
+      },
+      {
+        "upw_current": "green",
+        "all": 5217,
+        "removed": 165
+      },
+      {
+        "upw_current": "hybrid",
+        "all": 7486,
+        "removed": 12
+      },
+      {
+        "all": 2216,
+        "removed": 69
+      }
+    ],
+    "removed_journals": [
+      {
+        "journal": "Computational Science and Its Applications – ICCSA 2020",
+        "all": 500,
+        "removed": 498
+      },
+      {
+        "journal": "Multimedia Technology and Enhanced Learning",
+        "all": 83,
+        "removed": 83
+      },
+      {
+        "journal": "Computers Helping People with Special Needs",
+        "all": 74,
+        "removed": 51
+      },
+      {
+        "journal": "Educating Engineers for Future Industrial Revolutions",
+        "all": 41,
+        "removed": 41
+      },
+      {
+        "journal": "The Importance of New Technologies and Entrepreneurship in Business Development: In The Context of Economic Diversity in Developing Countries",
+        "all": 40,
+        "removed": 40
+      },
+      {
+        "journal": "Metadata and Semantic Research",
+        "all": 37,
+        "removed": 37
+      },
+      {
+        "journal": "Shared Trauma, Shared Resilience During a Pandemic",
+        "all": 37,
+        "removed": 37
+      },
+      {
+        "journal": "Modern Global Economic System: Evolutional Development vs. Revolutionary Leap",
+        "all": 35,
+        "removed": 35
+      },
+      {
+        "journal": "Pattern Recognition",
+        "all": 65,
+        "removed": 34
+      },
+      {
+        "journal": "Economic Systems in the New Era: Stable Systems in an Unstable World",
+        "all": 32,
+        "removed": 32
+      },
+      {
+        "journal": "Human-Centric Computing in a Data-Driven Society",
+        "all": 31,
+        "removed": 31
+      },
+      {
+        "journal": "Re-imagining Diffusion and Adoption of Information Technology and Systems: A Continuing Conversation",
+        "all": 31,
+        "removed": 31
+      },
+      {
+        "journal": "e-Learning, e-Education, and Online Training",
+        "all": 30,
+        "removed": 29
+      },
+      {
+        "journal": "Geometry and Vision",
+        "all": 29,
+        "removed": 29
+      },
+      {
+        "journal": "ICT Systems Security and Privacy Protection",
+        "all": 29,
+        "removed": 29
+      },
+      {
+        "journal": "Advances in Cryptology – EUROCRYPT 2020",
+        "all": 29,
+        "removed": 28
+      },
+      {
+        "journal": "Computing Science, Communication and Security",
+        "all": 28,
+        "removed": 27
+      },
+      {
+        "journal": "Euro-Par 2020: Parallel Processing Workshops",
+        "all": 27,
+        "removed": 27
+      },
+      {
+        "journal": "Advances in Tourism, Technology and Systems",
+        "all": 26,
+        "removed": 26
+      },
+      {
+        "journal": "Pattern Recognition and Artificial Intelligence",
+        "all": 24,
+        "removed": 24
+      },
+      {
+        "journal": "Constitutionalism Under Extreme Conditions",
+        "all": 24,
+        "removed": 23
+      },
+      {
+        "journal": "Emerging Technologies During the Era of COVID-19 Pandemic",
+        "all": 23,
+        "removed": 23
+      },
+      {
+        "journal": "Recent Trends in Analysis of Images, Social Networks and Texts",
+        "all": 23,
+        "removed": 23
+      },
+      {
+        "journal": "Relational and Algebraic Methods in Computer Science",
+        "all": 20,
+        "removed": 20
+      },
+      {
+        "journal": "Coronaviruses",
+        "all": 42,
+        "removed": 19
+      },
+      {
+        "journal": "Diversity, Divergence, Dialogue",
+        "all": 19,
+        "removed": 19
+      },
+      {
+        "journal": "Segmentation, Classification, and Registration of Multi-modality Medical Imaging Data",
+        "all": 19,
+        "removed": 19
+      },
+      {
+        "journal": "Big Data Analytics and Artificial Intelligence Against COVID-19: Innovation Vision and Approach",
+        "all": 18,
+        "removed": 18
+      },
+      {
+        "journal": "New Work, Transformational and Virtual Leadership",
+        "all": 18,
+        "removed": 18
+      },
+      {
+        "journal": "Emerging Technologies for Battling Covid-19",
+        "all": 17,
+        "removed": 17
+      },
+      {
+        "journal": "Artificial Intelligence, Computer and Software Engineering Advances",
+        "all": 16,
+        "removed": 16
+      },
+      {
+        "journal": "Clinical Synopsis of COVID-19",
+        "all": 16,
+        "removed": 16
+      },
+      {
+        "journal": "Counting the Cost of COVID-19 on the Global Tourism Industry",
+        "all": 16,
+        "removed": 16
+      },
+      {
+        "journal": "The Impact of the COVID-19 Pandemic on Green Societies",
+        "all": 16,
+        "removed": 16
+      },
+      {
+        "journal": "COVID-19 Pandemic Trajectory in the Developing World",
+        "all": 15,
+        "removed": 15
+      },
+      {
+        "journal": "Advances in Digital Science",
+        "all": 14,
+        "removed": 14
+      },
+      {
+        "journal": "Cloud Computing and Services Science",
+        "all": 14,
+        "removed": 14
+      },
+      {
+        "journal": "Comprehensible Science",
+        "all": 14,
+        "removed": 14
+      },
+      {
+        "journal": "Digital Economy and the New Labor Market: Jobs, Competences and Innovative HR Technologies",
+        "all": 14,
+        "removed": 14
+      },
+      {
+        "journal": "Information Security Education. Information Security in Action",
+        "all": 13,
+        "removed": 13
+      },
+      {
+        "journal": "Innovations in Smart Cities Applications Volume 4",
+        "all": 13,
+        "removed": 13
+      },
+      {
+        "journal": "Reliability and Statistics in Transportation and Communication",
+        "all": 13,
+        "removed": 13
+      },
+      {
+        "journal": "Advances in Design and Digital Communication",
+        "all": 12,
+        "removed": 12
+      },
+      {
+        "journal": "Sustainable Development Insights from India",
+        "all": 12,
+        "removed": 12
+      },
+      {
+        "journal": "The 1st International Conference on Maritime Education and Development",
+        "all": 12,
+        "removed": 12
+      },
+      {
+        "journal": "Effective Digital Learning",
+        "all": 11,
+        "removed": 11
+      },
+      {
+        "journal": "The New Political Economy of Greece up to 2030",
+        "all": 11,
+        "removed": 11
+      },
+      {
+        "journal": "A New Beginning or More of the Same?",
+        "all": 10,
+        "removed": 10
+      },
+      {
+        "journal": "Arab MENA Countries: Vulnerabilities and Constraints Against Democracy on the Eve of the Global COVID-19 Crisis",
+        "all": 10,
+        "removed": 10
+      },
+      {
+        "journal": "Engineering Economics: Decisions and Solutions from Eurasian Perspective",
+        "all": 10,
+        "removed": 10
+      },
+      {
+        "journal": "Managing Work in the Digital Economy",
+        "all": 10,
+        "removed": 10
+      },
+      {
+        "journal": "The Evolution of the Greek Economy",
+        "all": 10,
+        "removed": 10
+      },
+      {
+        "journal": "The Real Psychology of the Trump Presidency",
+        "all": 10,
+        "removed": 10
+      },
+      {
+        "journal": "The Reshaping of China-Southeast Asia Relations in Light of the COVID-19 Pandemic",
+        "all": 10,
+        "removed": 10
+      },
+      {
+        "journal": "China & the USA",
+        "all": 9,
+        "removed": 9
+      },
+      {
+        "journal": "Digitalization in Healthcare",
+        "all": 9,
+        "removed": 9
+      },
+      {
+        "journal": "Infectious Diseases in the Intensive Care Unit",
+        "all": 9,
+        "removed": 9
+      },
+      {
+        "journal": "Recent Advances in Technologies for Inclusive Well-Being",
+        "all": 9,
+        "removed": 9
+      },
+      {
+        "journal": "Science and Diplomacy",
+        "all": 9,
+        "removed": 9
+      },
+      {
+        "journal": "Social Value in Public Policy",
+        "all": 9,
+        "removed": 9
+      },
+      {
+        "journal": "The Economic Logic of Late Capitalism and the Inevitable Triumph of Socialism",
+        "all": 9,
+        "removed": 9
+      },
+      {
+        "journal": "Big Data Analytics for Cyber-Physical System in Smart City",
+        "all": 8,
+        "removed": 8
+      },
+      {
+        "journal": "Brexit and After",
+        "all": 8,
+        "removed": 8
+      },
+      {
+        "journal": "Crime Prevention and Justice in 2030",
+        "all": 8,
+        "removed": 8
+      },
+      {
+        "journal": "Cyber-Physical Security for Critical Infrastructures Protection",
+        "all": 14,
+        "removed": 8
+      },
+      {
+        "journal": "Global Challenges to CSR and Sustainable Development",
+        "all": 8,
+        "removed": 8
+      },
+      {
+        "journal": "Integrated Behavioral Health Practice",
+        "all": 8,
+        "removed": 8
+      },
+      {
+        "journal": "Metrology for Inclusive Growth of India",
+        "all": 8,
+        "removed": 8
+      },
+      {
+        "journal": "Policies for a Stronger Greek Economy",
+        "all": 8,
+        "removed": 8
+      },
+      {
+        "journal": "The Clinical Diagnosis and Treatment for New Coronavirus Pneumonia",
+        "all": 8,
+        "removed": 8
+      },
+      {
+        "journal": "The Fossil-Fuelled Climate Crisis",
+        "all": 8,
+        "removed": 8
+      },
+      {
+        "journal": "Understanding and Reducing Landslide Disaster Risk",
+        "all": 8,
+        "removed": 8
+      },
+      {
+        "journal": "Unimagined Futures – ICT Opportunities and Challenges",
+        "all": 8,
+        "removed": 8
+      },
+      {
+        "journal": "An Introduction to Circular Economy",
+        "all": 7,
+        "removed": 7
+      },
+      {
+        "journal": "Data Science and Digital Transformation in the Fourth Industrial Revolution",
+        "all": 7,
+        "removed": 7
+      },
+      {
+        "journal": "Disruption in the Boardroom",
+        "all": 7,
+        "removed": 7
+      },
+      {
+        "journal": "Global Midwifery: Principles, Policy and Practice",
+        "all": 7,
+        "removed": 7
+      },
+      {
+        "journal": "Goliath Strikes Back",
+        "all": 7,
+        "removed": 7
+      },
+      {
+        "journal": "Handbook of Small Satellites",
+        "all": 7,
+        "removed": 7
+      },
+      {
+        "journal": "ICT Analysis and Applications",
+        "all": 7,
+        "removed": 7
+      },
+      {
+        "journal": "Information Technology and Systems",
+        "all": 7,
+        "removed": 7
+      },
+      {
+        "journal": "Knowledge in the Information Society",
+        "all": 7,
+        "removed": 7
+      },
+      {
+        "journal": "Managing Diabetes in Low Income Countries",
+        "all": 7,
+        "removed": 7
+      },
+      {
+        "journal": "Neuroimaging of Covid-19. First Insights based on Clinical Cases",
+        "all": 9,
+        "removed": 7
+      },
+      {
+        "journal": "Sustainable Birth in Disruptive Times",
+        "all": 7,
+        "removed": 7
+      },
+      {
+        "journal": "Sustaining Surveillance: The Importance of Information for Public Health",
+        "all": 7,
+        "removed": 7
+      },
+      {
+        "journal": "The PhD at the End of the World",
+        "all": 7,
+        "removed": 7
+      },
+      {
+        "journal": "Cognitive Superiority",
+        "all": 6,
+        "removed": 6
+      },
+      {
+        "journal": "Complex Networks & Their Applications IX",
+        "all": 6,
+        "removed": 6
+      },
+      {
+        "journal": "Digital Shutdowns and Social Media",
+        "all": 6,
+        "removed": 6
+      },
+      {
+        "journal": "Exploring Gender at Work",
+        "all": 6,
+        "removed": 6
+      },
+      {
+        "journal": "India and China",
+        "all": 6,
+        "removed": 6
+      },
+      {
+        "journal": "Introduction to Nursing Informatics",
+        "all": 6,
+        "removed": 6
+      },
+      {
+        "journal": "Microbiologie en infectieziekten",
+        "all": 6,
+        "removed": 6
+      },
+      {
+        "journal": "Pädiatrie",
+        "all": 64,
+        "removed": 6
+      },
+      {
+        "journal": "Service Management",
+        "all": 6,
+        "removed": 6
+      },
+      {
+        "journal": "Tertiary Online Teaching and Learning",
+        "all": 6,
+        "removed": 6
+      },
+      {
+        "journal": "The Palgrave Handbook of Global Mormonism",
+        "all": 6,
+        "removed": 6
+      },
+      {
+        "journal": "Trends of Data Science and Applications",
+        "all": 6,
+        "removed": 6
+      },
+      {
+        "journal": "Wanghong as Social Media Entertainment in China",
+        "all": 6,
+        "removed": 6
+      },
+      {
+        "journal": "Challenging the Deprofessionalisation of Teaching and Teachers",
+        "all": 5,
+        "removed": 5
+      },
+      {
+        "journal": "Co-Production of Public Services and Outcomes",
+        "all": 5,
+        "removed": 5
+      },
+      {
+        "journal": "Codex Medicus",
+        "all": 5,
+        "removed": 5
+      },
+      {
+        "journal": "Contemporary Environmental Problems in Nepal",
+        "all": 5,
+        "removed": 5
+      },
+      {
+        "journal": "Energy Justice",
+        "all": 5,
+        "removed": 5
+      },
+      {
+        "journal": "Energy Transitions and the Future of the African Energy Sector",
+        "all": 5,
+        "removed": 5
+      },
+      {
+        "journal": "Ethiopian Yearbook of International Law 2019",
+        "all": 5,
+        "removed": 5
+      },
+      {
+        "journal": "Explaining Foreign Policy in Post-Colonial Africa",
+        "all": 5,
+        "removed": 5
+      },
+      {
+        "journal": "Führen in die postagile Zukunft",
+        "all": 5,
+        "removed": 5
+      },
+      {
+        "journal": "Gendering the Everyday in the UK House of Commons",
+        "all": 5,
+        "removed": 5
+      },
+      {
+        "journal": "Handbook on Ethics in Finance",
+        "all": 5,
+        "removed": 5
+      },
+      {
+        "journal": "Higher Education: Handbook of Theory and Research",
+        "all": 5,
+        "removed": 5
+      },
+      {
+        "journal": "HIV and Gay Men",
+        "all": 5,
+        "removed": 5
+      },
+      {
+        "journal": "Internet of Things and Sensor Network for COVID-19",
+        "all": 5,
+        "removed": 5
+      },
+      {
+        "journal": "Machine Learning and AI for Healthcare",
+        "all": 5,
+        "removed": 5
+      },
+      {
+        "journal": "Organizational Toxin Handlers",
+        "all": 5,
+        "removed": 5
+      },
+      {
+        "journal": "Public Private Partnerships",
+        "all": 5,
+        "removed": 5
+      },
+      {
+        "journal": "Recent Advances in Technology Acceptance Models and Theories",
+        "all": 5,
+        "removed": 5
+      },
+      {
+        "journal": "Sex-Based Differences in Lung Physiology",
+        "all": 5,
+        "removed": 5
+      },
+      {
+        "journal": "South Africa–China Relations",
+        "all": 5,
+        "removed": 5
+      },
+      {
+        "journal": "Special Religious Education in Australia and its Value to Contemporary Society",
+        "all": 5,
+        "removed": 5
+      },
+      {
+        "journal": "Spheres of Transnational Ecoviolence",
+        "all": 5,
+        "removed": 5
+      },
+      {
+        "journal": "Sustainable Intelligent Systems",
+        "all": 5,
+        "removed": 5
+      },
+      {
+        "journal": "Synergetic Cities: Information, Steady State and Phase Transition",
+        "all": 5,
+        "removed": 5
+      },
+      {
+        "journal": "The Corporatization of American Health Care",
+        "all": 5,
+        "removed": 5
+      },
+      {
+        "journal": "The Future of HRD, Volume I",
+        "all": 5,
+        "removed": 5
+      },
+      {
+        "journal": "The Palgrave Handbook of Co-Production of Public Services and Outcomes",
+        "all": 5,
+        "removed": 5
+      },
+      {
+        "journal": "The Pricing Puzzle",
+        "all": 5,
+        "removed": 5
+      },
+      {
+        "journal": "The Statesman’s Yearbook 2021",
+        "all": 5,
+        "removed": 5
+      },
+      {
+        "journal": "The Values of Public Service Media in the Internet Society",
+        "all": 5,
+        "removed": 5
+      },
+      {
+        "journal": "Transforming Nations after the COVID-19 Pandemic",
+        "all": 5,
+        "removed": 5
+      },
+      {
+        "journal": "14th WCEAM Proceedings",
+        "all": 4,
+        "removed": 4
+      },
+      {
+        "journal": "AIDS Behav",
+        "all": 169,
+        "removed": 4
+      },
+      {
+        "journal": "Animal-Origin Viral Zoonoses",
+        "all": 4,
+        "removed": 4
+      },
+      {
+        "journal": "Beauty, Women's Bodies and the Law",
+        "all": 4,
+        "removed": 4
+      },
+      {
+        "journal": "Bioinformatik",
+        "all": 4,
+        "removed": 4
+      },
+      {
+        "journal": "China’s Macroeconomic Outlook",
+        "all": 4,
+        "removed": 4
+      },
+      {
+        "journal": "Computational Science and Technology",
+        "all": 4,
+        "removed": 4
+      },
+      {
+        "journal": "Contact Tracing in Post-Covid World",
+        "all": 4,
+        "removed": 4
+      },
+      {
+        "journal": "Contemporary Applications of Actor Network Theory",
+        "all": 4,
+        "removed": 4
+      },
+      {
+        "journal": "Contemporary Bone Marrow Transplantation",
+        "all": 4,
+        "removed": 4
+      },
+      {
+        "journal": "Curriculum Change within Policy and Practice",
+        "all": 4,
+        "removed": 4
+      },
+      {
+        "journal": "Democratic Vulnerability and Autocratic Meddling",
+        "all": 4,
+        "removed": 4
+      },
+      {
+        "journal": "Designing Internet of Things Solutions with Microsoft Azure",
+        "all": 4,
+        "removed": 4
+      },
+      {
+        "journal": "Diagnose en therapie 2013-2014",
+        "all": 4,
+        "removed": 4
+      },
+      {
+        "journal": "Donald Trump and the Kayfabe Presidency",
+        "all": 4,
+        "removed": 4
+      },
+      {
+        "journal": "Drug Allergy",
+        "all": 6,
+        "removed": 4
+      },
+      {
+        "journal": "From Economic to Energy Transition",
+        "all": 4,
+        "removed": 4
+      },
+      {
+        "journal": "From GDP to Sustainable Wellbeing",
+        "all": 4,
+        "removed": 4
+      },
+      {
+        "journal": "Great Minds in Entrepreneurship Research",
+        "all": 4,
+        "removed": 4
+      },
+      {
+        "journal": "Healthcare Ethics on Film",
+        "all": 4,
+        "removed": 4
+      },
+      {
+        "journal": "Implementing AI Systems",
+        "all": 4,
+        "removed": 4
+      },
+      {
+        "journal": "International Security Management",
+        "all": 4,
+        "removed": 4
+      },
+      {
+        "journal": "IoT in Healthcare and Ambient Assisted Living",
+        "all": 4,
+        "removed": 4
+      },
+      {
+        "journal": "Labour Under Corbyn",
+        "all": 4,
+        "removed": 4
+      },
+      {
+        "journal": "Low Carbon Energy in the Middle East and North Africa",
+        "all": 4,
+        "removed": 4
+      },
+      {
+        "journal": "Metaeconomics",
+        "all": 4,
+        "removed": 4
+      },
+      {
+        "journal": "Nanotechnology for Advances in Medical Microbiology",
+        "all": 4,
+        "removed": 4
+      },
+      {
+        "journal": "Navigating Big Finance and Big Technology for Global Change",
+        "all": 4,
+        "removed": 4
+      },
+      {
+        "journal": "Navigating Place-Based Learning",
+        "all": 4,
+        "removed": 4
+      },
+      {
+        "journal": "Post-Truth, Post-Press, Post-Europe",
+        "all": 4,
+        "removed": 4
+      },
+      {
+        "journal": "Prefects, Governors and Commissioners",
+        "all": 4,
+        "removed": 4
+      },
+      {
+        "journal": "Presidential Power Meets the Art of the Deal",
+        "all": 4,
+        "removed": 4
+      },
+      {
+        "journal": "Primary Care of the Solid Organ Transplant Recipient",
+        "all": 4,
+        "removed": 4
+      },
+      {
+        "journal": "Progress in Ethical Practices of Businesses",
+        "all": 4,
+        "removed": 4
+      },
+      {
+        "journal": "Promoting Healthy Human Relationships in Post-Apartheid South Africa",
+        "all": 4,
+        "removed": 4
+      },
+      {
+        "journal": "Public Health Informatics and Information Systems",
+        "all": 7,
+        "removed": 4
+      },
+      {
+        "journal": "Religion and the Technological Future",
+        "all": 4,
+        "removed": 4
+      },
+      {
+        "journal": "Service Oriented, Holonic and Multi-Agent Manufacturing Systems for Industry of the Future",
+        "all": 4,
+        "removed": 4
+      },
+      {
+        "journal": "Social Work Education, Research and Practice",
+        "all": 4,
+        "removed": 4
+      },
+      {
+        "journal": "Textbook of Personalized Medicine",
+        "all": 5,
+        "removed": 4
+      },
+      {
+        "journal": "The Collectin Protein Family and Its Multiple Biological Activities",
+        "all": 4,
+        "removed": 4
+      },
+      {
+        "journal": "The Dynamics of Peaceful and Violent Protests in Hong Kong",
+        "all": 4,
+        "removed": 4
+      },
+      {
+        "journal": "The Independent Director in Society",
+        "all": 4,
+        "removed": 4
+      },
+      {
+        "journal": "The Normalisation of Cyprus’ Partition Among Greek Cypriots",
+        "all": 4,
+        "removed": 4
+      },
+      {
+        "journal": "The Relativity of Theory",
+        "all": 4,
+        "removed": 4
+      },
+      {
+        "journal": "The Sustainability Communication Reader",
+        "all": 4,
+        "removed": 4
+      },
+      {
+        "journal": "The Trump Doctrine and the Emerging International System",
+        "all": 4,
+        "removed": 4
+      },
+      {
+        "journal": "Topics of Family Business Governance",
+        "all": 4,
+        "removed": 4
+      },
+      {
+        "journal": "Transnational Security Cooperation in the Mediterranean",
+        "all": 4,
+        "removed": 4
+      },
+      {
+        "journal": "Tropical Constrained Environments and Sustainable Adaptations",
+        "all": 4,
+        "removed": 4
+      },
+      {
+        "journal": "Yearbook of Intensive Care and Emergency Medicine 2005",
+        "all": 4,
+        "removed": 4
+      },
+      {
+        "journal": "\"Smart Technologies\" for Society, State and Economy",
+        "all": 3,
+        "removed": 3
+      },
+      {
+        "journal": "A Broad View of Regional Science",
+        "all": 3,
+        "removed": 3
+      },
+      {
+        "journal": "A History of Global Capitalism",
+        "all": 3,
+        "removed": 3
+      },
+      {
+        "journal": "Academic Activism in Higher Education",
+        "all": 3,
+        "removed": 3
+      },
+      {
+        "journal": "Advanced Technologies, Systems, and Applications V",
+        "all": 3,
+        "removed": 3
+      },
+      {
+        "journal": "Advances and New Trends in Environmental Informatics",
+        "all": 3,
+        "removed": 3
+      },
+      {
+        "journal": "Advances in Production Management Systems. The Path to Digital Transformation and Innovation of Production Management Systems",
+        "all": 3,
+        "removed": 3
+      },
+      {
+        "journal": "Advances on P2P, Parallel, Grid, Cloud and Internet Computing",
+        "all": 3,
+        "removed": 3
+      },
+      {
+        "journal": "Alternative Investment Operations",
+        "all": 3,
+        "removed": 3
+      },
+      {
+        "journal": "Applied Linguistics and Language Teaching in the Neo-Nationalist Era",
+        "all": 3,
+        "removed": 3
+      },
+      {
+        "journal": "Artificial Intelligence and Renewables Towards an Energy Transition",
+        "all": 3,
+        "removed": 3
+      },
+      {
+        "journal": "Asia-Africa Growth Corridor",
+        "all": 3,
+        "removed": 3
+      },
+      {
+        "journal": "Automating Cities",
+        "all": 3,
+        "removed": 3
+      },
+      {
+        "journal": "Benthic Foraminiferal Ecology",
+        "all": 3,
+        "removed": 3
+      },
+      {
+        "journal": "Bioclimatic Approaches in Urban and Building Design",
+        "all": 3,
+        "removed": 3
+      },
+      {
+        "journal": "Bioterrorism and Infectious Agents: A New Dilemma for the 21st Century",
+        "all": 6,
+        "removed": 3
+      },
+      {
+        "journal": "Capitalism and Environmental Collapse",
+        "all": 3,
+        "removed": 3
+      },
+      {
+        "journal": "Catastrophe and Higher Education",
+        "all": 3,
+        "removed": 3
+      },
+      {
+        "journal": "China’s Maritime Silk Road Initiative, Africa, and the Middle East",
+        "all": 3,
+        "removed": 3
+      },
+      {
+        "journal": "Citizenship and Religion",
+        "all": 3,
+        "removed": 3
+      },
+      {
+        "journal": "Climate Urbanism",
+        "all": 3,
+        "removed": 3
+      },
+      {
+        "journal": "Clinical Infectious Diseases Study Guide",
+        "all": 3,
+        "removed": 3
+      },
+      {
+        "journal": "Commander-in-Tweet",
+        "all": 3,
+        "removed": 3
+      },
+      {
+        "journal": "Conceptions of Giftedness and Talent",
+        "all": 3,
+        "removed": 3
+      },
+      {
+        "journal": "Corporate and Investment Banking",
+        "all": 3,
+        "removed": 3
+      },
+      {
+        "journal": "Creating a Culture of Innovation",
+        "all": 3,
+        "removed": 3
+      },
+      {
+        "journal": "Creativity in Management Education",
+        "all": 3,
+        "removed": 3
+      },
+      {
+        "journal": "Critical Perspectives of Educational Technology in Africa",
+        "all": 3,
+        "removed": 3
+      },
+      {
+        "journal": "Cultural Economy and Television in Jamaica and Ghana",
+        "all": 3,
+        "removed": 3
+      },
+      {
+        "journal": "Design of Supporting Systems for Life in Outer Space",
+        "all": 3,
+        "removed": 3
+      },
+      {
+        "journal": "Designing Digital Products for Kids",
+        "all": 3,
+        "removed": 3
+      },
+      {
+        "journal": "Diagnose en therapie 2011",
+        "all": 3,
+        "removed": 3
+      },
+      {
+        "journal": "Die globale Armut bekämpfen",
+        "all": 3,
+        "removed": 3
+      },
+      {
+        "journal": "Diet for a Sustainable Ecosystem",
+        "all": 3,
+        "removed": 3
+      },
+      {
+        "journal": "Digital Conversion on the Way to Industry 4.0",
+        "all": 3,
+        "removed": 3
+      },
+      {
+        "journal": "Digital Strategies in a Global Market",
+        "all": 3,
+        "removed": 3
+      },
+      {
+        "journal": "Digitized Statecraft in Multilateral Treaty Participation",
+        "all": 3,
+        "removed": 3
+      },
+      {
+        "journal": "Dipping in to the North",
+        "all": 3,
+        "removed": 3
+      },
+      {
+        "journal": "Endophytes",
+        "all": 3,
+        "removed": 3
+      },
+      {
+        "journal": "Enhancing Police Service Delivery",
+        "all": 3,
+        "removed": 3
+      },
+      {
+        "journal": "Equality",
+        "all": 3,
+        "removed": 3
+      },
+      {
+        "journal": "EU External Relations Law",
+        "all": 3,
+        "removed": 3
+      },
+      {
+        "journal": "Evolutionary Bioinformatics",
+        "all": 3,
+        "removed": 3
+      },
+      {
+        "journal": "Expertise at Work",
+        "all": 3,
+        "removed": 3
+      },
+      {
+        "journal": "Firewalls Don't Stop Dragons",
+        "all": 3,
+        "removed": 3
+      },
+      {
+        "journal": "Games and Simulations in Teacher Education",
+        "all": 3,
+        "removed": 3
+      },
+      {
+        "journal": "Handbook of Sustainable Development and Leisure Services",
+        "all": 3,
+        "removed": 3
+      },
+      {
+        "journal": "Health Justice in India",
+        "all": 3,
+        "removed": 3
+      },
+      {
+        "journal": "Huawei Goes Global",
+        "all": 3,
+        "removed": 3
+      },
+      {
+        "journal": "Human-Environment Interactions",
+        "all": 5,
+        "removed": 3
+      },
+      {
+        "journal": "Humanitarianism in the Asia-Pacific",
+        "all": 3,
+        "removed": 3
+      },
+      {
+        "journal": "Industrial Development and Eco-Tourisms",
+        "all": 3,
+        "removed": 3
+      },
+      {
+        "journal": "Integral Investing",
+        "all": 3,
+        "removed": 3
+      },
+      {
+        "journal": "Integrated Computer Technologies in Mechanical Engineering - 2020",
+        "all": 3,
+        "removed": 3
+      },
+      {
+        "journal": "Intergenerational Transmission and Economic Self-Sufficiency",
+        "all": 3,
+        "removed": 3
+      },
+      {
+        "journal": "Interne geneeskunde",
+        "all": 4,
+        "removed": 3
+      },
+      {
+        "journal": "Jump-start Your SOC Analyst Career",
+        "all": 3,
+        "removed": 3
+      },
+      {
+        "journal": "Macro, Micro, and Nano-Biosensors",
+        "all": 3,
+        "removed": 3
+      },
+      {
+        "journal": "Make Your Organization a Center of Innovation",
+        "all": 3,
+        "removed": 3
+      },
+      {
+        "journal": "Making Connected Mobility Work",
+        "all": 3,
+        "removed": 3
+      },
+      {
+        "journal": "Maritime Informatics",
+        "all": 3,
+        "removed": 3
+      },
+      {
+        "journal": "Media and Disaster Risk Reduction",
+        "all": 3,
+        "removed": 3
+      },
+      {
+        "journal": "NATO at 70",
+        "all": 3,
+        "removed": 3
+      },
+      {
+        "journal": "Negotiating Unity and Diversity in the European Union",
+        "all": 3,
+        "removed": 3
+      },
+      {
+        "journal": "Netherlands Yearbook of International Law 2019",
+        "all": 3,
+        "removed": 3
+      },
+      {
+        "journal": "New Ways of Working",
+        "all": 3,
+        "removed": 3
+      },
+      {
+        "journal": "Next Generation Culture Platforms for Reliable In Vitro Models",
+        "all": 3,
+        "removed": 3
+      },
+      {
+        "journal": "Nutrition, Sustainable Agriculture and Climate Change in Africa",
+        "all": 3,
+        "removed": 3
+      },
+      {
+        "journal": "Photography in Clinical Medicine",
+        "all": 3,
+        "removed": 3
+      },
+      {
+        "journal": "Pop with Gods, Shakespeare, and AI",
+        "all": 3,
+        "removed": 3
+      },
+      {
+        "journal": "Presence and the Political",
+        "all": 3,
+        "removed": 3
+      },
+      {
+        "journal": "Proceedings of the Second International Conference on Information Management and Machine Intelligence",
+        "all": 3,
+        "removed": 3
+      },
+      {
+        "journal": "Quantitative Risk Analysis of Air Pollution Health Effects",
+        "all": 3,
+        "removed": 3
+      },
+      {
+        "journal": "Resilience and Aging",
+        "all": 3,
+        "removed": 3
+      },
+      {
+        "journal": "Retirement Income Recipes in R",
+        "all": 3,
+        "removed": 3
+      },
+      {
+        "journal": "Rock the Tech Stage",
+        "all": 3,
+        "removed": 3
+      },
+      {
+        "journal": "Searching for New Welfare Models",
+        "all": 3,
+        "removed": 3
+      },
+      {
+        "journal": "Skin and the Heart",
+        "all": 3,
+        "removed": 3
+      },
+      {
+        "journal": "Sociophysics Approach to Epidemics",
+        "all": 3,
+        "removed": 3
+      },
+      {
+        "journal": "Statistik",
+        "all": 3,
+        "removed": 3
+      },
+      {
+        "journal": "Strategies in Sustainable Tourism, Economic Growth and Clean Energy",
+        "all": 3,
+        "removed": 3
+      },
+      {
+        "journal": "Systemic Cycle and Institutional Change",
+        "all": 3,
+        "removed": 3
+      },
+      {
+        "journal": "Template-based Management",
+        "all": 3,
+        "removed": 3
+      },
+      {
+        "journal": "The Digital Lives of Black Women in Britain",
+        "all": 3,
+        "removed": 3
+      },
+      {
+        "journal": "The Future of Global Affairs",
+        "all": 3,
+        "removed": 3
+      },
+      {
+        "journal": "The Future of HRD, Volume II",
+        "all": 3,
+        "removed": 3
+      },
+      {
+        "journal": "The Great Free Trade Myth",
+        "all": 3,
+        "removed": 3
+      },
+      {
+        "journal": "The Harms of Hate for Gypsies and Travellers",
+        "all": 3,
+        "removed": 3
+      },
+      {
+        "journal": "The Quest for a New International Aid Architecture",
+        "all": 3,
+        "removed": 3
+      },
+      {
+        "journal": "The Retreat of Liberal Democracy",
+        "all": 3,
+        "removed": 3
+      },
+      {
+        "journal": "Tourism Products and Services in Bangladesh",
+        "all": 3,
+        "removed": 3
+      },
+      {
+        "journal": "Urban Regionalisation Processes",
+        "all": 3,
+        "removed": 3
+      },
+      {
+        "journal": "Values and Corporate Responsibility",
+        "all": 3,
+        "removed": 3
+      },
+      {
+        "all": 9185,
+        "removed": 3
+      },
+      {
+        "journal": "A Python Data Analyst’s Toolkit",
+        "all": 2,
+        "removed": 2
+      },
+      {
+        "journal": "A Social History of Sheffield Boxing, Volume II",
+        "all": 2,
+        "removed": 2
+      },
+      {
+        "journal": "Academic Literacy Development",
+        "all": 3,
+        "removed": 2
+      },
+      {
+        "journal": "Academic Tourism",
+        "all": 2,
+        "removed": 2
+      },
+      {
+        "journal": "Advanced Multimedia and Ubiquitous Engineering",
+        "all": 2,
+        "removed": 2
+      },
+      {
+        "journal": "Advances and Applications in Computer Science, Electronics and Industrial Engineering",
+        "all": 2,
+        "removed": 2
+      },
+      {
+        "journal": "Advances in Automation II",
+        "all": 2,
+        "removed": 2
+      },
+      {
+        "journal": "Advances in Design, Music and Arts",
+        "all": 2,
+        "removed": 2
+      },
+      {
+        "journal": "Advances on Broad-Band Wireless Computing, Communication and Applications",
+        "all": 2,
+        "removed": 2
+      },
+      {
+        "journal": "Advancing International Human Rights Law Responsibilities of Development NGOs",
+        "all": 2,
+        "removed": 2
+      },
+      {
+        "journal": "An Environmental Life Cycle Approach to Design",
+        "all": 2,
+        "removed": 2
+      },
+      {
+        "journal": "Anesthesiologie",
+        "all": 2,
+        "removed": 2
+      },
+      {
+        "journal": "Aspects of the Energy Union",
+        "all": 2,
+        "removed": 2
+      },
+      {
+        "journal": "Australian Public Opinion, Defence and Foreign Policy",
+        "all": 2,
+        "removed": 2
+      },
+      {
+        "journal": "Azure SQL Revealed",
+        "all": 2,
+        "removed": 2
+      },
+      {
+        "journal": "Banking & Innovation 2020/2021",
+        "all": 2,
+        "removed": 2
+      },
+      {
+        "journal": "Basiswissen Allgemeinmedizin",
+        "all": 2,
+        "removed": 2
+      },
+      {
+        "journal": "Bhutan: Conservation and Environmental Protection in the Himalayas",
+        "all": 2,
+        "removed": 2
+      },
+      {
+        "journal": "Big Breaches",
+        "all": 2,
+        "removed": 2
+      },
+      {
+        "journal": "Bioanalytik für Einsteiger",
+        "all": 2,
+        "removed": 2
+      },
+      {
+        "journal": "Biosensors in Agriculture: Recent Trends and Future Perspectives",
+        "all": 2,
+        "removed": 2
+      },
+      {
+        "journal": "Blockchain Enabled Applications",
+        "all": 2,
+        "removed": 2
+      },
+      {
+        "journal": "Blockchain Technology for IoT Applications",
+        "all": 2,
+        "removed": 2
+      },
+      {
+        "journal": "Brazil-Africa Relations in the 21st Century",
+        "all": 2,
+        "removed": 2
+      },
+      {
+        "journal": "Challenges of Globalization and Prospects for an Inter-civilizational World Order",
+        "all": 2,
+        "removed": 2
+      },
+      {
+        "journal": "China's Economic Rise",
+        "all": 2,
+        "removed": 2
+      },
+      {
+        "journal": "Cities, Capitalism and the Politics of Sensibilities",
+        "all": 2,
+        "removed": 2
+      },
+      {
+        "journal": "Climate Change, Disaster Risks, and Human Security",
+        "all": 2,
+        "removed": 2
+      },
+      {
+        "journal": "Comprehensive Healthcare Simulation: Implementing Best Practices in Standardized Patient Methodology",
+        "all": 2,
+        "removed": 2
+      },
+      {
+        "journal": "Computational Mathematics and Applications",
+        "all": 2,
+        "removed": 2
+      },
+      {
+        "journal": "Computer-Aided Drug Design",
+        "all": 2,
+        "removed": 2
+      },
+      {
+        "journal": "Conservation of Tropical Coral Reefs",
+        "all": 2,
+        "removed": 2
+      },
+      {
+        "journal": "Contactless Human Activity Analysis",
+        "all": 2,
+        "removed": 2
+      },
+      {
+        "journal": "Contract Research and Development Organizations-Their History, Selection, and Utilization",
+        "all": 2,
+        "removed": 2
+      },
+      {
+        "journal": "CONTROLO 2020",
+        "all": 2,
+        "removed": 2
+      },
+      {
+        "journal": "Critical Perspectives on Teaching, Learning and Leadership",
+        "all": 2,
+        "removed": 2
+      },
+      {
+        "journal": "Cross-Chain Collaboration in Logistics",
+        "all": 2,
+        "removed": 2
+      },
+      {
+        "journal": "Current Advances in Mechanical Engineering",
+        "all": 2,
+        "removed": 2
+      },
+      {
+        "journal": "Curriculum Challenges and Opportunities in a Changing World",
+        "all": 2,
+        "removed": 2
+      },
+      {
+        "journal": "Data Lake Analytics on Microsoft Azure",
+        "all": 2,
+        "removed": 2
+      },
+      {
+        "journal": "Data Protection Around the World",
+        "all": 2,
+        "removed": 2
+      },
+      {
+        "journal": "Data Science Solutions on Azure",
+        "all": 2,
+        "removed": 2
+      },
+      {
+        "journal": "Decoding Blockchain for Business",
+        "all": 2,
+        "removed": 2
+      },
+      {
+        "journal": "Design of Experiments and Advanced Statistical Techniques in Clinical Research",
+        "all": 2,
+        "removed": 2
+      },
+      {
+        "journal": "Diagnose en therapie 2010",
+        "all": 2,
+        "removed": 2
+      },
+      {
+        "journal": "Digital Supply Chains and the Human Factor",
+        "all": 2,
+        "removed": 2
+      },
+      {
+        "journal": "Digital Surgery",
+        "all": 2,
+        "removed": 2
+      },
+      {
+        "journal": "Doing Business in Africa",
+        "all": 2,
+        "removed": 2
+      },
+      {
+        "journal": "Dynamics of Disasters",
+        "all": 2,
+        "removed": 2
+      },
+      {
+        "journal": "Empowering African Women for Sustainable Development",
+        "all": 2,
+        "removed": 2
+      },
+      {
+        "journal": "Entrepreneurship in Regional Communities",
+        "all": 2,
+        "removed": 2
+      },
+      {
+        "journal": "Environment and Development",
+        "all": 2,
+        "removed": 2
+      },
+      {
+        "journal": "Environment, Development and Sustainability in India: Perspectives, Issues and Alternatives",
+        "all": 2,
+        "removed": 2
+      },
+      {
+        "journal": "Essentials of Blood Product Management in Anesthesia Practice",
+        "all": 2,
+        "removed": 2
+      },
+      {
+        "journal": "European Representation in EU National Parliaments",
+        "all": 2,
+        "removed": 2
+      },
+      {
+        "journal": "Evidence-Based Teaching for the 21st Century Classroom and Beyond",
+        "all": 2,
+        "removed": 2
+      },
+      {
+        "journal": "Evil as a Crime Against Humanity",
+        "all": 2,
+        "removed": 2
+      },
+      {
+        "journal": "Extinction Rebellion and Climate Change Activism",
+        "all": 2,
+        "removed": 2
+      },
+      {
+        "journal": "Facet Theory and the Mapping Sentence",
+        "all": 2,
+        "removed": 2
+      },
+      {
+        "journal": "Feminist New Materialisms, Sport and Fitness",
+        "all": 2,
+        "removed": 2
+      },
+      {
+        "journal": "Flow of Funds Analysis",
+        "all": 2,
+        "removed": 2
+      },
+      {
+        "journal": "Fundamental Theories of Business Communication",
+        "all": 2,
+        "removed": 2
+      },
+      {
+        "journal": "Globalization and Sustainable Growth in China",
+        "all": 2,
+        "removed": 2
+      },
+      {
+        "journal": "Governing the Anthropocene",
+        "all": 2,
+        "removed": 2
+      },
+      {
+        "journal": "Handbook of Evidence-Based Therapies for Children and Adolescents",
+        "all": 2,
+        "removed": 2
+      },
+      {
+        "journal": "High Performance Computing",
+        "all": 31,
+        "removed": 2
+      },
+      {
+        "journal": "Infection Management in Hematology",
+        "all": 2,
+        "removed": 2
+      },
+      {
+        "journal": "Infrastructure Planning and Management: An Integrated Approach",
+        "all": 2,
+        "removed": 2
+      },
+      {
+        "journal": "Innovating Christian Education Research",
+        "all": 2,
+        "removed": 2
+      },
+      {
+        "journal": "Innovation Intermediaries and (Final) Frontiers of High-tech",
+        "all": 2,
+        "removed": 2
+      },
+      {
+        "journal": "Integrating Culture in Successful RIA Mergers and Acquisitions",
+        "all": 2,
+        "removed": 2
+      },
+      {
+        "journal": "Integrative Human Biochemistry",
+        "all": 2,
+        "removed": 2
+      },
+      {
+        "journal": "Intellectual Freedom and the Culture Wars",
+        "all": 2,
+        "removed": 2
+      },
+      {
+        "journal": "Intelligent Technologies and Applications",
+        "all": 2,
+        "removed": 2
+      },
+      {
+        "journal": "Intercultural Competence for College and University Students",
+        "all": 2,
+        "removed": 2
+      },
+      {
+        "journal": "International Joint Double Degrees and International Transitions in Higher Education",
+        "all": 2,
+        "removed": 2
+      },
+      {
+        "journal": "Interpersonal Interactions and Language Learning",
+        "all": 2,
+        "removed": 2
+      },
+      {
+        "journal": "Introduction to Algorithmic Government",
+        "all": 2,
+        "removed": 2
+      },
+      {
+        "journal": "Ireland and the Climate Crisis",
+        "all": 2,
+        "removed": 2
+      },
+      {
+        "journal": "Irish and British Reflections on Catholic Education",
+        "all": 2,
+        "removed": 2
+      },
+      {
+        "journal": "Kazakhstan’s Developmental Journey",
+        "all": 2,
+        "removed": 2
+      },
+      {
+        "journal": "Land Issues for Urban Governance in Sub-Saharan Africa",
+        "all": 2,
+        "removed": 2
+      },
+      {
+        "journal": "Language Learning in Anglophone Countries",
+        "all": 2,
+        "removed": 2
+      },
+      {
+        "journal": "Leadership and Strategic Foresight in Smart Cities",
+        "all": 2,
+        "removed": 2
+      },
+      {
+        "journal": "Liver Failure",
+        "all": 2,
+        "removed": 2
+      },
+      {
+        "journal": "Liver Immunology",
+        "all": 5,
+        "removed": 2
+      },
+      {
+        "journal": "Ludic, Co-design and Tools Supporting Smart Learning Ecosystems and Smart Education",
+        "all": 2,
+        "removed": 2
+      },
+      {
+        "journal": "Marine Niche: Applications in Pharmaceutical Sciences",
+        "all": 2,
+        "removed": 2
+      },
+      {
+        "journal": "Mass Challenge",
+        "all": 2,
+        "removed": 2
+      },
+      {
+        "journal": "Medical Research and Innovation",
+        "all": 2,
+        "removed": 2
+      },
+      {
+        "journal": "Methodological Prospects for Scientific Research",
+        "all": 2,
+        "removed": 2
+      },
+      {
+        "journal": "Monetary Policy in Rwanda",
+        "all": 2,
+        "removed": 2
+      },
+      {
+        "journal": "Money",
+        "all": 2,
+        "removed": 2
+      },
+      {
+        "journal": "Multi-Layered Diplomacy in a Global State",
+        "all": 2,
+        "removed": 2
+      },
+      {
+        "journal": "Nanotechnology in Medicine",
+        "all": 2,
+        "removed": 2
+      },
+      {
+        "journal": "Narrative Inquiry into Reciprocal Learning Between Canada-China Sister Schools",
+        "all": 2,
+        "removed": 2
+      },
+      {
+        "journal": "Narratives of Migration, Relocation and Belonging",
+        "all": 2,
+        "removed": 2
+      },
+      {
+        "journal": "Navigating Digital Health Landscapes",
+        "all": 2,
+        "removed": 2
+      },
+      {
+        "journal": "Networks in Systems Biology",
+        "all": 2,
+        "removed": 2
+      },
+      {
+        "journal": "Nursing Ethics: Feminist Perspectives",
+        "all": 2,
+        "removed": 2
+      },
+      {
+        "journal": "Online Family Dispute Resolution",
+        "all": 2,
+        "removed": 2
+      },
+      {
+        "journal": "Pain Control in Ambulatory Surgery Centers",
+        "all": 2,
+        "removed": 2
+      },
+      {
+        "journal": "Pedagogy, Education, and Praxis in Critical Times",
+        "all": 2,
+        "removed": 2
+      },
+      {
+        "journal": "Performing Ruins",
+        "all": 2,
+        "removed": 2
+      },
+      {
+        "journal": "Peruvian Cinema of the Twenty-First Century",
+        "all": 2,
+        "removed": 2
+      },
+      {
+        "journal": "Political Marketing in the 2019 Canadian Federal Election",
+        "all": 2,
+        "removed": 2
+      },
+      {
+        "journal": "Practical Machine Learning in JavaScript",
+        "all": 2,
+        "removed": 2
+      },
+      {
+        "journal": "Practical Python Data Visualization",
+        "all": 2,
+        "removed": 2
+      },
+      {
+        "journal": "Principles and Practice of Maternal Critical Care",
+        "all": 2,
+        "removed": 2
+      },
+      {
+        "journal": "Proceeding of First Doctoral Symposium on Natural Computing Research",
+        "all": 2,
+        "removed": 2
+      },
+      {
+        "journal": "Proceedings of 3rd International Conference on Computing Informatics and Networks",
+        "all": 2,
+        "removed": 2
+      },
+      {
+        "journal": "Proceedings of the 27th International Conference on Systems Engineering, ICSEng 2020",
+        "all": 2,
+        "removed": 2
+      },
+      {
+        "journal": "Professional Discourses, Gender and Identity in Women's Media",
+        "all": 2,
+        "removed": 2
+      },
+      {
+        "journal": "Prophylactic Surgery",
+        "all": 2,
+        "removed": 2
+      },
+      {
+        "journal": "Public Health Ethics: Cases Spanning the Globe",
+        "all": 2,
+        "removed": 2
+      },
+      {
+        "journal": "Reading the Early Modern English Diary",
+        "all": 2,
+        "removed": 2
+      },
+      {
+        "journal": "Recent Research in Control Engineering and Decision Making",
+        "all": 2,
+        "removed": 2
+      },
+      {
+        "journal": "Relational Vulnerability",
+        "all": 2,
+        "removed": 2
+      },
+      {
+        "journal": "Reliability Assessment of Safety and Production Systems",
+        "all": 2,
+        "removed": 2
+      },
+      {
+        "journal": "Religious Identities and the Global South",
+        "all": 2,
+        "removed": 2
+      },
+      {
+        "journal": "Respiratory Monitoring in Mechanical Ventilation",
+        "all": 2,
+        "removed": 2
+      },
+      {
+        "journal": "Sepsis Management in Resource-limited Settings",
+        "all": 2,
+        "removed": 2
+      },
+      {
+        "journal": "Sharing Cities 2020",
+        "all": 2,
+        "removed": 2
+      },
+      {
+        "journal": "Smart and Sustainable Planning for Cities and Regions",
+        "all": 3,
+        "removed": 2
+      },
+      {
+        "journal": "Smart and Sustainable Supply Chain and Logistics – Trends, Challenges, Methods and Best Practices",
+        "all": 2,
+        "removed": 2
+      },
+      {
+        "journal": "Social Networks - The Modern-Day Family",
+        "all": 2,
+        "removed": 2
+      },
+      {
+        "journal": "Speeksel, speekselklieren en mondgezondheid",
+        "all": 2,
+        "removed": 2
+      },
+      {
+        "journal": "Structural Transformation of Bangladesh Economy",
+        "all": 2,
+        "removed": 2
+      },
+      {
+        "journal": "Successfully Negotiating in Asia",
+        "all": 2,
+        "removed": 2
+      },
+      {
+        "journal": "Sustainability in Energy and Buildings 2020",
+        "all": 2,
+        "removed": 2
+      },
+      {
+        "journal": "Sustainability Leadership",
+        "all": 2,
+        "removed": 2
+      },
+      {
+        "journal": "Sustainable Consumption and Production, Volume I",
+        "all": 2,
+        "removed": 2
+      },
+      {
+        "journal": "Sustainable Development and Communication in Global Food Networks",
+        "all": 2,
+        "removed": 2
+      },
+      {
+        "journal": "Sustainable Energy Transitions",
+        "all": 2,
+        "removed": 2
+      },
+      {
+        "journal": "Sustainable Solutions for Elemental Deficiency and Excess in Crop Plants",
+        "all": 2,
+        "removed": 2
+      },
+      {
+        "journal": "Taiwan—A Light in the East",
+        "all": 2,
+        "removed": 2
+      },
+      {
+        "journal": "Teachers Can Be Financially Fit",
+        "all": 2,
+        "removed": 2
+      },
+      {
+        "journal": "Textbook of Clinical Otolaryngology",
+        "all": 2,
+        "removed": 2
+      },
+      {
+        "journal": "The Border Dispute Between Croatia and Slovenia",
+        "all": 2,
+        "removed": 2
+      },
+      {
+        "journal": "The Chief Data Officer Management Handbook",
+        "all": 2,
+        "removed": 2
+      },
+      {
+        "journal": "The Cultural Life of Machine Learning",
+        "all": 3,
+        "removed": 2
+      },
+      {
+        "journal": "The EBMT Handbook",
+        "all": 2,
+        "removed": 2
+      },
+      {
+        "journal": "The Empty Sea",
+        "all": 2,
+        "removed": 2
+      },
+      {
+        "journal": "The EU Migration System of Governance",
+        "all": 2,
+        "removed": 2
+      },
+      {
+        "journal": "The European Blood and Marrow Transplantation Textbook for Nurses",
+        "all": 2,
+        "removed": 2
+      },
+      {
+        "journal": "The European Union’s New Foreign Policy",
+        "all": 2,
+        "removed": 2
+      },
+      {
+        "journal": "The Globalization of China’s Health Industry",
+        "all": 2,
+        "removed": 2
+      },
+      {
+        "journal": "The Handbook of Displacement",
+        "all": 2,
+        "removed": 2
+      },
+      {
+        "journal": "The Palgrave Handbook of Corporate Sustainability in the Digital Era",
+        "all": 2,
+        "removed": 2
+      },
+      {
+        "journal": "The Palgrave Handbook of EU Crises",
+        "all": 2,
+        "removed": 2
+      },
+      {
+        "journal": "The Palgrave Handbook of Global Social Work Education",
+        "all": 2,
+        "removed": 2
+      },
+      {
+        "journal": "The Palgrave Handbook of Twentieth and Twenty-First Century Literature and Science",
+        "all": 2,
+        "removed": 2
+      },
+      {
+        "journal": "The Politics of Spatial Transgressions in the Arts",
+        "all": 2,
+        "removed": 2
+      },
+      {
+        "journal": "The Psychology of Political Behavior in a Time of Change",
+        "all": 2,
+        "removed": 2
+      },
+      {
+        "journal": "The Regulation of Hedge Funds",
+        "all": 2,
+        "removed": 2
+      },
+      {
+        "journal": "The Struggle for Redress",
+        "all": 2,
+        "removed": 2
+      },
+      {
+        "journal": "The Value of Luxury",
+        "all": 2,
+        "removed": 2
+      },
+      {
+        "journal": "The Worlding of the South African Novel",
+        "all": 2,
+        "removed": 2
+      },
+      {
+        "journal": "Theoretical Approaches to Economic Growth and Development",
+        "all": 2,
+        "removed": 2
+      },
+      {
+        "journal": "Time, Progress, Growth and Technology",
+        "all": 2,
+        "removed": 2
+      },
+      {
+        "journal": "Tourism Policy and Planning in Bangladesh",
+        "all": 2,
+        "removed": 2
+      },
+      {
+        "journal": "Toxic Chemical and Biological Agents",
+        "all": 2,
+        "removed": 2
+      },
+      {
+        "journal": "Transactions on Engineering Technologies",
+        "all": 2,
+        "removed": 2
+      },
+      {
+        "journal": "Trauma Induced Coagulopathy",
+        "all": 4,
+        "removed": 2
+      },
+      {
+        "journal": "Travels with Curiosity",
+        "all": 2,
+        "removed": 2
+      },
+      {
+        "journal": "Unpacking EU Policy-Making towards China",
+        "all": 2,
+        "removed": 2
+      },
+      {
+        "journal": "Urban Inequalities",
+        "all": 2,
+        "removed": 2
+      },
+      {
+        "journal": "US Energy Diplomacy in the Caspian Sea Basin",
+        "all": 2,
+        "removed": 2
+      },
+      {
+        "journal": "Violence, Gender and Affect",
+        "all": 2,
+        "removed": 2
+      },
+      {
+        "journal": "Visual Sociology",
+        "all": 2,
+        "removed": 2
+      },
+      {
+        "journal": "Vocational Education in the Fourth Industrial Revolution",
+        "all": 2,
+        "removed": 2
+      },
+      {
+        "journal": "Women in the International Film Industry",
+        "all": 2,
+        "removed": 2
+      },
+      {
+        "journal": "Women Leaders in School Psychology",
+        "all": 2,
+        "removed": 2
+      },
+      {
+        "journal": "Woordenboek geneeskunde en biomedische wetenschappen E-N/N-E",
+        "all": 2,
+        "removed": 2
+      },
+      {
+        "journal": "Work-life Integration in Africa",
+        "all": 2,
+        "removed": 2
+      },
+      {
+        "journal": "Zero Trust Security",
+        "all": 2,
+        "removed": 2
+      },
+      {
+        "journal": "Ziekten in de huisartspraktijk",
+        "all": 2,
+        "removed": 2
+      },
+      {
+        "journal": "11th World Conference “Intelligent System for Industrial Automation” (WCIS-2020)",
+        "all": 1,
+        "removed": 1
+      },
+      {
+        "journal": "21st Century Sports",
+        "all": 1,
+        "removed": 1
+      },
+      {
+        "journal": "A Contemporary Theory of Mathematics Education Research",
+        "all": 1,
+        "removed": 1
+      },
+      {
+        "journal": "A Dialogue on Institutions",
+        "all": 1,
+        "removed": 1
+      },
+      {
+        "journal": "A Jurisprudence of the Body",
+        "all": 1,
+        "removed": 1
+      },
+      {
+        "journal": "A Planetary Economy",
+        "all": 1,
+        "removed": 1
+      },
+      {
+        "journal": "A Political History of Big Science",
+        "all": 1,
+        "removed": 1
+      },
+      {
+        "journal": "Academic Freedom Under Siege",
+        "all": 1,
+        "removed": 1
+      },
+      {
+        "journal": "Additive Manufacturing Technologies",
+        "all": 1,
+        "removed": 1
+      },
+      {
+        "journal": "Adult Education as Empowerment",
+        "all": 1,
+        "removed": 1
+      },
+      {
+        "journal": "Advanced Concepts in Human Immunology: Prospects for Disease Control",
+        "all": 1,
+        "removed": 1
+      },
+      {
+        "journal": "Advanced Platform Development with Kubernetes",
+        "all": 1,
+        "removed": 1
+      },
+      {
+        "journal": "Advances in Diagnostics of Processes and Systems",
+        "all": 1,
+        "removed": 1
+      },
+      {
+        "journal": "Advances in Engineering Research and Application",
+        "all": 1,
+        "removed": 1
+      },
+      {
+        "journal": "Advances in Industrial and Production Engineering",
+        "all": 1,
+        "removed": 1
+      },
+      {
+        "journal": "Advances in Production Management Systems. Towards Smart and Digital Manufacturing",
+        "all": 1,
+        "removed": 1
+      },
+      {
+        "journal": "Advances in Smart Communication Technology and Information Processing",
+        "all": 1,
+        "removed": 1
+      },
+      {
+        "journal": "Advancing Information Systems Theories",
+        "all": 1,
+        "removed": 1
+      },
+      {
+        "journal": "Affect, Gender and Sexuality in Latin America",
+        "all": 1,
+        "removed": 1
+      },
+      {
+        "journal": "African Gold",
+        "all": 1,
+        "removed": 1
+      },
+      {
+        "journal": "Agents and Artificial Intelligence",
+        "all": 1,
+        "removed": 1
+      },
+      {
+        "journal": "Agro and Food Processing Industry in India",
+        "all": 1,
+        "removed": 1
+      },
+      {
+        "journal": "Air Traffic Management and Systems IV",
+        "all": 1,
+        "removed": 1
+      },
+      {
+        "journal": "Air Travel Fiction and Film",
+        "all": 1,
+        "removed": 1
+      },
+      {
+        "journal": "Algemene ziekteleer",
+        "all": 1,
+        "removed": 1
+      },
+      {
+        "journal": "Algorithmic Governance and Governance of Algorithms",
+        "all": 1,
+        "removed": 1
+      },
+      {
+        "journal": "Alzheimer’s Disease",
+        "all": 1,
+        "removed": 1
+      },
+      {
+        "journal": "Am J Cardiovasc Drugs",
+        "all": 18,
+        "removed": 1
+      },
+      {
+        "journal": "American Cinema and Cultural Diplomacy",
+        "all": 1,
+        "removed": 1
+      },
+      {
+        "journal": "American Grand Strategy from Obama to Trump",
+        "all": 1,
+        "removed": 1
+      },
+      {
+        "journal": "Amino Acids in Nutrition and Health",
+        "all": 1,
+        "removed": 1
+      },
+      {
+        "journal": "An Introduction to Sequential Monte Carlo",
+        "all": 1,
+        "removed": 1
+      },
+      {
+        "journal": "Anaesthesia for Uncommon and Emerging Procedures",
+        "all": 1,
+        "removed": 1
+      },
+      {
+        "journal": "Analytical Methods in Statistics",
+        "all": 1,
+        "removed": 1
+      },
+      {
+        "journal": "Anglo-Indian Identity",
+        "all": 1,
+        "removed": 1
+      },
+      {
+        "journal": "Antimicrobials in Livestock 1: Regulation, Science, Practice",
+        "all": 1,
+        "removed": 1
+      },
+      {
+        "journal": "Application of Intelligent Systems in Multi-modal Information Analytics",
+        "all": 1,
+        "removed": 1
+      },
+      {
+        "journal": "Applications in Electronics Pervading Industry, Environment and Society",
+        "all": 1,
+        "removed": 1
+      },
+      {
+        "journal": "Applied Data Science Using PySpark",
+        "all": 1,
+        "removed": 1
+      },
+      {
+        "journal": "Applying Data Science",
+        "all": 1,
+        "removed": 1
+      },
+      {
+        "journal": "Art Cinema and Neoliberalism",
+        "all": 1,
+        "removed": 1
+      },
+      {
+        "journal": "Artificial Intelligence for Sustainable Development: Theory, Practice and Future Applications",
+        "all": 1,
+        "removed": 1
+      },
+      {
+        "journal": "Artificial Intelligence in Daily Life",
+        "all": 1,
+        "removed": 1
+      },
+      {
+        "journal": "Artificial Neural Networks with TensorFlow 2",
+        "all": 1,
+        "removed": 1
+      },
+      {
+        "journal": "Asset Management at Central Banks and Monetary Authorities",
+        "all": 1,
+        "removed": 1
+      },
+      {
+        "journal": "Astrophotography is Easy!",
+        "all": 1,
+        "removed": 1
+      },
+      {
+        "journal": "Atlas of Oral Microbiology: From Healthy Microflora to Disease",
+        "all": 1,
+        "removed": 1
+      },
+      {
+        "journal": "Atrophic Rhinitis",
+        "all": 1,
+        "removed": 1
+      },
+      {
+        "journal": "Autonomy, Rights and Children with Special Educational Needs",
+        "all": 1,
+        "removed": 1
+      },
+      {
+        "journal": "Basisverpleegkunde",
+        "all": 2,
+        "removed": 1
+      },
+      {
+        "journal": "Basiszorg Boek 1",
+        "all": 1,
+        "removed": 1
+      },
+      {
+        "journal": "Beckett and Politics",
+        "all": 1,
+        "removed": 1
+      },
+      {
+        "journal": "Become ITIL® 4 Foundation Certified in 7 Days",
+        "all": 1,
+        "removed": 1
+      },
+      {
+        "journal": "Beginning C++20",
+        "all": 1,
+        "removed": 1
+      },
+      {
+        "journal": "Beginning Data Science, IoT, and AI on Single Board Computers",
+        "all": 1,
+        "removed": 1
+      },
+      {
+        "journal": "Behavior and Evolutionary Dynamics in Crowd Networks",
+        "all": 1,
+        "removed": 1
+      },
+      {
+        "journal": "Belonging, Identity, Time and Young People’s Engagement in the Middle Years of School",
+        "all": 1,
+        "removed": 1
+      },
+      {
+        "journal": "Benign Hematologic Disorders in Children",
+        "all": 1,
+        "removed": 1
+      },
+      {
+        "journal": "Beyond the Knowledge Crisis",
+        "all": 1,
+        "removed": 1
+      },
+      {
+        "journal": "Big Data in Emergency Management: Exploitation Techniques for Social and Mobile Data",
+        "all": 1,
+        "removed": 1
+      },
+      {
+        "journal": "Biochemie und Pathobiochemie",
+        "all": 1,
+        "removed": 1
+      },
+      {
+        "journal": "Bioinformatics for agriculture: High-throughput approaches",
+        "all": 1,
+        "removed": 1
+      },
+      {
+        "journal": "Biomedical Materials",
+        "all": 1,
+        "removed": 1
+      },
+      {
+        "journal": "BioMEMS",
+        "all": 1,
+        "removed": 1
+      },
+      {
+        "journal": "Black cumin (Nigella sativa) seeds: Chemistry, Technology, Functionality, and Applications",
+        "all": 1,
+        "removed": 1
+      },
+      {
+        "journal": "Blackpool in Film and Popular Music",
+        "all": 1,
+        "removed": 1
+      },
+      {
+        "journal": "Blockchain, Law and Governance",
+        "all": 1,
+        "removed": 1
+      },
+      {
+        "journal": "Boekblok Arbeid en Belastbaarheid",
+        "all": 1,
+        "removed": 1
+      },
+      {
+        "journal": "Britain and Norway in Europe Since 1945",
+        "all": 1,
+        "removed": 1
+      },
+      {
+        "journal": "Britain and the Growth of US Hegemony in Twentieth-Century Latin America",
+        "all": 1,
+        "removed": 1
+      },
+      {
+        "journal": "Build Your Own Car Dashboard with a Raspberry Pi",
+        "all": 1,
+        "removed": 1
+      },
+      {
+        "journal": "Building a Career in Software",
+        "all": 1,
+        "removed": 1
+      },
+      {
+        "journal": "Burn Care and Treatment",
+        "all": 2,
+        "removed": 1
+      },
+      {
+        "journal": "C++20 for Lazy Programmers",
+        "all": 1,
+        "removed": 1
+      },
+      {
+        "journal": "Cardiac Anesthesia",
+        "all": 1,
+        "removed": 1
+      },
+      {
+        "journal": "Cardiac Bioelectric Therapy",
+        "all": 1,
+        "removed": 1
+      },
+      {
+        "journal": "Care and Care Workers",
+        "all": 1,
+        "removed": 1
+      },
+      {
+        "journal": "Cataract Surgery",
+        "all": 1,
+        "removed": 1
+      },
+      {
+        "journal": "Cell Engineering and Regeneration",
+        "all": 1,
+        "removed": 1
+      },
+      {
+        "journal": "Chalk Talks in Internal Medicine",
+        "all": 1,
+        "removed": 1
+      },
+      {
+        "journal": "Challenges in Rhinology",
+        "all": 1,
+        "removed": 1
+      },
+      {
+        "journal": "Challenges of Governance",
+        "all": 1,
+        "removed": 1
+      },
+      {
+        "journal": "Civil Aviation and the Globalization of the Cold War",
+        "all": 1,
+        "removed": 1
+      },
+      {
+        "journal": "Climate Resilient Urban Areas",
+        "all": 1,
+        "removed": 1
+      },
+      {
+        "journal": "Clinical Significance of C-reactive Protein",
+        "all": 1,
+        "removed": 1
+      },
+      {
+        "journal": "Clinical Xenotransplantation",
+        "all": 1,
+        "removed": 1
+      },
+      {
+        "journal": "Closing the Gender Pay Gap in Medicine",
+        "all": 1,
+        "removed": 1
+      },
+      {
+        "journal": "Cloud Computing Basics",
+        "all": 1,
+        "removed": 1
+      },
+      {
+        "journal": "Collaborative Praxis and Contemporary Art Experiments in the MENASA Region",
+        "all": 1,
+        "removed": 1
+      },
+      {
+        "journal": "Communication of Smart Media",
+        "all": 1,
+        "removed": 1
+      },
+      {
+        "journal": "Community Engagement for Better Schools",
+        "all": 1,
+        "removed": 1
+      },
+      {
+        "journal": "Comparative Economic Studies in Europe",
+        "all": 1,
+        "removed": 1
+      },
+      {
+        "journal": "Compelling Ethical Challenges in Critical Care and Emergency Medicine",
+        "all": 1,
+        "removed": 1
+      },
+      {
+        "journal": "Compendium kindergeneeskunde",
+        "all": 3,
+        "removed": 1
+      },
+      {
+        "journal": "Computational Epidemiology",
+        "all": 1,
+        "removed": 1
+      },
+      {
+        "journal": "Concepts, Applications, Experimentation and Analysis of Wireless Sensor Networks",
+        "all": 1,
+        "removed": 1
+      },
+      {
+        "journal": "Conceptual and Methodological Approaches to Navigating Immigrant Ecologies",
+        "all": 1,
+        "removed": 1
+      },
+      {
+        "journal": "Connecting Healthcare Worker Well-Being, Patient Safety and Organisational Change",
+        "all": 1,
+        "removed": 1
+      },
+      {
+        "journal": "Cooperatives and Social Innovation",
+        "all": 1,
+        "removed": 1
+      },
+      {
+        "journal": "Creating a Lifestyle Medicine Center",
+        "all": 1,
+        "removed": 1
+      },
+      {
+        "journal": "CRISPR Crops",
+        "all": 1,
+        "removed": 1
+      },
+      {
+        "journal": "Cultural Industries and the Environmental Crisis",
+        "all": 1,
+        "removed": 1
+      },
+      {
+        "journal": "Culture and Climate Resilience",
+        "all": 1,
+        "removed": 1
+      },
+      {
+        "journal": "Curr Anesthesiol Rep",
+        "all": 38,
+        "removed": 1
+      },
+      {
+        "journal": "Curr Fungal Infect Rep",
+        "all": 7,
+        "removed": 1
+      },
+      {
+        "journal": "Curr Hepatol Rep",
+        "all": 5,
+        "removed": 1
+      },
+      {
+        "journal": "Curr Infect Dis Rep",
+        "all": 72,
+        "removed": 1
+      },
+      {
+        "journal": "Curr Treat Options Psychiatry",
+        "all": 8,
+        "removed": 1
+      },
+      {
+        "journal": "Current Trends in Microbial Biotechnology for Sustainable Agriculture",
+        "all": 1,
+        "removed": 1
+      },
+      {
+        "journal": "Curriculum, Schooling and Applied Research",
+        "all": 1,
+        "removed": 1
+      },
+      {
+        "journal": "Cutting-edge Vitreoretinal Surgery",
+        "all": 1,
+        "removed": 1
+      },
+      {
+        "journal": "Cyber and Digital Forensic Investigations",
+        "all": 1,
+        "removed": 1
+      },
+      {
+        "journal": "Damage-Associated Molecular Patterns in Human Diseases",
+        "all": 5,
+        "removed": 1
+      },
+      {
+        "journal": "Das älteste Glücksspiel",
+        "all": 1,
+        "removed": 1
+      },
+      {
+        "journal": "De-Sequencing",
+        "all": 1,
+        "removed": 1
+      },
+      {
+        "journal": "Dealing with Disasters",
+        "all": 1,
+        "removed": 1
+      },
+      {
+        "journal": "Democracy, Populism, and Truth",
+        "all": 1,
+        "removed": 1
+      },
+      {
+        "journal": "Der Forscher als Marke",
+        "all": 1,
+        "removed": 1
+      },
+      {
+        "journal": "Development Challenges of India After Twenty Five Years of Economic Reforms",
+        "all": 1,
+        "removed": 1
+      },
+      {
+        "journal": "Differentiële diagnostiek in de interne geneeskunde",
+        "all": 4,
+        "removed": 1
+      },
+      {
+        "journal": "Digital Activism, Community Media, and Sustainable Communication in Latin America",
+        "all": 1,
+        "removed": 1
+      },
+      {
+        "journal": "Digital Leadership, Agile Change und die Emotion Economy",
+        "all": 1,
+        "removed": 1
+      },
+      {
+        "journal": "Digital Transformation and Human Behavior",
+        "all": 1,
+        "removed": 1
+      },
+      {
+        "journal": "Digitale Dekarbonisierung",
+        "all": 1,
+        "removed": 1
+      },
+      {
+        "journal": "Dis/ability in the Americas",
+        "all": 1,
+        "removed": 1
+      },
+      {
+        "journal": "Diseases of the Chest, Breast, Heart and Vessels 2019-2022",
+        "all": 1,
+        "removed": 1
+      },
+      {
+        "journal": "DNA Nanotechnology",
+        "all": 1,
+        "removed": 1
+      },
+      {
+        "journal": "Drought and Water Scarcity in the UK",
+        "all": 1,
+        "removed": 1
+      },
+      {
+        "journal": "Drug Targets in Cellular Processes of Cancer: From Nonclinical to Preclinical Models",
+        "all": 1,
+        "removed": 1
+      },
+      {
+        "journal": "Druggable Lipid Signaling Pathways",
+        "all": 1,
+        "removed": 1
+      },
+      {
+        "journal": "Dynamic Assessment of Students’ Academic Writing",
+        "all": 1,
+        "removed": 1
+      },
+      {
+        "journal": "Dynamics of the Sun and Stars",
+        "all": 1,
+        "removed": 1
+      },
+      {
+        "journal": "East Asian Low-Carbon Community",
+        "all": 1,
+        "removed": 1
+      },
+      {
+        "journal": "Emergency Medicine Board Review for the Visual Learner",
+        "all": 1,
+        "removed": 1
+      },
+      {
+        "journal": "Emergent Medicine and the Law",
+        "all": 1,
+        "removed": 1
+      },
+      {
+        "journal": "Emoties in de zorg",
+        "all": 1,
+        "removed": 1
+      },
+      {
+        "journal": "Emotion and Information Processing",
+        "all": 1,
+        "removed": 1
+      },
+      {
+        "journal": "Empathy-Based Ethics",
+        "all": 1,
+        "removed": 1
+      },
+      {
+        "journal": "En nu online...",
+        "all": 1,
+        "removed": 1
+      },
+      {
+        "journal": "Energy Use in Cities",
+        "all": 1,
+        "removed": 1
+      },
+      {
+        "journal": "Enhancing Digital Equity",
+        "all": 1,
+        "removed": 1
+      },
+      {
+        "journal": "Enterprise Risk Management Models",
+        "all": 1,
+        "removed": 1
+      },
+      {
+        "journal": "Entrepreneurial Universities",
+        "all": 1,
+        "removed": 1
+      },
+      {
+        "journal": "Environmental Jurisdiction in the Law of the Sea",
+        "all": 1,
+        "removed": 1
+      },
+      {
+        "journal": "Environmental Management: Issues and Concerns in Developing Countries",
+        "all": 1,
+        "removed": 1
+      },
+      {
+        "journal": "Epidemiologisch onderzoek",
+        "all": 1,
+        "removed": 1
+      },
+      {
+        "journal": "Essential Excel 2019",
+        "all": 1,
+        "removed": 1
+      },
+      {
+        "journal": "Essentials of Anatomic Pathology",
+        "all": 1,
+        "removed": 1
+      },
+      {
+        "journal": "Eternal Bandwagon",
+        "all": 1,
+        "removed": 1
+      },
+      {
+        "journal": "Ethical Water Stewardship",
+        "all": 1,
+        "removed": 1
+      },
+      {
+        "journal": "Ethics and Sustainability in Accounting and Finance, Volume II",
+        "all": 1,
+        "removed": 1
+      },
+      {
+        "journal": "Eugenics and Physical Culture Performance in the Progressive Era",
+        "all": 1,
+        "removed": 1
+      },
+      {
+        "journal": "Europa im Umbruch",
+        "all": 1,
+        "removed": 1
+      },
+      {
+        "journal": "Europe's Century of Crises Under Dollar Hegemony",
+        "all": 1,
+        "removed": 1
+      },
+      {
+        "journal": "European Socialists and the State in the Twentieth and Twenty-First Centuries",
+        "all": 1,
+        "removed": 1
+      },
+      {
+        "journal": "European Workshop on Structural Health Monitoring",
+        "all": 1,
+        "removed": 1
+      },
+      {
+        "journal": "Eurosceptic Contagion",
+        "all": 1,
+        "removed": 1
+      },
+      {
+        "journal": "Ex-Combatants’ Voices",
+        "all": 1,
+        "removed": 1
+      },
+      {
+        "journal": "Exploring Synergies and Trade-offs between Climate Change and the Sustainable Development Goals",
+        "all": 1,
+        "removed": 1
+      },
+      {
+        "journal": "Farmacotherapie in de apotheek",
+        "all": 2,
+        "removed": 1
+      },
+      {
+        "journal": "Fighting Campylobacter Infections",
+        "all": 1,
+        "removed": 1
+      },
+      {
+        "journal": "Financing the Green New Deal",
+        "all": 1,
+        "removed": 1
+      },
+      {
+        "journal": "Florence Nightingale at Home",
+        "all": 1,
+        "removed": 1
+      },
+      {
+        "journal": "Fog Data Analytics for IoT Applications",
+        "all": 1,
+        "removed": 1
+      },
+      {
+        "journal": "Food, Nutrition and the Media",
+        "all": 1,
+        "removed": 1
+      },
+      {
+        "journal": "Fortschritte der praktischen Dermatologie und Venerologie 2006",
+        "all": 1,
+        "removed": 1
+      },
+      {
+        "journal": "Foundation Gatsby Projects",
+        "all": 1,
+        "removed": 1
+      },
+      {
+        "journal": "Fundamentals in Ophthalmic Practice",
+        "all": 1,
+        "removed": 1
+      },
+      {
+        "journal": "Fuzzy Logic Hybrid Extensions of Neural and Optimization Algorithms: Theory and Applications",
+        "all": 1,
+        "removed": 1
+      },
+      {
+        "journal": "Gaming the Dynamics of Online Harassment",
+        "all": 1,
+        "removed": 1
+      },
+      {
+        "journal": "Gender and Power in Eastern Europe",
+        "all": 1,
+        "removed": 1
+      },
+      {
+        "journal": "Gendered Academic Citizenship",
+        "all": 1,
+        "removed": 1
+      },
+      {
+        "journal": "Genetic Design Automation",
+        "all": 1,
+        "removed": 1
+      },
+      {
+        "journal": "Gewährleistungsstaatlichkeit zwischen Wächterfunktion und Innovationsinkubator",
+        "all": 1,
+        "removed": 1
+      },
+      {
+        "journal": "Global Citizenship Education in Australian Schools",
+        "all": 1,
+        "removed": 1
+      },
+      {
+        "journal": "Global Perspectives on Legal Challenges Posed by Ridesharing Companies",
+        "all": 1,
+        "removed": 1
+      },
+      {
+        "journal": "Globalisation and Comparative Education",
+        "all": 1,
+        "removed": 1
+      },
+      {
+        "journal": "Glycosphingolipids Signaling",
+        "all": 1,
+        "removed": 1
+      },
+      {
+        "journal": "GMOs",
+        "all": 1,
+        "removed": 1
+      },
+      {
+        "journal": "Good Data in Business and Professional Discourse Research and Teaching",
+        "all": 1,
+        "removed": 1
+      },
+      {
+        "journal": "Governance of Near-Urban Conservation Areas",
+        "all": 1,
+        "removed": 1
+      },
+      {
+        "journal": "Guide to Computer Network Security",
+        "all": 4,
+        "removed": 1
+      },
+      {
+        "journal": "Handboek gezondheidsrecht deel II",
+        "all": 1,
+        "removed": 1
+      },
+      {
+        "journal": "Handbook of Giftedness and Talent Development in the Asia-Pacific",
+        "all": 1,
+        "removed": 1
+      },
+      {
+        "journal": "Handbook of Space Security",
+        "all": 1,
+        "removed": 1
+      },
+      {
+        "journal": "Hb. Kind.&Adoles. - Boekblok",
+        "all": 1,
+        "removed": 1
+      },
+      {
+        "journal": "Het Pulmonaal formularium.",
+        "all": 1,
+        "removed": 1
+      },
+      {
+        "journal": "Higher Education Divided",
+        "all": 1,
+        "removed": 1
+      },
+      {
+        "journal": "Hitchhiking",
+        "all": 1,
+        "removed": 1
+      },
+      {
+        "journal": "Hotelverträge",
+        "all": 1,
+        "removed": 1
+      },
+      {
+        "journal": "How Open Source Ate Software",
+        "all": 1,
+        "removed": 1
+      },
+      {
+        "journal": "How to Perform a Systematic Literature Review",
+        "all": 1,
+        "removed": 1
+      },
+      {
+        "journal": "Human Centered Computing",
+        "all": 1,
+        "removed": 1
+      },
+      {
+        "journal": "Human Displacement from a Global South Perspective",
+        "all": 1,
+        "removed": 1
+      },
+      {
+        "journal": "Human Resource Development in Vietnam",
+        "all": 1,
+        "removed": 1
+      },
+      {
+        "journal": "Humanistic Management in Practice",
+        "all": 1,
+        "removed": 1
+      },
+      {
+        "journal": "Humanizing Healthcare – Human Factors for Medical Device Design",
+        "all": 1,
+        "removed": 1
+      },
+      {
+        "journal": "Image Processing and Capsule Networks",
+        "all": 1,
+        "removed": 1
+      },
+      {
+        "journal": "Immigrant Entrepreneurship in Cities",
+        "all": 1,
+        "removed": 1
+      },
+      {
+        "journal": "Immunotherapy – A Novel Facet of Modern Therapeutics",
+        "all": 1,
+        "removed": 1
+      },
+      {
+        "journal": "Imperialism and Capitalism, Volume II",
+        "all": 1,
+        "removed": 1
+      },
+      {
+        "journal": "In Search of the Utopian States of America",
+        "all": 1,
+        "removed": 1
+      },
+      {
+        "journal": "Incarnating Feelings, Constructing Communities",
+        "all": 1,
+        "removed": 1
+      },
+      {
+        "journal": "Indian Entrepreneurship",
+        "all": 1,
+        "removed": 1
+      },
+      {
+        "journal": "Infectious Diseases and Our Planet",
+        "all": 1,
+        "removed": 1
+      },
+      {
+        "journal": "Information and Communication Technology for Intelligent Systems",
+        "all": 1,
+        "removed": 1
+      },
+      {
+        "journal": "Information Technology for Management: Towards Business Excellence",
+        "all": 1,
+        "removed": 1
+      },
+      {
+        "journal": "Innovations in Everyday Engineering Materials",
+        "all": 1,
+        "removed": 1
+      },
+      {
+        "journal": "Integrated Approaches to STEM Education",
+        "all": 1,
+        "removed": 1
+      },
+      {
+        "journal": "Intellectual Property, Design Innovation, and Entrepreneurship",
+        "all": 1,
+        "removed": 1
+      },
+      {
+        "journal": "Intelligent Computing in Control and Communication",
+        "all": 1,
+        "removed": 1
+      },
+      {
+        "journal": "Intensive Care Med",
+        "all": 651,
+        "removed": 1
+      },
+      {
+        "journal": "Interactive Process Mining in Healthcare",
+        "all": 1,
+        "removed": 1
+      },
+      {
+        "journal": "International Aviation Law for Aerodrome Planning",
+        "all": 1,
+        "removed": 1
+      },
+      {
+        "journal": "International Conference on Intelligent and Smart Computing in Data Analytics",
+        "all": 1,
+        "removed": 1
+      },
+      {
+        "journal": "International Law's Collected Stories",
+        "all": 1,
+        "removed": 1
+      },
+      {
+        "journal": "International Law and the Protection of “Climate Refugees”",
+        "all": 1,
+        "removed": 1
+      },
+      {
+        "journal": "International Norms and the Resort to War",
+        "all": 1,
+        "removed": 1
+      },
+      {
+        "journal": "International Pressures, Strategic Preference, and Myanmar’s China Policy since 1988",
+        "all": 1,
+        "removed": 1
+      },
+      {
+        "journal": "Intersections in Language Planning and Policy",
+        "all": 1,
+        "removed": 1
+      },
+      {
+        "journal": "Introduction to Basics of Pharmacology and Toxicology",
+        "all": 1,
+        "removed": 1
+      },
+      {
+        "journal": "Introduction to Statistics in Metrology",
+        "all": 1,
+        "removed": 1
+      },
+      {
+        "journal": "Invisible Borders",
+        "all": 1,
+        "removed": 1
+      },
+      {
+        "journal": "Islamic Law in Malaysia",
+        "all": 1,
+        "removed": 1
+      },
+      {
+        "journal": "Italy and the Military",
+        "all": 1,
+        "removed": 1
+      },
+      {
+        "journal": "J Cancer Educ",
+        "all": 70,
+        "removed": 1
+      },
+      {
+        "journal": "J Comput Aided Mol Des",
+        "all": 16,
+        "removed": 1
+      },
+      {
+        "journal": "Jähzorn",
+        "all": 1,
+        "removed": 1
+      },
+      {
+        "journal": "Japanese Women in Leadership",
+        "all": 1,
+        "removed": 1
+      },
+      {
+        "journal": "JPMorgan’s Fall and Revival",
+        "all": 1,
+        "removed": 1
+      },
+      {
+        "journal": "Kazakhstan's Diversification from the Natural Resources Sector",
+        "all": 1,
+        "removed": 1
+      },
+      {
+        "journal": "Key Concepts in the Study of Antisemitism",
+        "all": 1,
+        "removed": 1
+      },
+      {
+        "journal": "Klinikmanual Anästhesie",
+        "all": 2,
+        "removed": 1
+      },
+      {
+        "journal": "Kommentar zum Mietrecht",
+        "all": 1,
+        "removed": 1
+      },
+      {
+        "journal": "Kontinuitäten der Stigmatisierung von ,Asozialität'",
+        "all": 1,
+        "removed": 1
+      },
+      {
+        "journal": "Labour Policies, Language Use and the ‘New’ Economy",
+        "all": 1,
+        "removed": 1
+      },
+      {
+        "journal": "Lake Victoria Monitored from Space",
+        "all": 1,
+        "removed": 1
+      },
+      {
+        "journal": "Laparoscopic Sleeve Gastrectomy",
+        "all": 1,
+        "removed": 1
+      },
+      {
+        "journal": "Laryngopharyngeal and Gastroesophageal Reflux",
+        "all": 1,
+        "removed": 1
+      },
+      {
+        "journal": "Law, Insecurity and Risk Control",
+        "all": 1,
+        "removed": 1
+      },
+      {
+        "journal": "Leadership for Risk Management",
+        "all": 1,
+        "removed": 1
+      },
+      {
+        "journal": "Learn Rails 6",
+        "all": 1,
+        "removed": 1
+      },
+      {
+        "journal": "Leerboek gezondheidsrecht",
+        "all": 1,
+        "removed": 1
+      },
+      {
+        "journal": "Leidraad cardiologie",
+        "all": 1,
+        "removed": 1
+      },
+      {
+        "journal": "Let's Play!",
+        "all": 1,
+        "removed": 1
+      },
+      {
+        "journal": "Linear and Generalized Linear Mixed Models and Their Applications",
+        "all": 1,
+        "removed": 1
+      },
+      {
+        "journal": "Liquid Legal",
+        "all": 1,
+        "removed": 1
+      },
+      {
+        "journal": "Literary Cultures and Twenty-First-Century Childhoods",
+        "all": 1,
+        "removed": 1
+      },
+      {
+        "journal": "Longziekten",
+        "all": 1,
+        "removed": 1
+      },
+      {
+        "journal": "Macau’s Languages in Society and Education",
+        "all": 1,
+        "removed": 1
+      },
+      {
+        "journal": "Machine Learning for Economics and Finance in TensorFlow 2",
+        "all": 1,
+        "removed": 1
+      },
+      {
+        "journal": "Machine Learning for Intelligent Multimedia Analytics",
+        "all": 1,
+        "removed": 1
+      },
+      {
+        "journal": "Machine Learning in the Oil and Gas Industry",
+        "all": 1,
+        "removed": 1
+      },
+      {
+        "journal": "Making Respectable Women",
+        "all": 1,
+        "removed": 1
+      },
+      {
+        "journal": "Man-Machine-Environment System Engineering",
+        "all": 1,
+        "removed": 1
+      },
+      {
+        "journal": "Management and War",
+        "all": 1,
+        "removed": 1
+      },
+      {
+        "journal": "Management for Sustainable and Inclusive Development in a Transforming Asia",
+        "all": 1,
+        "removed": 1
+      },
+      {
+        "journal": "Managing Leader Selection in European Political Parties",
+        "all": 1,
+        "removed": 1
+      },
+      {
+        "journal": "Mathematical Modelling and Analysis of Infectious Diseases",
+        "all": 1,
+        "removed": 1
+      },
+      {
+        "journal": "Mathematical Structures of Ergodicity and Chaos in Population Dynamics",
+        "all": 1,
+        "removed": 1
+      },
+      {
+        "journal": "Mediating the Refugee Crisis",
+        "all": 1,
+        "removed": 1
+      },
+      {
+        "journal": "Medical and Biomedical Updates",
+        "all": 1,
+        "removed": 1
+      },
+      {
+        "journal": "Medicinal and Aromatic Plants of North America",
+        "all": 1,
+        "removed": 1
+      },
+      {
+        "journal": "Medische kennis",
+        "all": 1,
+        "removed": 1
+      },
+      {
+        "journal": "Memory and Intermediality in Artists’ Moving Image",
+        "all": 1,
+        "removed": 1
+      },
+      {
+        "journal": "MEMS Product Development",
+        "all": 1,
+        "removed": 1
+      },
+      {
+        "journal": "Metagenomics: Techniques, Applications, Challenges and Opportunities",
+        "all": 1,
+        "removed": 1
+      },
+      {
+        "journal": "Microsoft Azure",
+        "all": 1,
+        "removed": 1
+      },
+      {
+        "journal": "Migration and Media in Finland",
+        "all": 1,
+        "removed": 1
+      },
+      {
+        "journal": "Mine Ventilation",
+        "all": 1,
+        "removed": 1
+      },
+      {
+        "journal": "Mit Demut zum Erfolg",
+        "all": 1,
+        "removed": 1
+      },
+      {
+        "journal": "MMW Fortschr Med",
+        "all": 300,
+        "removed": 1
+      },
+      {
+        "journal": "Mobile Radio Communications and 5G Networks",
+        "all": 1,
+        "removed": 1
+      },
+      {
+        "journal": "Mobilities and Human Possibility",
+        "all": 1,
+        "removed": 1
+      },
+      {
+        "journal": "Mobilizing Cultural Identities in the First World War",
+        "all": 1,
+        "removed": 1
+      },
+      {
+        "journal": "Modeling, Simulation and Optimization",
+        "all": 1,
+        "removed": 1
+      },
+      {
+        "journal": "Modelling the Socio-Economic Implications of Sustainability Issues in the Housing Market",
+        "all": 1,
+        "removed": 1
+      },
+      {
+        "journal": "Models of Emergency Psychiatric Services That Work",
+        "all": 1,
+        "removed": 1
+      },
+      {
+        "journal": "MongoDB Topology Design",
+        "all": 1,
+        "removed": 1
+      },
+      {
+        "journal": "Moral Blindness in Business",
+        "all": 1,
+        "removed": 1
+      },
+      {
+        "journal": "Multiculturalism, Whiteness and Otherness in Australia",
+        "all": 1,
+        "removed": 1
+      },
+      {
+        "journal": "MultiMedia Modeling",
+        "all": 1,
+        "removed": 1
+      },
+      {
+        "journal": "Multimedia Technologies in the Internet of Things Environment",
+        "all": 1,
+        "removed": 1
+      },
+      {
+        "journal": "Municipal Power and Population Decline in Japan",
+        "all": 1,
+        "removed": 1
+      },
+      {
+        "journal": "Nanoformulations in Human Health",
+        "all": 1,
+        "removed": 1
+      },
+      {
+        "journal": "Nanomaterials and Their Biomedical Applications",
+        "all": 1,
+        "removed": 1
+      },
+      {
+        "journal": "Narratives of Social Work Practice and Education in Sweden",
+        "all": 1,
+        "removed": 1
+      },
+      {
+        "journal": "National Protection of Internally Displaced Persons in Africa",
+        "all": 1,
+        "removed": 1
+      },
+      {
+        "journal": "NATO’s Expansion After the Cold War",
+        "all": 1,
+        "removed": 1
+      },
+      {
+        "journal": "Nature of Science",
+        "all": 1,
+        "removed": 1
+      },
+      {
+        "journal": "Nature of Science for Social Justice",
+        "all": 1,
+        "removed": 1
+      },
+      {
+        "journal": "Neglected Diseases in Monkeys",
+        "all": 1,
+        "removed": 1
+      },
+      {
+        "journal": "Neocharismatic Leadership",
+        "all": 1,
+        "removed": 1
+      },
+      {
+        "journal": "Networks in the Global World V",
+        "all": 1,
+        "removed": 1
+      },
+      {
+        "journal": "Neurocritical Care for Neurosurgeons",
+        "all": 1,
+        "removed": 1
+      },
+      {
+        "journal": "New Media Spectacles and Multimodal Creativity in a Globalised Asia",
+        "all": 1,
+        "removed": 1
+      },
+      {
+        "journal": "NHG-Standaarden 2009",
+        "all": 1,
+        "removed": 1
+      },
+      {
+        "journal": "Nigerian Politics",
+        "all": 1,
+        "removed": 1
+      },
+      {
+        "journal": "Non-Human Nature in World Politics",
+        "all": 1,
+        "removed": 1
+      },
+      {
+        "journal": "Nonlinear Analysis: Problems, Applications and Computational Methods",
+        "all": 1,
+        "removed": 1
+      },
+      {
+        "journal": "Notfallmedizin Fragen und Antworten",
+        "all": 1,
+        "removed": 1
+      },
+      {
+        "journal": "Obstetrie en gynaecologie",
+        "all": 1,
+        "removed": 1
+      },
+      {
+        "journal": "Öffentliches Wirtschaftsrecht klipp & klar",
+        "all": 1,
+        "removed": 1
+      },
+      {
+        "journal": "Online Resolution of E-commerce Disputes",
+        "all": 1,
+        "removed": 1
+      },
+      {
+        "journal": "Online Sex Talk and the Social World",
+        "all": 1,
+        "removed": 1
+      },
+      {
+        "journal": "Oral Board Review for Oral and Maxillofacial Surgery",
+        "all": 1,
+        "removed": 1
+      },
+      {
+        "journal": "Organizing Smart Buildings and Cities",
+        "all": 1,
+        "removed": 1
+      },
+      {
+        "journal": "Parteienwettbewerb und Wählerverhalten im deutschen Mischwahlsystem",
+        "all": 1,
+        "removed": 1
+      },
+      {
+        "journal": "Pathology of Childhood and Adolescence",
+        "all": 1,
+        "removed": 1
+      },
+      {
+        "journal": "Payment Methods and Finance for International Trade",
+        "all": 1,
+        "removed": 1
+      },
+      {
+        "journal": "Peace and War",
+        "all": 1,
+        "removed": 1
+      },
+      {
+        "journal": "Pediatr Res",
+        "all": 217,
+        "removed": 1
+      },
+      {
+        "journal": "Perioperative Fluid Management",
+        "all": 2,
+        "removed": 1
+      },
+      {
+        "journal": "PET-CT in Infection and Inflammation",
+        "all": 1,
+        "removed": 1
+      },
+      {
+        "journal": "Physics and Finance",
+        "all": 1,
+        "removed": 1
+      },
+      {
+        "journal": "Policing in an Age of Reform",
+        "all": 1,
+        "removed": 1
+      },
+      {
+        "journal": "Policing in the Era of AI and Smart Societies",
+        "all": 1,
+        "removed": 1
+      },
+      {
+        "journal": "Political Deference in a Democratic Age",
+        "all": 1,
+        "removed": 1
+      },
+      {
+        "journal": "Political Economy and International Order in Interwar Europe",
+        "all": 1,
+        "removed": 1
+      },
+      {
+        "journal": "Political Leadership in Disaster and Crisis Communication and Management",
+        "all": 1,
+        "removed": 1
+      },
+      {
+        "journal": "Polymer Nanocomposites Based on Silver Nanoparticles",
+        "all": 1,
+        "removed": 1
+      },
+      {
+        "journal": "Population Development Challenges in China",
+        "all": 1,
+        "removed": 1
+      },
+      {
+        "journal": "Populism and Higher Education Curriculum Development: Problem Based Learning as a Mitigating Response",
+        "all": 1,
+        "removed": 1
+      },
+      {
+        "journal": "Post-9/11 Historical Fiction and Alternate History Fiction",
+        "all": 1,
+        "removed": 1
+      },
+      {
+        "journal": "Practical Pediatric Urology",
+        "all": 1,
+        "removed": 1
+      },
+      {
+        "journal": "Practical TensorFlow.js",
+        "all": 1,
+        "removed": 1
+      },
+      {
+        "journal": "Practice-Focused Research in Further Adult and Vocational Education",
+        "all": 1,
+        "removed": 1
+      },
+      {
+        "journal": "Practice-Relevant Accrual Accounting for the Public Sector",
+        "all": 1,
+        "removed": 1
+      },
+      {
+        "journal": "Pragmatism, Spirituality and Society",
+        "all": 1,
+        "removed": 1
+      },
+      {
+        "journal": "Praktische handleiding PubMed",
+        "all": 1,
+        "removed": 1
+      },
+      {
+        "journal": "Prävention und Gesundheitsförderung",
+        "all": 1,
+        "removed": 1
+      },
+      {
+        "journal": "Precarity and International Relations",
+        "all": 1,
+        "removed": 1
+      },
+      {
+        "journal": "Presidents and Political Scandal",
+        "all": 1,
+        "removed": 1
+      },
+      {
+        "journal": "Private Actors in International Investment Law",
+        "all": 1,
+        "removed": 1
+      },
+      {
+        "journal": "Problem-Based Learning in Elementary School",
+        "all": 1,
+        "removed": 1
+      },
+      {
+        "journal": "Proceedings of 2020 Chinese Intelligent Systems Conference",
+        "all": 1,
+        "removed": 1
+      },
+      {
+        "journal": "Proceedings of the 1st Indo-China Research Series in Geotechnical and Geoenvironmental Engineering",
+        "all": 1,
+        "removed": 1
+      },
+      {
+        "journal": "Provocative Plastics",
+        "all": 1,
+        "removed": 1
+      },
+      {
+        "journal": "Pulmonary Disease",
+        "all": 1,
+        "removed": 1
+      },
+      {
+        "journal": "Quentin Tarantino and Film Theory",
+        "all": 1,
+        "removed": 1
+      },
+      {
+        "journal": "Quick Guide Consent-Management",
+        "all": 1,
+        "removed": 1
+      },
+      {
+        "journal": "Radicalizing Literacies and Languaging",
+        "all": 1,
+        "removed": 1
+      },
+      {
+        "journal": "Radionuclide Imaging of Infection and Inflammation",
+        "all": 1,
+        "removed": 1
+      },
+      {
+        "journal": "Raku Recipes",
+        "all": 1,
+        "removed": 1
+      },
+      {
+        "journal": "Rap and Politics",
+        "all": 1,
+        "removed": 1
+      },
+      {
+        "journal": "Re-Imagining Creative Cities in Twenty-First Century Asia",
+        "all": 1,
+        "removed": 1
+      },
+      {
+        "journal": "Re-imagining Technology Enhanced Learning",
+        "all": 1,
+        "removed": 1
+      },
+      {
+        "journal": "Reading the Salem Witch Child",
+        "all": 1,
+        "removed": 1
+      },
+      {
+        "journal": "Recent Advances in Electrical Engineering, Electronics and Energy",
+        "all": 1,
+        "removed": 1
+      },
+      {
+        "journal": "Recent Econometric Techniques for Macroeconomic and Financial Data",
+        "all": 1,
+        "removed": 1
+      },
+      {
+        "journal": "Recommender Systems in Fashion and Retail",
+        "all": 1,
+        "removed": 1
+      },
+      {
+        "journal": "Regulating Cannabis",
+        "all": 1,
+        "removed": 1
+      },
+      {
+        "journal": "Representing Place and Territorial Identities in Europe",
+        "all": 1,
+        "removed": 1
+      },
+      {
+        "journal": "Research on Project, Programme and Portfolio Management",
+        "all": 1,
+        "removed": 1
+      },
+      {
+        "journal": "Responding to Violent Conflicts and Humanitarian Crises",
+        "all": 1,
+        "removed": 1
+      },
+      {
+        "journal": "Rethinking Luxury Fashion",
+        "all": 1,
+        "removed": 1
+      },
+      {
+        "journal": "Return Migrants in Hong Kong, Singapore and Israel",
+        "all": 1,
+        "removed": 1
+      },
+      {
+        "journal": "Revealing Creativity",
+        "all": 1,
+        "removed": 1
+      },
+      {
+        "journal": "Reviews on New Drug Targets in Age-Related Disorders",
+        "all": 1,
+        "removed": 1
+      },
+      {
+        "journal": "Role of Exosomes in Biological Communication Systems",
+        "all": 1,
+        "removed": 1
+      },
+      {
+        "journal": "Rural Education Across the World",
+        "all": 1,
+        "removed": 1
+      },
+      {
+        "journal": "Salmonella",
+        "all": 2,
+        "removed": 1
+      },
+      {
+        "journal": "Sandscapes",
+        "all": 1,
+        "removed": 1
+      },
+      {
+        "journal": "School Bullying",
+        "all": 1,
+        "removed": 1
+      },
+      {
+        "journal": "SeaCities",
+        "all": 1,
+        "removed": 1
+      },
+      {
+        "journal": "Self-restoration of People Living with HIV/AIDS in China",
+        "all": 1,
+        "removed": 1
+      },
+      {
+        "journal": "Sex- and Gender-Based Women's Health",
+        "all": 1,
+        "removed": 1
+      },
+      {
+        "journal": "Signal and Information Processing, Networking and Computers",
+        "all": 2,
+        "removed": 1
+      },
+      {
+        "journal": "Signal Processing Techniques for Computational Health Informatics",
+        "all": 1,
+        "removed": 1
+      },
+      {
+        "journal": "Sleep Disorders",
+        "all": 1,
+        "removed": 1
+      },
+      {
+        "journal": "Slogan Politics",
+        "all": 1,
+        "removed": 1
+      },
+      {
+        "journal": "Small States and the New Security Environment",
+        "all": 1,
+        "removed": 1
+      },
+      {
+        "journal": "Smart Cities: A Data Analytics Perspective",
+        "all": 1,
+        "removed": 1
+      },
+      {
+        "journal": "Smart Technologies and Design For Healthy Built Environments",
+        "all": 1,
+        "removed": 1
+      },
+      {
+        "journal": "Social Media as a Space for Peace Education",
+        "all": 1,
+        "removed": 1
+      },
+      {
+        "journal": "Socially Engaged Art History and Beyond",
+        "all": 1,
+        "removed": 1
+      },
+      {
+        "journal": "Solar Energy Conversion in Communities",
+        "all": 1,
+        "removed": 1
+      },
+      {
+        "journal": "Solidarity Across Generations",
+        "all": 1,
+        "removed": 1
+      },
+      {
+        "journal": "Space Supporting Africa",
+        "all": 1,
+        "removed": 1
+      },
+      {
+        "journal": "Spatial Synthesis",
+        "all": 1,
+        "removed": 1
+      },
+      {
+        "journal": "Staging the Personal",
+        "all": 1,
+        "removed": 1
+      },
+      {
+        "journal": "State Responses to Nuclear Proliferation",
+        "all": 1,
+        "removed": 1
+      },
+      {
+        "journal": "Storytelling mit Daten",
+        "all": 1,
+        "removed": 1
+      },
+      {
+        "journal": "Sudden Death",
+        "all": 1,
+        "removed": 1
+      },
+      {
+        "journal": "Supreme Courts Under Pressure",
+        "all": 1,
+        "removed": 1
+      },
+      {
+        "journal": "Sustainability and Financial Risks",
+        "all": 1,
+        "removed": 1
+      },
+      {
+        "journal": "Sustainability and Interprofessional Collaboration",
+        "all": 1,
+        "removed": 1
+      },
+      {
+        "journal": "Sustainable and Energy Efficient Computing Paradigms for Society",
+        "all": 1,
+        "removed": 1
+      },
+      {
+        "journal": "Sustainable Communication Networks and Application",
+        "all": 1,
+        "removed": 1
+      },
+      {
+        "journal": "Sustainable Design and Manufacturing 2020",
+        "all": 1,
+        "removed": 1
+      },
+      {
+        "journal": "Sustainable Food Waste Management",
+        "all": 1,
+        "removed": 1
+      },
+      {
+        "journal": "Taxing Sin",
+        "all": 1,
+        "removed": 1
+      },
+      {
+        "journal": "Teaching Anatomy",
+        "all": 1,
+        "removed": 1
+      },
+      {
+        "journal": "Technology Adoption in the Caribbean Tourism Industry",
+        "all": 1,
+        "removed": 1
+      },
+      {
+        "journal": "Technology and Global Public Health",
+        "all": 1,
+        "removed": 1
+      },
+      {
+        "journal": "Temperament and Children",
+        "all": 1,
+        "removed": 1
+      },
+      {
+        "journal": "Textbook of Addiction Treatment",
+        "all": 1,
+        "removed": 1
+      },
+      {
+        "journal": "The Achaean Federation in Ancient Greece",
+        "all": 1,
+        "removed": 1
+      },
+      {
+        "journal": "The Acquisition of Chinese as a Second Language Pronunciation",
+        "all": 1,
+        "removed": 1
+      },
+      {
+        "journal": "The Arts and the Teaching of History",
+        "all": 1,
+        "removed": 1
+      },
+      {
+        "journal": "The Assessment of L2 Written English across the MENA Region",
+        "all": 1,
+        "removed": 1
+      },
+      {
+        "journal": "The Bioarchaeology of Urbanization",
+        "all": 1,
+        "removed": 1
+      },
+      {
+        "journal": "The Cadbury Code and Recurrent Crisis",
+        "all": 1,
+        "removed": 1
+      },
+      {
+        "journal": "The Challenges of Resolving the Israeli–Palestinian Dispute",
+        "all": 1,
+        "removed": 1
+      },
+      {
+        "journal": "The Changing Role of SMEs in Global Business",
+        "all": 1,
+        "removed": 1
+      },
+      {
+        "journal": "The Circular Economy in the European Union",
+        "all": 1,
+        "removed": 1
+      },
+      {
+        "journal": "The Economic Superorganism",
+        "all": 1,
+        "removed": 1
+      },
+      {
+        "journal": "The Economics of Climate Change in Argentina",
+        "all": 1,
+        "removed": 1
+      },
+      {
+        "journal": "The Economics of Target Balances",
+        "all": 1,
+        "removed": 1
+      },
+      {
+        "journal": "The Economy and Business Environment of Vietnam",
+        "all": 1,
+        "removed": 1
+      },
+      {
+        "journal": "The European Central Bank between the Financial Crisis and Populisms",
+        "all": 1,
+        "removed": 1
+      },
+      {
+        "journal": "The European Union and the Technology Shift",
+        "all": 1,
+        "removed": 1
+      },
+      {
+        "journal": "The Evolving Nature of EU External Relations Law",
+        "all": 1,
+        "removed": 1
+      },
+      {
+        "journal": "The Fight Against Poverty and the Right to Development",
+        "all": 1,
+        "removed": 1
+      },
+      {
+        "journal": "The Financial Landscape of Emerging Economies",
+        "all": 1,
+        "removed": 1
+      },
+      {
+        "journal": "The Forum of Federations Handbook of Federal Countries 2020",
+        "all": 1,
+        "removed": 1
+      },
+      {
+        "journal": "The French Centre Right and the Challenges of a Party System in Transition",
+        "all": 1,
+        "removed": 1
+      },
+      {
+        "journal": "The Future of Transdisciplinary Design",
+        "all": 1,
+        "removed": 1
+      },
+      {
+        "journal": "The Governance, Security and Development Nexus",
+        "all": 1,
+        "removed": 1
+      },
+      {
+        "journal": "The Grace of Being Fallible in Philosophy, Theology, and Religion",
+        "all": 1,
+        "removed": 1
+      },
+      {
+        "journal": "The Handbook of Financial Modeling",
+        "all": 1,
+        "removed": 1
+      },
+      {
+        "journal": "The Impact of Tourist Activities on Low-Density Territories",
+        "all": 2,
+        "removed": 1
+      },
+      {
+        "journal": "The Implementation and Enforcement of European Union Law in Small Member States",
+        "all": 1,
+        "removed": 1
+      },
+      {
+        "journal": "The Intersection of Trauma and Disaster Behavioral Health",
+        "all": 1,
+        "removed": 1
+      },
+      {
+        "journal": "The Limitations of Social Media Feminism",
+        "all": 1,
+        "removed": 1
+      },
+      {
+        "journal": "The Mathematical Universe",
+        "all": 1,
+        "removed": 1
+      },
+      {
+        "journal": "The Memory of Colonialism in Britain and France",
+        "all": 1,
+        "removed": 1
+      },
+      {
+        "journal": "The Palgrave Handbook of Cold War Literature",
+        "all": 1,
+        "removed": 1
+      },
+      {
+        "journal": "The Palgrave Handbook of Comparative Economics",
+        "all": 1,
+        "removed": 1
+      },
+      {
+        "journal": "The Palgrave Handbook of Gender, Sexuality, and Canadian Politics",
+        "all": 1,
+        "removed": 1
+      },
+      {
+        "journal": "The Palgrave Handbook of Humour, History, and Methodology",
+        "all": 1,
+        "removed": 1
+      },
+      {
+        "journal": "The Patentability of Synthetic Biology Inventions",
+        "all": 1,
+        "removed": 1
+      },
+      {
+        "journal": "The Politics of Nuclear Weapons",
+        "all": 1,
+        "removed": 1
+      },
+      {
+        "journal": "The Post-war Novel and the Death of the Author",
+        "all": 1,
+        "removed": 1
+      },
+      {
+        "journal": "The Socialist Market Economy in Asia",
+        "all": 1,
+        "removed": 1
+      },
+      {
+        "journal": "The Socio-Economic Foundations of Sustainable Business",
+        "all": 1,
+        "removed": 1
+      },
+      {
+        "journal": "The Sociology of South Asian Women’s Health",
+        "all": 1,
+        "removed": 1
+      },
+      {
+        "journal": "The Specter of Hypocrisy",
+        "all": 1,
+        "removed": 1
+      },
+      {
+        "journal": "The Thirteenth-Century Animal Turn",
+        "all": 1,
+        "removed": 1
+      },
+      {
+        "journal": "The Trap of Proximity Violence",
+        "all": 1,
+        "removed": 1
+      },
+      {
+        "journal": "The World of Energy",
+        "all": 1,
+        "removed": 1
+      },
+      {
+        "journal": "Thoracic Surgery",
+        "all": 1,
+        "removed": 1
+      },
+      {
+        "journal": "Towards Critical Environmental Education",
+        "all": 1,
+        "removed": 1
+      },
+      {
+        "journal": "Transnational Actors in International Investment Law",
+        "all": 1,
+        "removed": 1
+      },
+      {
+        "journal": "Transpacific Literary and Cultural Connections",
+        "all": 1,
+        "removed": 1
+      },
+      {
+        "journal": "Transplantation Surgery",
+        "all": 1,
+        "removed": 1
+      },
+      {
+        "journal": "Trauma, Precarity and War Memories in Asian American Writings",
+        "all": 1,
+        "removed": 1
+      },
+      {
+        "journal": "UN Governance",
+        "all": 1,
+        "removed": 1
+      },
+      {
+        "journal": "Urban Science and Engineering",
+        "all": 1,
+        "removed": 1
+      },
+      {
+        "journal": "Urgency and Human Rights",
+        "all": 1,
+        "removed": 1
+      },
+      {
+        "journal": "Vademecum permanente nascholing huisartsen",
+        "all": 1,
+        "removed": 1
+      },
+      {
+        "journal": "Veg(etari)an Arguments in Culture, History, and Practice",
+        "all": 1,
+        "removed": 1
+      },
+      {
+        "journal": "Viruses as Therapeutics",
+        "all": 1,
+        "removed": 1
+      },
+      {
+        "journal": "What Works in Nordic School Policies?",
+        "all": 1,
+        "removed": 1
+      },
+      {
+        "journal": "When Translation Goes Digital",
+        "all": 1,
+        "removed": 1
+      },
+      {
+        "journal": "Windows 10 for the Internet of Things",
+        "all": 1,
+        "removed": 1
+      },
+      {
+        "journal": "Wiring the Streets, Surfing the Square",
+        "all": 1,
+        "removed": 1
+      },
+      {
+        "journal": "Women in Tourism in Asian Muslim Countries",
+        "all": 1,
+        "removed": 1
+      },
+      {
+        "journal": "Zorg Welz",
+        "all": 10,
+        "removed": 1
+      }
+    ]
+  }
+}
