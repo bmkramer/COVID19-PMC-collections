@@ -1,7 +1,7 @@
 # COVID-19 PMC collections
 Licences and permanence of COVID19 Public Health Emergency collections in PubMed Central (PMC)
 
-last update: January 13, 2021
+last update: January 13, 2022
 
 ## Public Health Emergency COVID-19 Initiative
 In response to a [call from National Science and Technology Advisors from a dozen countries](https://wellcome.ac.uk/sites/default/files/covid19-open-access-letter.pdf), a [number of publishers](https://wellcome.ac.uk/press-release/publishers-make-coronavirus-covid-19-content-freely-available-and-reusable) have committed to making their coronavirus-related articles freely available through PubMed Central and other public repositories, and facilitate text mining and secondary analysis through machine-readable formats and licenses. 
