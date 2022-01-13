@@ -74,7 +74,7 @@ It will remain to be seen whether publishers will indeed request removal of arti
 
 One final question is whether there is **precedence of content being made available through PMC on a temporary basis**, and what this means for the status of open access articles ma/de available through PMC, e.g. in assessing types and levels of open access over time.
 
-[-----](#records_removed)
+-----
 
 ## Evidence of records removed from PMC (November 2021)
 
@@ -93,7 +93,7 @@ Checking current open access status of the removed chapters by DOI through Unpay
 
 Removed chapters in PubMed Central have a landing page indicating the title and source of the original publication, with the reason of removal stated as _"The article with this PMCID was deposited in PubMed Central (PMC) in error by the publisher and subsequently removed."_ While a number of removed chapters might appear not to be directly related to COVID-19 and conceivably deposited in error, some that do appear to be in scope were also removed (see example below). 
 
-![](output/images/PMC_notification_SN_PMC7978794.png){width=60%}
+![](output/images/PMC_notification_SN_PMC7978794.png)
 
 
 ### NEJM - non-journal content removed 
@@ -107,7 +107,7 @@ Most but not all of these (n=142) are Commentaries, a publication type not inclu
 
 All removed records had been made available on PMC with a custom license that included a **perpetual license to PMC to make the article available**, even when permissions for unrestricted re-use and analysis would be withdrawn. Their landing page now shows a notification that the publication _"was added to PubMed Central (PMC) by mistake and subsequently removed because it is not eligible for deposit according to the publisher's PMC participation agreement."_ (see example below)
 
-![](output/images/PMC_notification_NEJM_PMC7367501.png){width=60%}
+![](output/images/PMC_notification_NEJM_PMC7367501.png)
 
 
 ### Elsevier - mostly duplicates and table of contents / indexes removed
@@ -129,8 +129,8 @@ Closer inspection reveals that most removed records are either duplicates of exi
 
 All 10 articles had been made available on PMC with a temporary license for the duration of the pandemic. 
 
-![](output/images/PMC_notification_ELS_PMC7657647.png){width=60%}
-![](output/images/PMC_notification_ELS_PMC7726579.png){width=60%}
+![](output/images/PMC_notification_ELS_PMC7657647.png)
+![](output/images/PMC_notification_ELS_PMC7726579.png)
 
 
 
