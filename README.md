@@ -113,7 +113,7 @@ All removed records had been made available on PMC with a custom license that in
 ### Elsevier - mostly duplicates and table of contents / indexes removed
 The number of records removed from the Elsevier PMC Public Health Emergency collection is small in relative terms: only 183 (0.2%) of the 77,401 records deposited in total over time. Removed records are from 63 titles, usually concerning only a couple of records from each title.  
 
-Closer inspection reveals that most removed records are either duplicates of existing records in PMC, or Tables of Content / Indexes of the journal or journal volume (see examples below). 10 actual publications were found to be removed from PMC without (being identified as) being duplicate records:
+Closer inspection reveals that most removed records are either duplicates of existing records in PMC, or Tables of Content / Indexes of the journal or journal volume (see examples below). 10 actual publications were found to be removed from PMC without being (identified as) duplicate records:
 
 [PMC7260051](https://www.ncbi.nlm.nih.gov/pmc/PMC7260051)  
 [PMC7260048](https://www.ncbi.nlm.nih.gov/pmc/PMC7260048)  
