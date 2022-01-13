@@ -76,7 +76,7 @@ One final question is whether there is **precedence of content being made availa
 
 [-----](#records_removed)
 
-# Evidence of records removed from PMC (November 2021)
+## Evidence of records removed from PMC (November 2021)
 
 The availability of a longitudinal dataset of records in the PMC Public Health Emergency collections allows for monitoring of removal of records from these collections. The snapshot taken in November 2021 for the first time revealed sizeable numbers of records that were removed from PubMed Central, most notably by three publishers: SpringerNature (n=3549 records), NEJM (n=167) and Elsevier (n=183).
 
