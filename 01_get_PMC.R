@@ -19,7 +19,7 @@ library(XML)
 library(rentrez)
 
 
-#set email in Renviron
+#set NCBI API key in Renviron
 #file.edit("~/.Renviron")
 #add NCBI API key (request via MyNCBI account):
 #ENTREZ_KEY = xxxxxxx
@@ -87,7 +87,7 @@ getFetchData <- function(x){
   license_url <- pluck(license, "ext-link", .default = NA) %>%
     pluck("text", .default = NA)
   
-  if(!is.na(license)){ 
+  if(!is.na(license[1])){ 
     license_text <- license %>%
       #collapse into 1 level list
       unlist() %>%
@@ -106,8 +106,6 @@ getFetchData <- function(x){
   
 }  
   
-
-
 getData <- function(seq_start, history_object = entrez_history, collection = query_name){
   
   id_summary <- seq_start %>%
@@ -165,7 +163,7 @@ getData_progress <- function(seq_start){
 #set system date or set date manually
 date <- Sys.Date()
 #date <- "yyyy-mm-dd"
-date <- "2021-11-11"
+date <- "2022-08-28"
 
 
 #create folders
@@ -210,23 +208,42 @@ collections <- list(AAAS = "AAAS Public Health Emergency Collection[filter]",
                     WK= "Wolters Kluwer Public Health Emergency Collection[filter]")
 
 
-#2021-11-11
-#done 
+#2022-08-28
+#done 1 2 3 4 5 6 7 8 9 10 12 13 14 15 16 17 18 19 20 21 22
 #not done 
-#not yet  
+#not yet 8{ELS} 11{error}
 
-query_name <- names(collections)[13]
+query_name <- names(collections)[11]
 query <- collections[[query_name]]
+
+#---------------------------
+#For > 100,000 records (ELS and SN) split up by year (PMC Live date)
+#NB earliest PMC Live Date is 2001, no future PMC Live Dates
+#Manual check confirms all records captured
+pmc_years <- list("(2000[PMC Live Date]:2019[PMC Live Date])",
+              "2020[PMC Live Date]",
+              "2021[PMC Live Date]",
+              "2022[PMC Live Date]")
+              
+pmc_year <- pmc_years[4]
+query <- paste0(collections[[query_name]]," AND ", pmc_year)
+#then run per 10,000 (see below)
+#----------------------------
 
 #search Entrez, get count and web_history for stored IDs
 res <- setIDs(query)
 count <- res$count
 entrez_history <- res$web_history
 
+#----------------------------------------
 #if re-using existing web history element
 list_name <- paste0(query_name,"_",date)
+#for ELS and SN, adjust manually for now
+list_name <- paste0(query_name,"_PMC2022_",date)
+
 entrez_history <- web_history[[list_name]]$web_history
 count <- web_history[[list_name]]$count
+#----------------------------------------
 
 #set count for use in seq_start (keep original count for storing with web history)
 #if count is exact multiple of 100, reduce by 1 to prevent downstream error
@@ -240,20 +257,24 @@ if(count%%100 == 0){
 seq_start <- seq(0, count_seq, 100)
 pb <- progress_estimated(length(seq_start))
 
-#warnings when there are >1 license fields - ignore for now
 data <- map_dfr(seq_start, getData_progress)
 
 #------------------
 #for >10000 records, do per 10000
 seq_start <- seq(0, count_seq, 100)
 
-#seq_start_x <- seq_start[601:650] 
-seq_start_x <- seq_start[651:length(seq_start)]
+#seq_start_x <- seq_start[101:150] 
+seq_start_x <- seq_start[151:length(seq_start)]
 pb <- progress_estimated(length(seq_start_x))
 
 data_x <- map_dfr(seq_start_x, getData_progress)
 
 rm(pb,seq_start_x)
+
+#TEMP
+data_check <- data_x %>%
+  distinct() %>%
+  nrow()
 
 #initialize or read object 'data'
 #data <- data_x
@@ -261,22 +282,30 @@ rm(pb,seq_start_x)
 #                 col_types = cols(pmc_live_date = col_character()))
 
 data <- bind_rows(data, data_x)
+
+
 #write to file for temporary storage/backup
 write_csv(data, "data/data.csv")
-rm(data_x)
+rm(data_x, data_check)
+
+#--------------------------------------
 
 #write data to file
 filename = paste0("data/",date,"/PMC_",query_name,"_",date,".csv")
 write_csv(data, filename)
 
 #store web_history
+
 list_name <- paste0(query_name,"_",date)
+#for ELS and SN, adjust manually for now
+list_name <- paste0(query_name,"_PMC2022_",date)
+
 web_history_element <- list(collection = query_name,
                             web_history = entrez_history,
                             date = date,
                             count = count)
 
-web_history[[list_name]] = c(web_history[[list_name]], 
+web_history[[list_name]] <- c(web_history[[list_name]], 
                              web_history_element)
 
 filename = paste0("data/web_history_",
@@ -286,12 +315,9 @@ saveRDS(web_history, filename)
 
 #remove files
 rm(query_name, query, res, count, entrez_history,
-   count_seq, seq_start, pb, data, data_licenses, filename,
+   count_seq, seq_start, pb, data, filename,
    list_name, web_history_element)
 
 #remove temporary data file when used 
 unlink("data/data.csv", recursive = FALSE)
 
-#---------------------------------------------------------------
-
-                               
