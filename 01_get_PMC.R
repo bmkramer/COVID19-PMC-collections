@@ -209,9 +209,9 @@ collections <- list(AAAS = "AAAS Public Health Emergency Collection[filter]",
 
 
 #2022-08-28
-#done 1 2 3 4 5 6 7 8 9 10 12 13 14 15 16 17 18 19 20 21 22
+#done 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22
 #not done 
-#not yet 8{ELS} 11{error}
+#not yet
 
 query_name <- names(collections)[11]
 query <- collections[[query_name]]
