@@ -118,7 +118,6 @@ renameColumns <- function(x){
 
 #-------------------------------------------------------
 
-
 #read file with unique licenses
 filename <- paste0("output/licenses/license_unique.csv")
 license_unique <- read_csv(filename)
@@ -134,7 +133,58 @@ license_info <- license_info %>%
 filename = paste0("output/licenses/license_info.csv")
 write_csv(license_info, filename)
 
-#manually inspect and complete license classification
+#------------------------------------------------------------
+#enrich with previous manually added info
+
+#import previous completed license info
+filename = paste0("output/licenses/license_info_complete.csv")
+license_info_previous <- read_csv(filename) %>%
+  select(-c(license_summary, cc_by))
+
+#identify incomplete records
+license_info_enriched <- license_info %>%
+  #identify incomplete records
+  mutate(complete = rowSums(across(where(is.logical)))) %>%
+  mutate(cc_complete = case_when(
+    cc_license == TRUE & is.na(cc_license_type) ~ 0,
+    TRUE ~ 1)) %>%
+  #filter on incomplete records
+  filter(complete == 0 | cc_complete == 0) %>%
+  select(id, license_url, license_text) %>%
+  #join to previous info
+  left_join(license_info_previous,
+            by = c("license_url", "license_text")) %>%
+  distinct() %>%
+  #filter on records with previous info added
+  filter(!is.na(cc_license))
+
+#create vector with enriched ids
+id_enriched <- license_info_enriched %>%
+  pull(id)
+
+#remove enriched ids from original data, add enriched df back in
+license_info <- license_info %>%
+  filter(!id %in% id_enriched) %>%
+  bind_rows(license_info_enriched) %>%
+  arrange(id)
+
+rm(license_info_previous, license_info_enriched, id_enriched)         
+
+#identify remaining missing info
+license_info_missing <- license_info %>%
+  mutate(complete = rowSums(across(where(is.logical)))) %>%
+  mutate(cc_complete = case_when(
+    cc_license == TRUE & is.na(cc_license_type) ~ 0,
+    TRUE ~ 1)) %>%
+  #filter on incomplete records
+  filter(complete == 0 | cc_complete == 0) %>%
+  select(-c(complete, cc_complete))
+
+filename = paste0("output/licenses/license_info_missing.csv")
+write_csv(license_info_missing, filename)
+
+#--------------------------------------------
+#manually inspect and complete missing license classification
 #store as license_info_manual.csv
 #read in completed file
 filename = paste0("output/licenses/license_info_manual.csv")
@@ -142,12 +192,33 @@ license_info_manual <- read_csv(filename) %>%
   #remove columns for joining to original license info
   select(-c(license_url, license_text))
 
+#create vector with manually enriched ids
+id_manual <- license_info_manual %>%
+  pull(id)
 
-#join to license_url and license_text from original license info
-license_info_complete <- license_info %>%
+#create subset of license_info with manually added info
+license_info_subset <- license_info %>%
+  filter(id %in% id_manual) %>%
   select(id, license_url, license_text) %>%
-  left_join(license_info_manual) %>%
-  select(-id)
+  left_join(license_info_manual, 
+            by = "id") %>%
+  distinct
+
+#add back to subset of other license info
+license_info_complete <- license_info %>%
+  filter(!id %in% id_manual) %>%
+  bind_rows(license_info_subset) %>%
+  arrange(id)
+
+rm(license_info_missing, 
+   license_info_manual, 
+   license_info_subset,
+   id_manual)
+
+unlink("output/licenses/license_info_missing.csv")
+unlink("output/licenses/license_info_manual.csv")
+#NB Manually added info can still be checked by comparing license_info to license_info_complete
+      
 
 #add column with license summary
 license_info_complete <- license_info_complete %>%
@@ -182,7 +253,7 @@ write_csv(records_all_unique, filename)
 date <- Sys.Date()
 #or set manually
 date <- "yyyy-mm-dd"
-#date <- "2021-11-01"
+#date <- "2022-08-28"
 
 #add column for CC-BY to license info
 license_info_complete <- license_info_complete %>%

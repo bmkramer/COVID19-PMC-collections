@@ -26,7 +26,7 @@ readFolder <- function(date, folder){
 date <- Sys.Date()
 #or set manually
 #date <- "yyyy-mm-dd"
-date <- "2021-11-01"
+date <- "2022-08-28"
 
 
 #create vector with sampling dates
@@ -66,7 +66,7 @@ records_unique <- records_all %>%
   left_join(dois) %>%
   #reorder columns
   select(collection, pmcid, doi, everything())
-#n=191625 of wich 191077 unique - some records are in multiple collections?
+#n=267100 of wich 266316 unique pmcids - some records are in multiple collections?
 
 rm(dois, list_records)
 
@@ -85,7 +85,7 @@ records_unique <- records_unique %>%
   select(-doi_cord)
 
 rm(CORD_ids)
-#3639 dois added, 222 still missing
+#3639 dois added, 222 still missing (in November 2021)
 
 #identify dropped/removed records over time
 #sufficient to check which records are not present in latest collection!
