@@ -95,6 +95,7 @@ summarizeLicense <- function(file){
 
 #define function to rename collection names
 renameCollections <- function(x, key = level_key){
+#renameCollections <- function(x, key){  
   res <- x %>%
     mutate(collection = recode(collection, !!!key))
 }
@@ -104,7 +105,7 @@ renameCollections <- function(x, key = level_key){
 renameColumns <- function(x){
   res <- x %>%
     rename(`PMC Public Health Emergency collection` = collection,
-           `number of papers (2021-11-01)` = total,
+           `number of papers (2022-08-28)` = total,
            `CC license` = cc_license,
            `CC-BY` = cc_by,
            `open government license` = open_gov,
@@ -139,7 +140,7 @@ write_csv(license_info, filename)
 #import previous completed license info
 filename = paste0("output/licenses/license_info_complete.csv")
 license_info_previous <- read_csv(filename) %>%
-  select(-c(license_summary, cc_by))
+  select(-c(license_summary, id))
 
 #identify incomplete records
 license_info_enriched <- license_info %>%
@@ -247,41 +248,43 @@ write_csv(records_all_unique, filename)
 
 #-----------------------------------------------------------------
 #create license count table for current sampling date
-#TODO replace this to generate from file with all unique records
-#one time check confirmed results are equal
+#generated from file with all unique records
+#still using 'old' code which is a bit roundabout - consider refactoring
 
-date <- Sys.Date()
+#date <- Sys.Date()
 #or set manually
-date <- "yyyy-mm-dd"
-#date <- "2022-08-28"
+#date <- "yyyy-mm-dd"
+date <- "2022-08-28"
 
 #add column for CC-BY to license info
 license_info_complete <- license_info_complete %>%
   addCCBY()
 
-#read all files
-dir_path <- paste0("data/",date,"/")
-data <- list.files(dir_path, pattern = "*.csv") %>%
-  map(~read_csv(paste0(dir_path, .)))
+#read records_all_unique, filter on current date
+filename = "output/records_all_unique.csv"
+records_all_unique <- read_csv(records_all_unique, filename)
+
+data_current <- records_all_unique %>%
+  filter(version_latest == date)
 
 #count licenses per collection
-license <- data %>%
-  map(~countLicenses(.))
+license_current <- data_current %>%
+  countLicenses()
 
 #join licenses info (on license_url and license_text)
 join_columns <- c("license_url", "license_text")
 
-license_type <- license %>%
+license_type_current <- license_current %>%
   joinLicenseClassification(license_info_complete, join_columns)
 
 #summarize number of records, NA for zero
-license_count <- summarizeLicense(license_type)
+license_count_current <- summarizeLicense(license_type_current)
 
 #write_to_csv
 filename = paste0("output/",
                   date,
                   "/license_count.csv")
-write_csv(license_count, filename)
+write_csv(license_count_current, filename)
 
 #-----------------------------------------------------------------
 #Prettify table for display in Readme
@@ -310,18 +313,19 @@ level_key <- c(AAAS = "AAAS",
                WILEY = "Wiley",
                WK = "Wolters Kluwer")
 
-
 #adapt column names and names of collection
 #replace NA with "-" for readability
-license_count_table <- license_count %>%
+license_count_current_table <- license_count_current %>%
   renameCollections() %>%
   renameColumns() %>%
+  #need to change type integer to character type 
+  #for replacement in next line to work
+  mutate_if(is.integer,as.character) %>%
   mutate(across(everything(), replace_na, replace = "-"))
-
 
 #write_to_csv
 filename <- paste0("output/",
                    date,
                    "/license_count_table.csv")
-write_csv(license_count_table, filename)
+write_csv(license_count_current_table, filename)
 

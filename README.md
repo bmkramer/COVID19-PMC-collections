@@ -1,7 +1,7 @@
 # COVID-19 PMC collections
 Licences and permanence of COVID19 Public Health Emergency collections in PubMed Central (PMC)
 
-last update: January 13, 2022
+last update: October 15, 2022 for records added to PMC up until 2022-08-28
 
 ## Public Health Emergency COVID-19 Initiative
 In response to a [call from National Science and Technology Advisors from a dozen countries](https://wellcome.ac.uk/sites/default/files/covid19-open-access-letter.pdf), a [number of publishers](https://wellcome.ac.uk/press-release/publishers-make-coronavirus-covid-19-content-freely-available-and-reusable) have committed to making their coronavirus-related articles freely available through PubMed Central and other public repositories, and facilitate text mining and secondary analysis through machine-readable formats and licenses. 
@@ -27,33 +27,36 @@ The data would also allow for analysis of licenses for individual publisher impr
 
 Only publications included in PMC [special collections](https://www.ncbi.nlm.nih.gov/pmc/journals/collections/?titles=current&search=journals) that are identified as Public Health Emergency collections were included, so contributions from other publishers might have been missed. 
 
-|PMC Public Health Emergency collection|number of papers (2021-11-01*)|CC license|CC-BY|open government license|custom license (perpetual access via PMC)|custom license (temporary access)|custom license (other)|unknown|
+
+|PMC Public Health Emergency collection|number of papers (2022-08-28)|CC license|CC-BY|open government license|custom license (perpetual access via PMC)|custom license (temporary access)|custom license (other)|unknown|
 |--------------------------------------|:---------------------------:|:--------:|:---:|:---------------------:|:---------------------------------------:|:-------------------------------:|:--------------------:|:-----:|
-| AAAS | 182 | 173 | 173 | - | - | - | 8 | 1 |
-| American College of Physicians | 300 | - | - | - | 300 | - | - | - |
-| ACS | 789 | 84 | 38 | - | - | 675 | 26 | 4 |
-| AOSIS | 200 | 200 | 200 | - | - | - | - | - |
-| ASME | 22 | - | - | - | 22 | - | - | - |
-| BMJ | 2073 | 1535 | 269 | - | - | 523 | - | 15 |
-| Cambridge University Press | 2254 | 1726 | 1715 | - | 518 | 3 | - | 7 |
-| Elsevier | 77218 | 4962 | 1087 | - | 57 | 70842 | 22 | 1335 |
-| IEEE | 79 | 67 | 67 | - | - | - | - | 12 |
-| IOP | 42 | - | - | - | - | 42 | - | - |
-| JMIR | 44 | 44 | 44 | - | - | - | - | - |
-| Karger | 592 | 95 | 5 | - | 428 | - | - | 69 |
-| NEJM | 271 | - | - | - | 182 | - | - | 89 |
-| Oxford University Press | 11369 | 2931 | 880 | 210 | 4005 | 115 | 3961 | 147 |
-| Radiological Society | 228 | 1 | 1 | - | 221 | - | - | 6 |
-| Sage | 899 | 889 | 691 | - | 1 | - | - | 9 |
-| Springer Nature* | 69044 | 21819 | 21073 | 1 | - | 44406 | 18 | 2800 |
-| Taylor & Francis | 858 | 80 | 34 | - | 706 | - | 2 | 70 |
-| Thieme | 357 | 57 | 2 | - | 298 | - | - | 2 |
-| University of Toronto Press | 24 | - | - | - | 24 | - | - | - |
-| Wiley | 18645 | 2851 | 1492 | - | 171 | 14985 | 148 | 490 |
-| Wolters Kluwer | 2284 | 400 | 90 | 7 | 1856 | - | 1 | 20 |
+|AAAS                          |262   |249  |249  |-  |-   |-    |9   |4   |
+|American College of Physicians|351   |-    |-    |-  |351 |-    |-   |-   |
+|ACS                           |1151  |162  |70   |-  |-   |956  |28  |5   |
+|AOSIS                         |258   |258  |258  |-  |-   |-    |-   |-   |
+|ASME                          |22    |-    |-    |-  |16  |-    |-   |6   |
+|BMJ                           |3152  |2512 |456  |-  |-   |621  |-   |19  |
+|Cambridge University Press    |2702  |1912 |1891 |10 |762 |2    |-   |16  |
+|Elsevier                      |102677|8306 |2107 |-  |82  |92750|17  |1522|
+|IEEE                          |433   |256  |237  |-  |-   |-    |163 |14  |
+|IOP                           |42    |-    |-    |-  |-   |42   |-   |-   |
+|JMIR                          |90    |90   |90   |-  |-   |-    |-   |-   |
+|Karger                        |811   |163  |12   |-  |548 |-    |-   |100 |
+|NEJM                          |380   |-    |-    |-  |225 |-    |-   |155 |
+|Oxford University Press       |16574 |5090 |2417 |369|3942|114  |6867|192 |
+|Radiological Society          |249   |2    |2    |-  |241 |-    |-   |6   |
+|Sage                          |2372  |1323 |817  |-  |958 |14   |-   |77  |
+|Springer Nature               |100772|36006|34924|1  |-   |60925|8   |3832|
+|Taylor & Francis              |967   |99   |34   |-  |745 |-    |2   |121 |
+|Thieme                        |366   |57   |2    |-  |307 |-    |-   |2   |
+|University of Toronto Press   |42    |-    |-    |-  |42  |-    |-   |-   |
+|Wiley                         |26200 |5537 |2762 |-  |171 |19737|186 |569 |
+|Wolters Kluwer                |3416  |671  |149  |13 |2707|-    |1   |24  |
 
 
-**Table 1.  Numbers of articles in publisher collections in PMC COVID-19 Initiave with different types of licenses (NB numbers for CC-license include CC-BY) \*Springer Nature data collected 2021-11-11.**
+
+
+**Table 1.  Numbers of articles in publisher collections in PMC COVID-19 Initiave with different types of licenses (NB numbers for CC-license include CC-BY) 
  
 
 The analysis shows that only a minority of papers shared in the COVID-19 Initiative have a CC-license (and only a subset of those a CC-BY license). For papers that are not shared with a CC-license, some publishers (e.g. <em>Cambridge University Press</em>, <em>Oxford University Press</em>, <em>Taylor & Francis</em> and <em>Wolters Kluwer</em>) have opted to use a license as described above, guaranteeing perpetual access through PMC (even after other reuse permissions are withdrawn). Other publishers (e.g. <em>BMJ</em>, <em>ACS</em>, <em>Elsevier</em>, <em>IOP</em>, <em>Springer Nature</em> and <em>Wiley</em>) use a custom license that specifies that access to these papers is temporary. Two examples of such licenses are quoted below: 
